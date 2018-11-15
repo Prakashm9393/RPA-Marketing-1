@@ -738,3 +738,143 @@ Session ID: 349102584aaf992c368dfe3aad48136a
 2018-11-15 13:07:43,202 INFO  [Log] Implicit wait applied on the driver for 30 seconds. 
 2018-11-15 13:07:47,343 INFO  [Log] Invoke AUT: https://www.webpagetest.org/result/181114_DN_b5d5e35d3f86ec43b0263897258ad1b1/ in chrome browser successfully. 
 2018-11-15 13:07:47,346 INFO  [Log] Implicit wait applied on the driver for 30 seconds. 
+2018-11-15 18:03:09,299 INFO  [Log] Invoke AUT: https://developers.google.com/speed/pagespeed/insights/ in chrome browser successfully. 
+2018-11-15 18:03:09,304 INFO  [Log] Implicit wait applied on the driver for 30 seconds. 
+2018-11-15 18:03:39,919 FATAL [Log] Unable to find the given element Login with Google :org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of element located by By.linkText: Login with Google (tried for 30 second(s) with 500 MILLISECONDS interval) 
+2018-11-15 18:03:51,205 FATAL [Log] Unable to find the given element identifierId :org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of element located by By.id: identifierId (tried for 10 second(s) with 500 MILLISECONDS interval) 
+2018-11-15 18:04:02,449 FATAL [Log] Unable to find the given element identifierNext :org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of element located by By.id: identifierNext (tried for 10 second(s) with 500 MILLISECONDS interval) 
+2018-11-15 18:04:14,657 FATAL [Log] Unable to find the given element //input[@type='password'] :org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of element located by By.xpath: //input[@type='password'] (tried for 10 second(s) with 500 MILLISECONDS interval) 
+2018-11-15 18:04:25,909 FATAL [Log] Unable to find the given element passwordNext :org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of element located by By.id: passwordNext (tried for 10 second(s) with 500 MILLISECONDS interval) 
+2018-11-15 18:04:28,016 FATAL [Log] Unable to launch the application Desktop in the chrome browser. org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=70.0.3538.102)
+  (Driver info: chromedriver=2.40.565498 (ea082db3280dd6843ebfb08a625e3eb905c4f5ab),platform=Windows NT 10.0.17134 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.6.0', revision: '6fbf3ec767', time: '2017-09-27T15:28:36.4Z'
+System info: host: '472-MANIKAPRABU', ip: '10.10.5.64', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_191'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{mobileEmulationEnabled=false, hasTouchScreen=false, platform=XP, acceptSslCerts=false, acceptInsecureCerts=false, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, platformName=XP, setWindowRect=true, unexpectedAlertBehaviour=, applicationCacheEnabled=false, rotatable=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.40.565498 (ea082db3280dd6843ebfb08a625e3eb905c4f5ab), userDataDir=C:\Users\HP\AppData\Local\Temp\scoped_dir19420_31368}, takesHeapSnapshot=true, pageLoadStrategy=normal, unhandledPromptBehavior=, databaseEnabled=false, handlesAlerts=true, version=70.0.3538.102, browserConnectionEnabled=false, nativeEvents=true, locationContextEnabled=true, cssSelectorsEnabled=true}]
+Session ID: a4a91878c4c13f36d79a29a612a10221 
+2018-11-15 18:12:01,610 INFO  [Log] Invoke AUT: https://developers.google.com/speed/pagespeed/insights/ in chrome browser successfully. 
+2018-11-15 18:12:01,616 INFO  [Log] Implicit wait applied on the driver for 30 seconds. 
+2018-11-15 18:12:31,842 FATAL [Log] Unable to find the given element Login with Google :org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of element located by By.linkText: Login with Google (tried for 30 second(s) with 500 MILLISECONDS interval) 
+2018-11-15 18:13:02,924 FATAL [Log] Unable to find the given element identifierId :org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of element located by By.id: identifierId (tried for 10 second(s) with 500 MILLISECONDS interval) 
+2018-11-15 18:13:33,991 FATAL [Log] Unable to find the given element identifierNext :org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of element located by By.id: identifierNext (tried for 10 second(s) with 500 MILLISECONDS interval) 
+2018-11-15 18:14:06,104 FATAL [Log] Unable to find the given element //input[@type='password'] :org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of element located by By.xpath: //input[@type='password'] (tried for 10 second(s) with 500 MILLISECONDS interval) 
+2018-11-15 18:14:34,732 INFO  [Log] Invoke AUT: https://developers.google.com/speed/pagespeed/insights/ in chrome browser successfully. 
+2018-11-15 18:14:34,737 INFO  [Log] Implicit wait applied on the driver for 30 seconds. 
+2018-11-15 18:14:37,296 FATAL [Log] Unable to find the given element passwordNext :org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of element located by By.id: passwordNext (tried for 10 second(s) with 500 MILLISECONDS interval) 
+2018-11-15 18:14:39,701 INFO  [Log] Invoke AUT: https://developers.google.com/speed/pagespeed/insights/ in chrome browser successfully. 
+2018-11-15 18:14:39,705 INFO  [Log] Implicit wait applied on the driver for 30 seconds. 
+2018-11-15 18:15:04,850 FATAL [Log] Unable to find the given element Login with Google :org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of element located by By.linkText: Login with Google (tried for 30 second(s) with 500 MILLISECONDS interval) 
+2018-11-15 18:15:09,903 FATAL [Log] Unable to find the given element //div[@class='button button-red analyze jfk-button main-submit jfk-button-standard'] :org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of element located by By.xpath: //div[@class='button button-red analyze jfk-button main-submit jfk-button-standard'] (tried for 10 second(s) with 500 MILLISECONDS interval) 
+2018-11-15 18:15:35,889 FATAL [Log] Unable to find the given element identifierId :org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of element located by By.id: identifierId (tried for 10 second(s) with 500 MILLISECONDS interval) 
+2018-11-15 18:16:06,938 FATAL [Log] Unable to find the given element identifierNext :org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of element located by By.id: identifierNext (tried for 10 second(s) with 500 MILLISECONDS interval) 
+2018-11-15 18:16:39,040 FATAL [Log] Unable to find the given element //input[@type='password'] :org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of element located by By.xpath: //input[@type='password'] (tried for 10 second(s) with 500 MILLISECONDS interval) 
+2018-11-15 18:16:40,224 INFO  [Log] Invoke AUT: https://developers.google.com/speed/pagespeed/insights/ in chrome browser successfully. 
+2018-11-15 18:16:40,235 INFO  [Log] Implicit wait applied on the driver for 30 seconds. 
+2018-11-15 18:17:10,083 FATAL [Log] Unable to find the given element passwordNext :org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of element located by By.id: passwordNext (tried for 10 second(s) with 500 MILLISECONDS interval) 
+2018-11-15 18:17:10,726 FATAL [Log] Unable to find the given element //div[@class='button button-red analyze jfk-button main-submit jfk-button-standard'] :org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of element located by By.xpath: //div[@class='button button-red analyze jfk-button main-submit jfk-button-standard'] (tried for 10 second(s) with 500 MILLISECONDS interval) 
+2018-11-15 18:17:12,468 INFO  [Log] Invoke AUT: https://developers.google.com/speed/pagespeed/insights/ in chrome browser successfully. 
+2018-11-15 18:17:12,474 INFO  [Log] Implicit wait applied on the driver for 30 seconds. 
+2018-11-15 18:17:27,603 FATAL [Log] Unable to find the given element //div[@class='button button-red analyze jfk-button main-submit jfk-button-standard'] :org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of element located by By.xpath: //div[@class='button button-red analyze jfk-button main-submit jfk-button-standard'] (tried for 10 second(s) with 500 MILLISECONDS interval) 
+2018-11-15 18:22:30,877 INFO  [Log] Invoke AUT: https://developers.google.com/speed/pagespeed/insights/ in chrome browser successfully. 
+2018-11-15 18:22:30,890 INFO  [Log] Implicit wait applied on the driver for 30 seconds. 
+2018-11-15 18:26:47,758 INFO  [Log] Invoke AUT: https://developers.google.com/speed/pagespeed/insights/ in chrome browser successfully. 
+2018-11-15 18:26:47,764 INFO  [Log] Implicit wait applied on the driver for 30 seconds. 
+2018-11-15 18:27:11,459 INFO  [Log] Invoke AUT: https://developers.google.com/speed/pagespeed/insights/ in chrome browser successfully. 
+2018-11-15 18:27:11,465 INFO  [Log] Implicit wait applied on the driver for 30 seconds. 
+2018-11-15 18:27:31,208 INFO  [Log] Invoke AUT: https://developers.google.com/speed/pagespeed/insights/ in chrome browser successfully. 
+2018-11-15 18:27:31,212 INFO  [Log] Implicit wait applied on the driver for 30 seconds. 
+2018-11-15 19:25:39,665 INFO  [Log] Invoke AUT: https://developers.google.com/speed/pagespeed/insights/ in chrome browser successfully. 
+2018-11-15 19:25:39,669 INFO  [Log] Implicit wait applied on the driver for 30 seconds. 
+2018-11-15 19:27:25,302 INFO  [Log] Invoke AUT: https://developers.google.com/speed/pagespeed/insights/ in chrome browser successfully. 
+2018-11-15 19:27:25,311 INFO  [Log] Implicit wait applied on the driver for 30 seconds. 
+2018-11-15 19:43:40,794 INFO  [Log] Invoke AUT: https://developers.google.com/speed/pagespeed/insights/ in chrome browser successfully. 
+2018-11-15 19:43:40,799 INFO  [Log] Implicit wait applied on the driver for 30 seconds. 
+2018-11-15 19:46:25,486 INFO  [Log] Invoke AUT: https://developers.google.com/speed/pagespeed/insights/ in chrome browser successfully. 
+2018-11-15 19:46:25,490 INFO  [Log] Implicit wait applied on the driver for 30 seconds. 
+2018-11-15 19:46:45,500 INFO  [Log] Invoke AUT: https://developers.google.com/speed/pagespeed/insights/ in chrome browser successfully. 
+2018-11-15 19:46:45,504 INFO  [Log] Implicit wait applied on the driver for 30 seconds. 
+2018-11-15 19:46:57,815 INFO  [Log] Invoke AUT: https://developers.google.com/speed/pagespeed/insights/ in chrome browser successfully. 
+2018-11-15 19:46:57,818 INFO  [Log] Implicit wait applied on the driver for 30 seconds. 
+2018-11-15 19:47:16,993 INFO  [Log] Invoke AUT: https://developers.google.com/speed/pagespeed/insights/ in chrome browser successfully. 
+2018-11-15 19:47:16,997 INFO  [Log] Implicit wait applied on the driver for 30 seconds. 
+2018-11-15 19:47:47,308 FATAL [Log] Unable to find the given element //div[@class='button button-red analyze jfk-button main-submit jfk-button-standard'] :org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of element located by By.xpath: //div[@class='button button-red analyze jfk-button main-submit jfk-button-standard'] (tried for 10 second(s) with 500 MILLISECONDS interval) 
+2018-11-15 19:50:45,309 INFO  [Log] Invoke AUT: https://developers.google.com/speed/pagespeed/insights/ in chrome browser successfully. 
+2018-11-15 19:50:45,314 INFO  [Log] Implicit wait applied on the driver for 30 seconds. 
+2018-11-15 19:51:04,524 INFO  [Log] Invoke AUT: https://developers.google.com/speed/pagespeed/insights/ in chrome browser successfully. 
+2018-11-15 19:51:04,528 INFO  [Log] Implicit wait applied on the driver for 30 seconds. 
+2018-11-15 19:51:15,971 INFO  [Log] Invoke AUT: https://developers.google.com/speed/pagespeed/insights/ in chrome browser successfully. 
+2018-11-15 19:51:15,975 INFO  [Log] Implicit wait applied on the driver for 30 seconds. 
+2018-11-15 19:51:33,865 INFO  [Log] Invoke AUT: https://developers.google.com/speed/pagespeed/insights/ in chrome browser successfully. 
+2018-11-15 19:51:33,869 INFO  [Log] Implicit wait applied on the driver for 30 seconds. 
+2018-11-15 19:52:04,179 FATAL [Log] Unable to find the given element //div[@class='button button-red analyze jfk-button main-submit jfk-button-standard'] :org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of element located by By.xpath: //div[@class='button button-red analyze jfk-button main-submit jfk-button-standard'] (tried for 10 second(s) with 500 MILLISECONDS interval) 
+2018-11-15 19:55:16,981 INFO  [Log] Invoke AUT: https://developers.google.com/speed/pagespeed/insights/ in chrome browser successfully. 
+2018-11-15 19:55:16,987 INFO  [Log] Implicit wait applied on the driver for 30 seconds. 
+2018-11-15 19:55:34,955 INFO  [Log] Invoke AUT: https://developers.google.com/speed/pagespeed/insights/ in chrome browser successfully. 
+2018-11-15 19:55:34,959 INFO  [Log] Implicit wait applied on the driver for 30 seconds. 
+2018-11-15 19:55:48,339 INFO  [Log] Invoke AUT: https://developers.google.com/speed/pagespeed/insights/ in chrome browser successfully. 
+2018-11-15 19:55:48,343 INFO  [Log] Implicit wait applied on the driver for 30 seconds. 
+2018-11-15 19:56:03,180 INFO  [Log] Invoke AUT: https://developers.google.com/speed/pagespeed/insights/ in chrome browser successfully. 
+2018-11-15 19:56:03,185 INFO  [Log] Implicit wait applied on the driver for 30 seconds. 
+2018-11-15 19:56:33,624 FATAL [Log] Unable to find the given element //div[@class='button button-red analyze jfk-button main-submit jfk-button-standard'] :org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of element located by By.xpath: //div[@class='button button-red analyze jfk-button main-submit jfk-button-standard'] (tried for 10 second(s) with 500 MILLISECONDS interval) 
+2018-11-15 19:58:35,796 INFO  [Log] Invoke AUT: https://developers.google.com/speed/pagespeed/insights/ in chrome browser successfully. 
+2018-11-15 19:58:35,800 INFO  [Log] Implicit wait applied on the driver for 30 seconds. 
+2018-11-15 19:58:55,010 INFO  [Log] Invoke AUT: https://developers.google.com/speed/pagespeed/insights/ in chrome browser successfully. 
+2018-11-15 19:58:55,017 INFO  [Log] Implicit wait applied on the driver for 30 seconds. 
+2018-11-15 19:59:10,416 INFO  [Log] Invoke AUT: https://developers.google.com/speed/pagespeed/insights/ in chrome browser successfully. 
+2018-11-15 19:59:10,419 INFO  [Log] Implicit wait applied on the driver for 30 seconds. 
+2018-11-15 19:59:28,822 INFO  [Log] Invoke AUT: https://developers.google.com/speed/pagespeed/insights/ in chrome browser successfully. 
+2018-11-15 19:59:28,825 INFO  [Log] Implicit wait applied on the driver for 30 seconds. 
+2018-11-15 19:59:54,835 INFO  [Log] Invoke AUT: https://developers.google.com/speed/pagespeed/insights/ in chrome browser successfully. 
+2018-11-15 19:59:54,845 INFO  [Log] Implicit wait applied on the driver for 30 seconds. 
+2018-11-15 20:00:25,394 FATAL [Log] Unable to find the given element //div[@class='button button-red analyze jfk-button main-submit jfk-button-standard'] :org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of element located by By.xpath: //div[@class='button button-red analyze jfk-button main-submit jfk-button-standard'] (tried for 10 second(s) with 500 MILLISECONDS interval) 
+2018-11-15 20:05:16,972 INFO  [Log] Invoke AUT: https://developers.google.com/speed/pagespeed/insights/ in chrome browser successfully. 
+2018-11-15 20:05:16,978 INFO  [Log] Implicit wait applied on the driver for 30 seconds. 
+2018-11-15 20:05:36,689 INFO  [Log] Invoke AUT: https://developers.google.com/speed/pagespeed/insights/ in chrome browser successfully. 
+2018-11-15 20:05:36,698 INFO  [Log] Implicit wait applied on the driver for 30 seconds. 
+2018-11-15 20:05:50,094 INFO  [Log] Invoke AUT: https://developers.google.com/speed/pagespeed/insights/ in chrome browser successfully. 
+2018-11-15 20:05:50,101 INFO  [Log] Implicit wait applied on the driver for 30 seconds. 
+2018-11-15 20:06:05,639 INFO  [Log] Invoke AUT: https://developers.google.com/speed/pagespeed/insights/ in chrome browser successfully. 
+2018-11-15 20:06:05,643 INFO  [Log] Implicit wait applied on the driver for 30 seconds. 
+2018-11-15 20:06:30,153 INFO  [Log] Invoke AUT: https://developers.google.com/speed/pagespeed/insights/ in chrome browser successfully. 
+2018-11-15 20:06:30,155 INFO  [Log] Implicit wait applied on the driver for 30 seconds. 
+2018-11-15 20:06:46,584 INFO  [Log] Invoke AUT: https://developers.google.com/speed/pagespeed/insights/ in chrome browser successfully. 
+2018-11-15 20:06:46,589 INFO  [Log] Implicit wait applied on the driver for 30 seconds. 
+2018-11-15 20:07:04,194 INFO  [Log] Invoke AUT: https://developers.google.com/speed/pagespeed/insights/ in chrome browser successfully. 
+2018-11-15 20:07:04,203 INFO  [Log] Implicit wait applied on the driver for 30 seconds. 
+2018-11-15 20:07:34,558 FATAL [Log] Unable to find the given element //div[@class='button button-red analyze jfk-button main-submit jfk-button-standard'] :org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of element located by By.xpath: //div[@class='button button-red analyze jfk-button main-submit jfk-button-standard'] (tried for 10 second(s) with 500 MILLISECONDS interval) 
+2018-11-15 20:10:45,089 INFO  [Log] Invoke AUT: https://developers.google.com/speed/pagespeed/insights/ in chrome browser successfully. 
+2018-11-15 20:10:45,094 INFO  [Log] Implicit wait applied on the driver for 30 seconds. 
+2018-11-15 20:11:03,999 INFO  [Log] Invoke AUT: https://developers.google.com/speed/pagespeed/insights/ in chrome browser successfully. 
+2018-11-15 20:11:04,005 INFO  [Log] Implicit wait applied on the driver for 30 seconds. 
+2018-11-15 20:11:16,573 INFO  [Log] Invoke AUT: https://developers.google.com/speed/pagespeed/insights/ in chrome browser successfully. 
+2018-11-15 20:11:16,584 INFO  [Log] Implicit wait applied on the driver for 30 seconds. 
+2018-11-15 20:11:31,396 INFO  [Log] Invoke AUT: https://developers.google.com/speed/pagespeed/insights/ in chrome browser successfully. 
+2018-11-15 20:11:31,399 INFO  [Log] Implicit wait applied on the driver for 30 seconds. 
+2018-11-15 20:12:01,800 FATAL [Log] Unable to find the given element //div[@class='button button-red analyze jfk-button main-submit jfk-button-standard'] :org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of element located by By.xpath: //div[@class='button button-red analyze jfk-button main-submit jfk-button-standard'] (tried for 10 second(s) with 500 MILLISECONDS interval) 
+2018-11-15 20:12:07,057 INFO  [Log] Invoke AUT: https://developers.google.com/speed/pagespeed/insights/ in chrome browser successfully. 
+2018-11-15 20:12:07,061 INFO  [Log] Implicit wait applied on the driver for 30 seconds. 
+2018-11-15 20:12:37,414 FATAL [Log] Unable to find the given element //div[@class='button button-red analyze jfk-button main-submit jfk-button-standard'] :org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of element located by By.xpath: //div[@class='button button-red analyze jfk-button main-submit jfk-button-standard'] (tried for 10 second(s) with 500 MILLISECONDS interval) 
+2018-11-15 20:12:49,851 INFO  [Log] Invoke AUT: https://developers.google.com/speed/pagespeed/insights/ in chrome browser successfully. 
+2018-11-15 20:12:49,857 INFO  [Log] Implicit wait applied on the driver for 30 seconds. 
+2018-11-15 20:13:06,975 INFO  [Log] Invoke AUT: https://developers.google.com/speed/pagespeed/insights/ in chrome browser successfully. 
+2018-11-15 20:13:06,979 INFO  [Log] Implicit wait applied on the driver for 30 seconds. 
+2018-11-15 20:13:56,122 FATAL [Log] Unable to find the given element Logout :org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of element located by By.linkText: Logout (tried for 30 second(s) with 500 MILLISECONDS interval) 
+2018-11-15 20:18:49,934 INFO  [Log] Invoke AUT: https://developers.google.com/speed/pagespeed/insights/ in chrome browser successfully. 
+2018-11-15 20:18:49,945 INFO  [Log] Implicit wait applied on the driver for 30 seconds. 
+2018-11-15 20:19:10,140 INFO  [Log] Invoke AUT: https://developers.google.com/speed/pagespeed/insights/ in chrome browser successfully. 
+2018-11-15 20:19:10,147 INFO  [Log] Implicit wait applied on the driver for 30 seconds. 
+2018-11-15 20:19:24,287 INFO  [Log] Invoke AUT: https://developers.google.com/speed/pagespeed/insights/ in chrome browser successfully. 
+2018-11-15 20:19:24,294 INFO  [Log] Implicit wait applied on the driver for 30 seconds. 
+2018-11-15 20:19:40,559 INFO  [Log] Invoke AUT: https://developers.google.com/speed/pagespeed/insights/ in chrome browser successfully. 
+2018-11-15 20:19:40,569 INFO  [Log] Implicit wait applied on the driver for 30 seconds. 
+2018-11-15 20:20:07,776 INFO  [Log] Invoke AUT: https://developers.google.com/speed/pagespeed/insights/ in chrome browser successfully. 
+2018-11-15 20:20:07,784 INFO  [Log] Implicit wait applied on the driver for 30 seconds. 
+2018-11-15 20:20:38,147 FATAL [Log] Unable to find the given element //div[@class='button button-red analyze jfk-button main-submit jfk-button-standard'] :org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of element located by By.xpath: //div[@class='button button-red analyze jfk-button main-submit jfk-button-standard'] (tried for 10 second(s) with 500 MILLISECONDS interval) 
+2018-11-15 20:20:46,910 INFO  [Log] Invoke AUT: https://developers.google.com/speed/pagespeed/insights/ in chrome browser successfully. 
+2018-11-15 20:20:46,915 INFO  [Log] Implicit wait applied on the driver for 30 seconds. 
+2018-11-15 20:21:04,617 INFO  [Log] Invoke AUT: https://developers.google.com/speed/pagespeed/insights/ in chrome browser successfully. 
+2018-11-15 20:21:04,624 INFO  [Log] Implicit wait applied on the driver for 30 seconds. 
+2018-11-15 20:21:53,765 FATAL [Log] Unable to find the given element Logout :org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of element located by By.linkText: Logout (tried for 30 second(s) with 500 MILLISECONDS interval) 

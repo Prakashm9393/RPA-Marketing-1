@@ -38,6 +38,16 @@ public class Performance_Audit_Workflow{
 		}
 	}
 	
+	//@Test(priority=3)
+		public void next3_putPageInsights(){
+			try{
+				library.waitTime();
+				library.putPageInsights();
+			}catch (Exception e){			
+				e.printStackTrace();
+			}
+		}
+	
 	@Test(priority=3, retryAnalyzer=Retry.class)
 	public void next3_put_mobile_web_page_test_run(){
 		try{

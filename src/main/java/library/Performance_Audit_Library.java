@@ -2,6 +2,8 @@ package library;
 
 import java.text.DecimalFormat;
 
+import org.testng.annotations.Test;
+
 import activities.GenericWrappers;
 import activities.ExcelDataUtility;
 
@@ -137,6 +139,27 @@ public class Performance_Audit_Library extends GenericWrappers{
 			float twoDigitsF = Float.valueOf(decimalFormat.format(f));
 			String loadTime = String.valueOf(twoDigitsF);				
 			testData.setCellData("Web_Page_Test_Mobile", 1, i, loadTime);				
+		}	
+		clickOn("linktext&Logout");
+		closeWindow();
+	}
+	@Test
+	public void manika_putPageInsights() throws Exception{
+		ExcelDataUtility testData = new ExcelDataUtility("./data/Performance_Audit.xlsx");
+		invokeApp(browserName);
+		for(int i = 1; i <= testData.getTotalRowNumber("Page_Insight"); i++){
+			getUrl("https://developers.google.com/speed/pagespeed/insights/");
+			String url = testData.getCellData("Page_Insight", 0, i);
+			enterText("name&url", url);
+			driver.findElementByXPath("//div[@role='button']").click();			clickOn("Xpath&//div[@class='button button-red analyze jfk-button main-submit jfk-button-standard']");
+			waitTime(3000);
+			String  Desktop_value, Mobile_value;
+			Mobile_value = getDriver().findElementByXPath("(//div[@class='lh-gauge__percentage'])[1]").getText();
+			driver.findElementByXPath("(//div[@class='tab-title'])[2]").click();
+			Desktop_value = getDriver().findElementByXPath("(//div[@class='lh-gauge__percentage'])[2]").getText();
+			testData.setCellData("Page_Insight", 1, i, Mobile_value);
+			testData.setCellData("Page_Insight", 2, i, Desktop_value);
+			
 		}	
 		clickOn("linktext&Logout");
 		closeWindow();
