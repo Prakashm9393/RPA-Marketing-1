@@ -1141,3 +1141,65 @@ Session ID: 253ecdf3aef6020e2cc88f3879173eec
 2018-11-16 15:19:53,763 FATAL [Log] Unable to find the given element Logout :org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of element located by By.linkText: Logout (tried for 30 second(s) with 500 MILLISECONDS interval) 
 >>>>>>> 664a8074f85a3454f56e48ccf2d6d5bc7d2c434c
 >>>>>>> 77848f887d5afd7a6c7efcba3d20a478617980e1
+2018-11-16 18:11:58,754 INFO  [Log] Invoke AUT: https://www.webpagetest.org/ in chrome browser successfully. 
+2018-11-16 18:11:58,757 INFO  [Log] Implicit wait applied on the driver for 30 seconds. 
+2018-11-16 18:12:36,162 INFO  [Log] Invoke AUT: https://www.webpagetest.org/ in chrome browser successfully. 
+2018-11-16 18:12:36,166 INFO  [Log] Implicit wait applied on the driver for 30 seconds. 
+2018-11-16 18:12:36,630 INFO  [Log] The element with id: browser is selected with visible text: Chrome 
+2018-11-16 18:12:36,804 INFO  [Log] The element with id: connection is selected with visible text: Cable (5/1 Mbps 28ms RTT) 
+2018-11-16 18:12:42,347 INFO  [Log] Invoke AUT: https://www.webpagetest.org/ in chrome browser successfully. 
+2018-11-16 18:12:42,350 INFO  [Log] Implicit wait applied on the driver for 30 seconds. 
+2018-11-16 18:12:42,724 INFO  [Log] The element with id: browser is selected with visible text: Chrome 
+2018-11-16 18:12:42,808 INFO  [Log] The element with id: connection is selected with visible text: Cable (5/1 Mbps 28ms RTT) 
+2018-11-16 18:12:48,202 INFO  [Log] Invoke AUT: https://www.webpagetest.org/ in chrome browser successfully. 
+2018-11-16 18:12:48,205 INFO  [Log] Implicit wait applied on the driver for 30 seconds. 
+2018-11-16 18:12:48,603 INFO  [Log] The element with id: browser is selected with visible text: Chrome 
+2018-11-16 18:12:48,678 INFO  [Log] The element with id: connection is selected with visible text: Cable (5/1 Mbps 28ms RTT) 
+2018-11-16 18:12:53,786 INFO  [Log] Invoke AUT: https://www.webpagetest.org/ in chrome browser successfully. 
+2018-11-16 18:12:53,790 INFO  [Log] Implicit wait applied on the driver for 30 seconds. 
+2018-11-16 18:12:54,187 INFO  [Log] The element with id: browser is selected with visible text: Chrome 
+2018-11-16 18:12:54,256 INFO  [Log] The element with id: connection is selected with visible text: Cable (5/1 Mbps 28ms RTT) 
+2018-11-16 18:13:01,627 INFO  [Log] Invoke AUT: https://www.webpagetest.org/ in chrome browser successfully. 
+2018-11-16 18:13:01,631 INFO  [Log] Implicit wait applied on the driver for 30 seconds. 
+2018-11-16 18:13:02,225 INFO  [Log] The element with id: browser is selected with visible text: Chrome 
+2018-11-16 18:13:02,300 INFO  [Log] The element with id: connection is selected with visible text: Cable (5/1 Mbps 28ms RTT) 
+2018-11-16 18:13:07,427 INFO  [Log] Invoke AUT: https://www.webpagetest.org/ in chrome browser successfully. 
+2018-11-16 18:13:07,429 INFO  [Log] Implicit wait applied on the driver for 30 seconds. 
+2018-11-16 18:13:07,857 INFO  [Log] The element with id: browser is selected with visible text: Chrome 
+2018-11-16 18:13:07,929 INFO  [Log] The element with id: connection is selected with visible text: Cable (5/1 Mbps 28ms RTT) 
+2018-11-16 18:13:16,079 INFO  [Log] Invoke AUT: https://www.webpagetest.org/ in chrome browser successfully. 
+2018-11-16 18:13:16,108 INFO  [Log] Implicit wait applied on the driver for 30 seconds. 
+2018-11-16 18:13:16,591 INFO  [Log] The element with id: browser is selected with visible text: Chrome 
+2018-11-16 18:13:16,666 INFO  [Log] The element with id: connection is selected with visible text: Cable (5/1 Mbps 28ms RTT) 
+2018-11-16 18:13:21,759 INFO  [Log] Invoke AUT: https://www.webpagetest.org/ in chrome browser successfully. 
+2018-11-16 18:13:21,763 INFO  [Log] Implicit wait applied on the driver for 30 seconds. 
+2018-11-16 18:13:22,073 INFO  [Log] The element with id: browser is selected with visible text: Chrome 
+2018-11-16 18:13:22,142 INFO  [Log] The element with id: connection is selected with visible text: Cable (5/1 Mbps 28ms RTT) 
+2018-11-16 18:13:27,105 INFO  [Log] Invoke AUT: https://www.webpagetest.org/ in chrome browser successfully. 
+2018-11-16 18:13:27,108 INFO  [Log] Implicit wait applied on the driver for 30 seconds. 
+2018-11-16 18:13:27,533 INFO  [Log] The element with id: browser is selected with visible text: Chrome 
+2018-11-16 18:13:27,603 INFO  [Log] The element with id: connection is selected with visible text: Cable (5/1 Mbps 28ms RTT) 
+2018-11-16 18:13:33,272 INFO  [Log] Invoke AUT: https://www.webpagetest.org/ in chrome browser successfully. 
+2018-11-16 18:13:33,276 INFO  [Log] Implicit wait applied on the driver for 30 seconds. 
+2018-11-16 18:13:33,628 INFO  [Log] The element with id: browser is selected with visible text: Chrome 
+2018-11-16 18:13:33,698 INFO  [Log] The element with id: connection is selected with visible text: Cable (5/1 Mbps 28ms RTT) 
+2018-11-16 18:13:53,060 INFO  [Log] Invoke AUT: https://www.webpagetest.org/result/181116_J6_7eb0e60b5b9e595ae424c4be8c73c681/ in chrome browser successfully. 
+2018-11-16 18:13:53,063 INFO  [Log] Implicit wait applied on the driver for 30 seconds. 
+2018-11-16 18:13:57,874 INFO  [Log] Invoke AUT: https://www.webpagetest.org/result/181116_KQ_fb2eb994b32f2426a579778ff05430eb/ in chrome browser successfully. 
+2018-11-16 18:13:57,877 INFO  [Log] Implicit wait applied on the driver for 30 seconds. 
+2018-11-16 18:14:02,575 INFO  [Log] Invoke AUT: https://www.webpagetest.org/result/181116_GT_9076495cf80e84f46f6eb2a849975b98/ in chrome browser successfully. 
+2018-11-16 18:14:02,579 INFO  [Log] Implicit wait applied on the driver for 30 seconds. 
+2018-11-16 18:14:07,344 INFO  [Log] Invoke AUT: https://www.webpagetest.org/result/181116_Z7_c75d0c2734aaf138373818229eb1dbc1/ in chrome browser successfully. 
+2018-11-16 18:14:07,347 INFO  [Log] Implicit wait applied on the driver for 30 seconds. 
+2018-11-16 18:14:12,138 INFO  [Log] Invoke AUT: https://www.webpagetest.org/result/181116_NG_25ea0ec98b3b14f615eea9de7d090dff/ in chrome browser successfully. 
+2018-11-16 18:14:12,140 INFO  [Log] Implicit wait applied on the driver for 30 seconds. 
+2018-11-16 18:14:16,896 INFO  [Log] Invoke AUT: https://www.webpagetest.org/result/181116_H3_7ffbabd61f0f855b24d2db0e3e09f8c0/ in chrome browser successfully. 
+2018-11-16 18:14:16,899 INFO  [Log] Implicit wait applied on the driver for 30 seconds. 
+2018-11-16 18:14:21,656 INFO  [Log] Invoke AUT: https://www.webpagetest.org/result/181116_XE_4ac70319019c5b3563b02341e1d21ddd/ in chrome browser successfully. 
+2018-11-16 18:14:21,659 INFO  [Log] Implicit wait applied on the driver for 30 seconds. 
+2018-11-16 18:14:26,350 INFO  [Log] Invoke AUT: https://www.webpagetest.org/result/181116_PZ_92e12187eb1f40ad01896858b9e67288/ in chrome browser successfully. 
+2018-11-16 18:14:26,356 INFO  [Log] Implicit wait applied on the driver for 30 seconds. 
+2018-11-16 18:14:31,152 INFO  [Log] Invoke AUT: https://www.webpagetest.org/result/181116_M7_ac4f281041623dbfa8d9faedfc108b34/ in chrome browser successfully. 
+2018-11-16 18:14:31,155 INFO  [Log] Implicit wait applied on the driver for 30 seconds. 
+2018-11-16 18:14:35,780 INFO  [Log] Invoke AUT: https://www.webpagetest.org/result/181116_7K_9bd1f33fdedff86732bd821476be7f0d/ in chrome browser successfully. 
+2018-11-16 18:14:35,782 INFO  [Log] Implicit wait applied on the driver for 30 seconds. 

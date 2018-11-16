@@ -9,7 +9,7 @@ public class Performance_Audit_Workflow{
 	
 	Performance_Audit_Library library = new Performance_Audit_Library();
 	
-	@Test(priority=0)
+	//@Test(priority=0)
 	public void start0_get_mobile_web_page_test_run(){
 		
 		try{
@@ -39,7 +39,7 @@ public class Performance_Audit_Workflow{
 		}
 	}	
 	
-	@Test(priority=3)
+	//@Test(priority=3)
 	public void next3_get_google_page_speed_run(){
 		try{
 			library.waitTime();
@@ -49,30 +49,15 @@ public class Performance_Audit_Workflow{
 		}
 	}
 	
-<<<<<<< HEAD
-	//@Test(priority=3, retryAnalyzer=Retry.class)
-	public void next3_put_mobile_web_page_test_run(){
-=======
-	@Test(priority=4, retryAnalyzer=Retry.class)
+
+	//@Test(priority=4, retryAnalyzer=Retry.class)
 	public void next4_put_mobile_web_page_test_run(){
->>>>>>> 77848f887d5afd7a6c7efcba3d20a478617980e1
 		try{
 			library.waitTime();
 			library.putMobileWebPageTest();
 		}catch(Exception e){			
 			throw new RuntimeException("Failed - " + e.toString());
 		}
-	}
-	
-	@Test(priority=4)
-	public void enter_urls_in_GtMetrix()
-	{
-		try{
-			library.waitTime();
-			library.openGTMetrixAndTakePerformanceForDesktop();
-		}catch(Exception e){			
-			throw new RuntimeException("Failed - " + e.toString());
-		}
-	}
+	}	
 
 }

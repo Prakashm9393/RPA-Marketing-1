@@ -160,12 +160,9 @@ public class Performance_Audit_Library extends GenericWrappers{
 		}		
 		closeWindow();
 	}
-<<<<<<< HEAD
 	
-	//GT Metrix script 
-	
-	public void openGTMetrixAndTakePerformanceForDesktop() throws Exception{
-		ExcelDataUtility testData = new ExcelDataUtility("./data/Performance_Audit_GTMetrix.xlsx");
+	public void getGTMetrixGoogleGradeResult() throws Exception{
+		ExcelDataUtility testData = new ExcelDataUtility("./data/Performance_Audit.xlsx");
 		invokeApp(browserName);
 		getUrl("https://gtmetrix.com/");
 		clickOn("linktext&Log In");
@@ -175,23 +172,17 @@ public class Performance_Audit_Library extends GenericWrappers{
 		waitTime(1000);
 		clickOn("xpath&//button[text()='Log In']");
 		waitTime(2000);	
-		for(int i = 1; i <= testData.getTotalRowNumber("Web_Page_Test_Desktop"); i++){
+		for(int i = 1; i <= testData.getTotalRowNumber("GTMetrix"); i++){
 			getUrl("https://gtmetrix.com/");
-			String url = testData.getCellData("Web_Page_Test_Desktop", 0, i);
+			String url = testData.getCellData("GTMetrix", 0, i);
 			enterText("name&url", url);
 			clickOn("Xpath&//button[text()='Analyze']");
 			waitTime(60000);			
 			String result = getDriver().getCurrentUrl();
-			testData.setCellData("Web_Page_Test_Desktop", 4, i,result);	
-			
+			testData.setCellData("GTMetrix", 4, i,result);		
 		}
 		clickOn("linktext&Logout");
 		closeWindow();
 	}	
 	
-	
 }
-=======
-
-}
->>>>>>> 77848f887d5afd7a6c7efcba3d20a478617980e1
