@@ -9,7 +9,7 @@ public class Performance_Audit_Workflow{
 	
 	Performance_Audit_Library library = new Performance_Audit_Library();
 	
-	//@Test(priority=0)
+	@Test(priority=0)
 	public void start0_get_mobile_web_page_test_run(){
 		
 		try{
@@ -19,7 +19,7 @@ public class Performance_Audit_Workflow{
 		}
 	}
 	
-	//@Test(priority=1)
+	@Test(priority=1)
 	public void next1_get_desktop_web_page_test_run(){		
 		try{
 			library.waitTime();
@@ -29,7 +29,7 @@ public class Performance_Audit_Workflow{
 		}
 	}
 	
-	//@Test(priority=2)
+	@Test(priority=2)
 	public void next2_put_desktop_web_page_test_run(){
 		try{
 			library.waitTime();
@@ -37,10 +37,25 @@ public class Performance_Audit_Workflow{
 		}catch (Exception e){			
 			e.printStackTrace();
 		}
+	}	
+	
+	@Test(priority=3)
+	public void next3_get_google_page_speed_run(){
+		try{
+			library.waitTime();
+			library.getGoogleSpeedScoreResult();
+		}catch (Exception e){			
+			e.printStackTrace();
+		}
 	}
 	
+<<<<<<< HEAD
 	//@Test(priority=3, retryAnalyzer=Retry.class)
 	public void next3_put_mobile_web_page_test_run(){
+=======
+	@Test(priority=4, retryAnalyzer=Retry.class)
+	public void next4_put_mobile_web_page_test_run(){
+>>>>>>> 77848f887d5afd7a6c7efcba3d20a478617980e1
 		try{
 			library.waitTime();
 			library.putMobileWebPageTest();

@@ -8,7 +8,10 @@ public class Retry implements IRetryAnalyzer{
 	/*private int count = 0;
     private static int maxTry = 10;*/
 
+<<<<<<< HEAD
 	
+=======
+>>>>>>> 77848f887d5afd7a6c7efcba3d20a478617980e1
 	public boolean retry(ITestResult result){
 		if(!result.isSuccess()){
 			 /*if(count < maxTry){

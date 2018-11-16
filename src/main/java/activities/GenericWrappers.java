@@ -1494,7 +1494,8 @@ public class GenericWrappers{
 			Log.info("The Title of the page is "+getDriver().getTitle()+" same as the expected "+expected);
 			bReturn = true;
 		} catch (Exception e) {	
-			Log.fatal("Unable to find "+expected+" title in the page "+e.toString());			
+			Log.fatal("Unable to find "+expected+" title in the page "+e.toString());	
+			throw new RuntimeException("Unable to find "+expected+" title in the page "+e.toString());
 		}		
 		return bReturn;
 	}	
@@ -1515,6 +1516,7 @@ public class GenericWrappers{
 			}
 		} catch (Exception e) {
 			Log.fatal("Unable to find the given element "+element+" : "+e.toString());			
+			throw new RuntimeException("Unable to find the given element "+element+" : "+e.toString());
 		}
 		return bReturn;
 	}
@@ -1526,6 +1528,126 @@ public class GenericWrappers{
 			Log.fatal(e.toString());
 			e.printStackTrace();
 		}
+	}
+	
+	/**
+	 * This method is used to perform mouse over and click actions
+	 * and wait for 10 seconds to appear title of the web page
+	 * @param locator - find and match the elements of web page
+	 * @return boolean value
+	 * @author Karthikeyan Rajendran on 13/11/2017:13:30:00PM
+	 */
+	public boolean mouseOverAndClickAction(String locator){
+		//Log4j Configuration XML file 	
+	    DOMConfigurator.configure("log4j.xml");		
+	    
+		String[] data = locator.split("&");
+		String key = data[0];
+		String value = data[1];
+		WebElement ele;
+		Actions builder = new Actions(getDriver());
+		boolean bReturn = false;
+		if(key.equalsIgnoreCase("ID")){
+			try {
+				WebDriverWait wait = new WebDriverWait(getDriver(), 10);
+				wait.until(ExpectedConditions.visibilityOfElementLocated(By.id(value)));
+				ele = getDriver().findElementById(value);			
+				builder.moveToElement(ele).click().build().perform();
+				bReturn = true;
+				Log.info("The mouse over by id : "+value+" is performed.");
+			} catch (Exception e) {				
+				Log.fatal("Unable to find the given element "+value+" :"+e.toString());
+				throw new RuntimeException("Unable to find the given element "+value+" :"+e.toString());
+			}		    
+		}else if(key.equalsIgnoreCase("NAME")){
+			try {
+				WebDriverWait wait = new WebDriverWait(getDriver(), 10);
+				wait.until(ExpectedConditions.visibilityOfElementLocated(By.name(value)));
+				ele = getDriver().findElementByName(value);
+				builder.moveToElement(ele).click().build().perform();
+				bReturn = true;
+				Log.info("The mouse over by name : "+value+" is performed.");
+			} catch (Exception e) {				
+				Log.fatal("Unable to find the given element "+value+" :"+e.toString());
+				throw new RuntimeException("Unable to find the given element "+value+" :"+e.toString());
+			}			
+		}else if(key.equalsIgnoreCase("LINKTEXT")){
+			try {
+				WebDriverWait wait = new WebDriverWait(getDriver(), 10);
+				wait.until(ExpectedConditions.visibilityOfElementLocated(By.linkText(value)));
+				ele = getDriver().findElementByLinkText(value);
+				builder.moveToElement(ele).click().build().perform();
+				bReturn = true;
+				Log.info("The mouse over by linktext : "+value+" is performed.");
+			} catch (Exception e) {				
+				Log.fatal("Unable to find the given element "+value+" :"+e.toString());
+				throw new RuntimeException("Unable to find the given element "+value+" :"+e.toString());
+			}			
+		}else if(key.equalsIgnoreCase("PARTIALLINKTEXT")){
+			try {
+				WebDriverWait wait = new WebDriverWait(getDriver(), 10);
+				wait.until(ExpectedConditions.visibilityOfElementLocated(By.partialLinkText(value)));
+				ele = getDriver().findElementByPartialLinkText(value);
+				builder.moveToElement(ele).click().build().perform();
+				bReturn = true;
+				Log.info("The mouse over by partial linktext : "+value+" is performed.");
+			} catch (Exception e) {				
+				Log.fatal("Unable to find the given element "+value+" :"+e.toString());
+				throw new RuntimeException("Unable to find the given element "+value+" :"+e.toString());
+			}			
+		}else if(key.equalsIgnoreCase("CLASSNAME")){
+			try {
+				WebDriverWait wait = new WebDriverWait(getDriver(), 10);
+				wait.until(ExpectedConditions.visibilityOfElementLocated(By.className(value)));
+				ele = getDriver().findElementByClassName(value);
+				builder.moveToElement(ele).click().build().perform();
+				bReturn = true;
+				Log.info("The mouse over by classname : "+value+" is performed.");
+			} catch (Exception e) {				
+				Log.fatal("Unable to find the given element "+value+" :"+e.toString());
+				throw new RuntimeException("Unable to find the given element "+value+" :"+e.toString());
+			}			
+		}else if(key.equalsIgnoreCase("TAGNAME")){
+			try {
+				WebDriverWait wait = new WebDriverWait(getDriver(), 10);
+				wait.until(ExpectedConditions.visibilityOfElementLocated(By.tagName(value)));
+				ele = getDriver().findElementByTagName(value);
+				builder.moveToElement(ele).click().build().perform();
+				bReturn = true;
+				Log.info("The mouse over by tagname : "+value+" is performed.");
+			} catch (Exception e) {				
+				Log.fatal("Unable to find the given element "+value+" :"+e.toString());
+				throw new RuntimeException("Unable to find the given element "+value+" :"+e.toString());
+			}			
+		}else if(key.equalsIgnoreCase("CSSSELECTOR")){
+			try {
+				WebDriverWait wait = new WebDriverWait(getDriver(), 10);
+				wait.until(ExpectedConditions.visibilityOfElementLocated(By.cssSelector(value)));
+				ele = getDriver().findElementByCssSelector(value);
+				builder.moveToElement(ele).click().build().perform();
+				bReturn = true;
+				Log.info("The mouse over by cssselector : "+value+" is performed.");
+			} catch (Exception e) {				
+				Log.fatal("Unable to find the given element "+value+" :"+e.toString());
+				throw new RuntimeException("Unable to find the given element "+value+" :"+e.toString());
+			}			
+		}else if(key.equalsIgnoreCase("XPATH")){
+			try {
+				WebDriverWait wait = new WebDriverWait(getDriver(), 10);
+				wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath(value)));
+				ele = getDriver().findElementByXPath(value);
+				builder.moveToElement(ele).click().build().perform();
+				bReturn = true;
+				Log.info("The mouse over by xpath : "+value+" is performed.");
+			} catch (Exception e) {				
+				Log.fatal("Unable to find the given element "+value+" :"+e.toString());
+				throw new RuntimeException("Unable to find the given element "+value+" :"+e.toString());
+			}			
+		}else{
+			Log.error("Kindly, provide correct locator option for mouseOverAction.");			
+			throw new RuntimeException("Kindly, provide correct locator option for mouseOverAction.");
+		}
+		return bReturn;
 	}
 
 }

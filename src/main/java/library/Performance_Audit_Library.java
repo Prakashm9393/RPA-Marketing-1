@@ -140,7 +140,27 @@ public class Performance_Audit_Library extends GenericWrappers{
 		}	
 		clickOn("linktext&Logout");
 		closeWindow();
+	}	
+	
+	public void getGoogleSpeedScoreResult() throws Exception{
+		ExcelDataUtility testData = new ExcelDataUtility("./data/Performance_Audit.xlsx");
+		invokeApp(browserName);
+		for(int i = 1; i <= testData.getTotalRowNumber("Page_Speed_Insight"); i++){
+			getUrl("https://developers.google.com/speed/pagespeed/insights/");
+			String url = testData.getCellData("Page_Speed_Insight", 0, i);
+			enterText("name&url", url);			
+			mouseOverAndClickAction("Xpath&//div[@role='button' and text()=' ANALYZE ']");
+			waitTime(3000);			
+			String Mobile_value = getElement("Xpath&(//div[@class='lh-gauge__percentage'])[1]").getText();
+			mouseOverAndClickAction("Xpath&//div[@class='tab-title' and text()='Desktop']");			
+			waitTime(800);
+			String Desktop_value = getElement("Xpath&(//div[@class='lh-gauge__percentage'])[2]").getText();			
+			testData.setCellData("Page_Speed_Insight", 1, i, Mobile_value+"%");
+			testData.setCellData("Page_Speed_Insight", 2, i, Desktop_value+"%");			
+		}		
+		closeWindow();
 	}
+<<<<<<< HEAD
 	
 	//GT Metrix script 
 	
@@ -171,3 +191,7 @@ public class Performance_Audit_Library extends GenericWrappers{
 	
 	
 }
+=======
+
+}
+>>>>>>> 77848f887d5afd7a6c7efcba3d20a478617980e1
