@@ -157,8 +157,7 @@ public class Performance_Audit_Library extends GenericWrappers{
 			String Desktop_value = getElement("Xpath&(//div[@class='lh-gauge__percentage'])[2]").getText();			
 			testData.setCellData("Page_Speed_Insight", 1, i, Mobile_value+"%");
 			testData.setCellData("Page_Speed_Insight", 2, i, Desktop_value+"%");			
-		}	
-		clickOn("linktext&Logout");
+		}		
 		closeWindow();
 	}
 
