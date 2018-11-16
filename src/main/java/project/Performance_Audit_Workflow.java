@@ -11,6 +11,7 @@ public class Performance_Audit_Workflow{
 	
 	//@Test(priority=0)
 	public void start0_get_mobile_web_page_test_run(){
+		
 		try{
 			library.getMobileWebPageTestResult();
 		}catch(Exception e){			
@@ -38,11 +39,22 @@ public class Performance_Audit_Workflow{
 		}
 	}
 	
-	@Test(priority=3, retryAnalyzer=Retry.class)
+	//@Test(priority=3, retryAnalyzer=Retry.class)
 	public void next3_put_mobile_web_page_test_run(){
 		try{
 			library.waitTime();
 			library.putMobileWebPageTest();
+		}catch(Exception e){			
+			throw new RuntimeException("Failed - " + e.toString());
+		}
+	}
+	
+	@Test(priority=4)
+	public void enter_urls_in_GtMetrix()
+	{
+		try{
+			library.waitTime();
+			library.openGTMetrixAndTakePerformanceForDesktop();
 		}catch(Exception e){			
 			throw new RuntimeException("Failed - " + e.toString());
 		}

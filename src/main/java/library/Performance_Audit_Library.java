@@ -141,5 +141,33 @@ public class Performance_Audit_Library extends GenericWrappers{
 		clickOn("linktext&Logout");
 		closeWindow();
 	}
-
+	
+	//GT Metrix script 
+	
+	public void openGTMetrixAndTakePerformanceForDesktop() throws Exception{
+		ExcelDataUtility testData = new ExcelDataUtility("./data/Performance_Audit_GTMetrix.xlsx");
+		invokeApp(browserName);
+		getUrl("https://gtmetrix.com/");
+		clickOn("linktext&Log In");
+		waitTime(1000);		
+		enterText("id&li-email", "mahesh.ameex@gmail.com");
+		enterText("id&li-password", "123456");		
+		waitTime(1000);
+		clickOn("xpath&//button[text()='Log In']");
+		waitTime(2000);	
+		for(int i = 1; i <= testData.getTotalRowNumber("Web_Page_Test_Desktop"); i++){
+			getUrl("https://gtmetrix.com/");
+			String url = testData.getCellData("Web_Page_Test_Desktop", 0, i);
+			enterText("name&url", url);
+			clickOn("Xpath&//button[text()='Analyze']");
+			waitTime(60000);			
+			String result = getDriver().getCurrentUrl();
+			testData.setCellData("Web_Page_Test_Desktop", 4, i,result);	
+			
+		}
+		clickOn("linktext&Logout");
+		closeWindow();
+	}	
+	
+	
 }
