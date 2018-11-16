@@ -878,6 +878,7 @@ Session ID: a4a91878c4c13f36d79a29a612a10221
 2018-11-15 20:21:04,617 INFO  [Log] Invoke AUT: https://developers.google.com/speed/pagespeed/insights/ in chrome browser successfully. 
 2018-11-15 20:21:04,624 INFO  [Log] Implicit wait applied on the driver for 30 seconds. 
 2018-11-15 20:21:53,765 FATAL [Log] Unable to find the given element Logout :org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of element located by By.linkText: Logout (tried for 30 second(s) with 500 MILLISECONDS interval) 
+<<<<<<< HEAD
 2018-11-15 21:18:09,286 INFO  [Log] Invoke AUT: https://developers.google.com/speed/pagespeed/insights/ in chrome browser successfully. 
 2018-11-15 21:18:09,290 INFO  [Log] Implicit wait applied on the driver for 30 seconds. 
 2018-11-15 21:18:30,225 INFO  [Log] Invoke AUT: https://developers.google.com/speed/pagespeed/insights/ in chrome browser successfully. 
@@ -891,3 +892,86 @@ Session ID: a4a91878c4c13f36d79a29a612a10221
 2018-11-15 21:19:35,223 INFO  [Log] Implicit wait applied on the driver for 30 seconds. 
 2018-11-15 21:19:50,312 INFO  [Log] Invoke AUT: https://developers.google.com/speed/pagespeed/insights/ in chrome browser successfully. 
 2018-11-15 21:19:50,315 INFO  [Log] Implicit wait applied on the driver for 30 seconds. 
+=======
+2018-11-16 14:25:35,779 INFO  [Log] Invoke AUT: https://developers.google.com/speed/pagespeed/insights/ in chrome browser successfully. 
+2018-11-16 14:25:35,784 INFO  [Log] Implicit wait applied on the driver for 30 seconds. 
+2018-11-16 14:27:23,949 INFO  [Log] Invoke AUT: https://developers.google.com/speed/pagespeed/insights/ in chrome browser successfully. 
+2018-11-16 14:27:23,954 INFO  [Log] Implicit wait applied on the driver for 30 seconds. 
+2018-11-16 14:29:24,291 INFO  [Log] Invoke AUT: https://developers.google.com/speed/pagespeed/insights/ in chrome browser successfully. 
+2018-11-16 14:29:24,296 INFO  [Log] Implicit wait applied on the driver for 30 seconds. 
+2018-11-16 14:30:57,676 ERROR [Log] Unable to find the id : (//div[@class='lh-gauge__percentage'])[1] in the DOM elements. org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of element located by By.xpath: (//div[@class='lh-gauge__percentage'])[1] (tried for 10 second(s) with 500 MILLISECONDS interval) 
+2018-11-16 14:31:55,255 INFO  [Log] Invoke AUT: https://developers.google.com/speed/pagespeed/insights/ in chrome browser successfully. 
+2018-11-16 14:31:55,258 INFO  [Log] Implicit wait applied on the driver for 30 seconds. 
+2018-11-16 14:33:12,219 ERROR [Log] Unable to find the id : (//div[@class='lh-gauge__percentage'])[2] in the DOM elements. org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of element located by By.xpath: (//div[@class='lh-gauge__percentage'])[2] (tried for 10 second(s) with 500 MILLISECONDS interval)
+Build info: version: '3.6.0', revision: '6fbf3ec767', time: '2017-09-27T15:28:36.4Z'
+System info: host: 'MJN_TEST_AUTOMA', ip: '10.10.4.218', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '10.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{mobileEmulationEnabled=false, hasTouchScreen=false, platform=XP, acceptSslCerts=false, acceptInsecureCerts=false, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, platformName=XP, setWindowRect=true, unexpectedAlertBehaviour=, applicationCacheEnabled=false, rotatable=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.40.565498 (ea082db3280dd6843ebfb08a625e3eb905c4f5ab), userDataDir=C:\Users\user\AppData\Local\Temp\scoped_dir18720_32241}, takesHeapSnapshot=true, pageLoadStrategy=normal, unhandledPromptBehavior=, databaseEnabled=false, handlesAlerts=true, version=68.0.3440.106, browserConnectionEnabled=false, nativeEvents=true, locationContextEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 253ecdf3aef6020e2cc88f3879173eec 
+2018-11-16 14:36:48,205 INFO  [Log] Invoke AUT: https://developers.google.com/speed/pagespeed/insights/ in chrome browser successfully. 
+2018-11-16 14:36:48,208 INFO  [Log] Implicit wait applied on the driver for 30 seconds. 
+2018-11-16 14:49:46,819 INFO  [Log] Invoke AUT: https://developers.google.com/speed/pagespeed/insights/ in chrome browser successfully. 
+2018-11-16 14:49:46,822 INFO  [Log] Implicit wait applied on the driver for 30 seconds. 
+2018-11-16 14:49:47,231 INFO  [Log] The mouse over by xpath : //div[@class='analyze-cell']/div is performed. 
+2018-11-16 14:52:23,558 INFO  [Log] Invoke AUT: https://developers.google.com/speed/pagespeed/insights/ in chrome browser successfully. 
+2018-11-16 14:52:23,567 INFO  [Log] Implicit wait applied on the driver for 30 seconds. 
+2018-11-16 14:52:23,964 INFO  [Log] The mouse over by xpath : //div[@role='button' and text()=' ANALYZE '] is performed. 
+2018-11-16 14:53:52,508 INFO  [Log] Invoke AUT: https://developers.google.com/speed/pagespeed/insights/ in chrome browser successfully. 
+2018-11-16 14:53:52,512 INFO  [Log] Implicit wait applied on the driver for 30 seconds. 
+2018-11-16 14:53:52,892 INFO  [Log] The mouse over by xpath : //div[@role='button' and text()=' ANALYZE '] is performed. 
+2018-11-16 14:54:56,145 INFO  [Log] The mouse over by xpath : //div[@class='tab-title' and text()='Desktop'] is performed. 
+2018-11-16 14:55:02,831 INFO  [Log] Invoke AUT: https://developers.google.com/speed/pagespeed/insights/ in chrome browser successfully. 
+2018-11-16 14:55:02,835 INFO  [Log] Implicit wait applied on the driver for 30 seconds. 
+2018-11-16 14:55:03,136 INFO  [Log] The mouse over by xpath : //div[@role='button' and text()=' ANALYZE '] is performed. 
+2018-11-16 14:56:06,360 INFO  [Log] The mouse over by xpath : //div[@class='tab-title' and text()='Desktop'] is performed. 
+2018-11-16 14:56:12,985 INFO  [Log] Invoke AUT: https://developers.google.com/speed/pagespeed/insights/ in chrome browser successfully. 
+2018-11-16 14:56:12,988 INFO  [Log] Implicit wait applied on the driver for 30 seconds. 
+2018-11-16 14:56:13,262 INFO  [Log] The mouse over by xpath : //div[@role='button' and text()=' ANALYZE '] is performed. 
+2018-11-16 14:57:16,476 INFO  [Log] The mouse over by xpath : //div[@class='tab-title' and text()='Desktop'] is performed. 
+2018-11-16 14:57:22,923 INFO  [Log] Invoke AUT: https://developers.google.com/speed/pagespeed/insights/ in chrome browser successfully. 
+2018-11-16 14:57:22,926 INFO  [Log] Implicit wait applied on the driver for 30 seconds. 
+2018-11-16 14:57:23,232 INFO  [Log] The mouse over by xpath : //div[@role='button' and text()=' ANALYZE '] is performed. 
+2018-11-16 14:58:26,446 INFO  [Log] The mouse over by xpath : //div[@class='tab-title' and text()='Desktop'] is performed. 
+2018-11-16 14:58:32,953 INFO  [Log] Invoke AUT: https://developers.google.com/speed/pagespeed/insights/ in chrome browser successfully. 
+2018-11-16 14:58:32,956 INFO  [Log] Implicit wait applied on the driver for 30 seconds. 
+2018-11-16 14:58:33,277 INFO  [Log] The mouse over by xpath : //div[@role='button' and text()=' ANALYZE '] is performed. 
+2018-11-16 14:59:36,500 INFO  [Log] The mouse over by xpath : //div[@class='tab-title' and text()='Desktop'] is performed. 
+2018-11-16 14:59:43,889 INFO  [Log] Invoke AUT: https://developers.google.com/speed/pagespeed/insights/ in chrome browser successfully. 
+2018-11-16 14:59:43,893 INFO  [Log] Implicit wait applied on the driver for 30 seconds. 
+2018-11-16 14:59:44,194 INFO  [Log] The mouse over by xpath : //div[@role='button' and text()=' ANALYZE '] is performed. 
+2018-11-16 15:00:47,404 INFO  [Log] The mouse over by xpath : //div[@class='tab-title' and text()='Desktop'] is performed. 
+2018-11-16 15:00:54,027 INFO  [Log] Invoke AUT: https://developers.google.com/speed/pagespeed/insights/ in chrome browser successfully. 
+2018-11-16 15:00:54,029 INFO  [Log] Implicit wait applied on the driver for 30 seconds. 
+2018-11-16 15:00:54,275 INFO  [Log] The mouse over by xpath : //div[@role='button' and text()=' ANALYZE '] is performed. 
+2018-11-16 15:01:57,467 INFO  [Log] The mouse over by xpath : //div[@class='tab-title' and text()='Desktop'] is performed. 
+2018-11-16 15:02:33,680 FATAL [Log] Unable to find the given element Logout :org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of element located by By.linkText: Logout (tried for 30 second(s) with 500 MILLISECONDS interval) 
+2018-11-16 15:12:11,128 INFO  [Log] Invoke AUT: https://developers.google.com/speed/pagespeed/insights/ in chrome browser successfully. 
+2018-11-16 15:12:11,133 INFO  [Log] Implicit wait applied on the driver for 30 seconds. 
+2018-11-16 15:12:11,483 INFO  [Log] The mouse over by xpath : //div[@role='button' and text()=' ANALYZE '] is performed. 
+2018-11-16 15:13:11,776 INFO  [Log] The mouse over by xpath : //div[@class='tab-title' and text()='Desktop'] is performed. 
+2018-11-16 15:13:13,169 INFO  [Log] Invoke AUT: https://developers.google.com/speed/pagespeed/insights/ in chrome browser successfully. 
+2018-11-16 15:13:13,173 INFO  [Log] Implicit wait applied on the driver for 30 seconds. 
+2018-11-16 15:13:13,486 INFO  [Log] The mouse over by xpath : //div[@role='button' and text()=' ANALYZE '] is performed. 
+2018-11-16 15:14:13,720 INFO  [Log] The mouse over by xpath : //div[@class='tab-title' and text()='Desktop'] is performed. 
+2018-11-16 15:14:14,999 INFO  [Log] Invoke AUT: https://developers.google.com/speed/pagespeed/insights/ in chrome browser successfully. 
+2018-11-16 15:14:15,003 INFO  [Log] Implicit wait applied on the driver for 30 seconds. 
+2018-11-16 15:14:15,295 INFO  [Log] The mouse over by xpath : //div[@role='button' and text()=' ANALYZE '] is performed. 
+2018-11-16 15:15:15,579 INFO  [Log] The mouse over by xpath : //div[@class='tab-title' and text()='Desktop'] is performed. 
+2018-11-16 15:15:16,839 INFO  [Log] Invoke AUT: https://developers.google.com/speed/pagespeed/insights/ in chrome browser successfully. 
+2018-11-16 15:15:16,844 INFO  [Log] Implicit wait applied on the driver for 30 seconds. 
+2018-11-16 15:15:17,157 INFO  [Log] The mouse over by xpath : //div[@role='button' and text()=' ANALYZE '] is performed. 
+2018-11-16 15:16:17,382 INFO  [Log] The mouse over by xpath : //div[@class='tab-title' and text()='Desktop'] is performed. 
+2018-11-16 15:16:18,624 INFO  [Log] Invoke AUT: https://developers.google.com/speed/pagespeed/insights/ in chrome browser successfully. 
+2018-11-16 15:16:18,628 INFO  [Log] Implicit wait applied on the driver for 30 seconds. 
+2018-11-16 15:16:18,942 INFO  [Log] The mouse over by xpath : //div[@role='button' and text()=' ANALYZE '] is performed. 
+2018-11-16 15:17:19,161 INFO  [Log] The mouse over by xpath : //div[@class='tab-title' and text()='Desktop'] is performed. 
+2018-11-16 15:17:20,546 INFO  [Log] Invoke AUT: https://developers.google.com/speed/pagespeed/insights/ in chrome browser successfully. 
+2018-11-16 15:17:20,550 INFO  [Log] Implicit wait applied on the driver for 30 seconds. 
+2018-11-16 15:17:20,810 INFO  [Log] The mouse over by xpath : //div[@role='button' and text()=' ANALYZE '] is performed. 
+2018-11-16 15:18:21,025 INFO  [Log] The mouse over by xpath : //div[@class='tab-title' and text()='Desktop'] is performed. 
+2018-11-16 15:18:22,239 INFO  [Log] Invoke AUT: https://developers.google.com/speed/pagespeed/insights/ in chrome browser successfully. 
+2018-11-16 15:18:22,243 INFO  [Log] Implicit wait applied on the driver for 30 seconds. 
+2018-11-16 15:18:22,518 INFO  [Log] The mouse over by xpath : //div[@role='button' and text()=' ANALYZE '] is performed. 
+2018-11-16 15:19:22,746 INFO  [Log] The mouse over by xpath : //div[@class='tab-title' and text()='Desktop'] is performed. 
+2018-11-16 15:19:53,763 FATAL [Log] Unable to find the given element Logout :org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of element located by By.linkText: Logout (tried for 30 second(s) with 500 MILLISECONDS interval) 
+>>>>>>> 664a8074f85a3454f56e48ccf2d6d5bc7d2c434c
