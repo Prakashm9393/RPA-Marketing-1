@@ -150,7 +150,7 @@ public class Performance_Audit_Library extends GenericWrappers{
 			String url = testData.getCellData("Page_Speed_Insight", 0, i);
 			enterText("name&url", url);			
 			mouseOverAndClickAction("Xpath&//div[@role='button' and text()=' ANALYZE ']");
-			waitTime(60000);			
+			waitTime(3000);			
 			String Mobile_value = getElement("Xpath&(//div[@class='lh-gauge__percentage'])[1]").getText();
 			mouseOverAndClickAction("Xpath&//div[@class='tab-title' and text()='Desktop']");			
 			waitTime(800);
