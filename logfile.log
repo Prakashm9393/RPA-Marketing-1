@@ -878,3 +878,16 @@ Session ID: a4a91878c4c13f36d79a29a612a10221
 2018-11-15 20:21:04,617 INFO  [Log] Invoke AUT: https://developers.google.com/speed/pagespeed/insights/ in chrome browser successfully. 
 2018-11-15 20:21:04,624 INFO  [Log] Implicit wait applied on the driver for 30 seconds. 
 2018-11-15 20:21:53,765 FATAL [Log] Unable to find the given element Logout :org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of element located by By.linkText: Logout (tried for 30 second(s) with 500 MILLISECONDS interval) 
+2018-11-15 21:18:09,286 INFO  [Log] Invoke AUT: https://developers.google.com/speed/pagespeed/insights/ in chrome browser successfully. 
+2018-11-15 21:18:09,290 INFO  [Log] Implicit wait applied on the driver for 30 seconds. 
+2018-11-15 21:18:30,225 INFO  [Log] Invoke AUT: https://developers.google.com/speed/pagespeed/insights/ in chrome browser successfully. 
+2018-11-15 21:18:30,228 INFO  [Log] Implicit wait applied on the driver for 30 seconds. 
+2018-11-15 21:18:44,215 INFO  [Log] Invoke AUT: https://developers.google.com/speed/pagespeed/insights/ in chrome browser successfully. 
+2018-11-15 21:18:44,218 INFO  [Log] Implicit wait applied on the driver for 30 seconds. 
+2018-11-15 21:19:01,044 INFO  [Log] Invoke AUT: https://developers.google.com/speed/pagespeed/insights/ in chrome browser successfully. 
+2018-11-15 21:19:01,053 INFO  [Log] Implicit wait applied on the driver for 30 seconds. 
+2018-11-15 21:19:31,554 FATAL [Log] Unable to find the given element //div[@class='button button-red analyze jfk-button main-submit jfk-button-standard'] :org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of element located by By.xpath: //div[@class='button button-red analyze jfk-button main-submit jfk-button-standard'] (tried for 10 second(s) with 500 MILLISECONDS interval) 
+2018-11-15 21:19:35,220 INFO  [Log] Invoke AUT: https://developers.google.com/speed/pagespeed/insights/ in chrome browser successfully. 
+2018-11-15 21:19:35,223 INFO  [Log] Implicit wait applied on the driver for 30 seconds. 
+2018-11-15 21:19:50,312 INFO  [Log] Invoke AUT: https://developers.google.com/speed/pagespeed/insights/ in chrome browser successfully. 
+2018-11-15 21:19:50,315 INFO  [Log] Implicit wait applied on the driver for 30 seconds. 
