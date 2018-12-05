@@ -1,9 +1,6 @@
 package library;
 
 import java.text.DecimalFormat;
-import org.openqa.selenium.By;
-import org.openqa.selenium.Keys;
-import org.openqa.selenium.WebElement;
 import activities.ExcelDataUtility;
 import activities.GenericWrappers;
 
@@ -43,6 +40,94 @@ public class Performance_Audit_Library extends GenericWrappers{
 		clickOn("linktext&Logout");
 		closeWindow();
 	}	
+	
+	public String[] getMobileViewResponseTimeInWebPageTest(String url) throws Exception{
+		invokeApp(browserName);
+		getUrl("https://www.webpagetest.org/");
+		clickOn("linktext&Login with Google");
+		waitTime(1000);		
+		enterText("id&identifierId", "performance.rpa@gmail.com");
+		waitTime(1000);
+		clickOn("id&identifierNext");
+		waitTime(2000);
+		enterText("Xpath&//input[@type='password']", "Ameexusa@2018");		
+		waitTime(1000);
+		clickOn("id&passwordNext");
+		waitTime(2000);		
+		enterText("id&url", url);
+		selectByVisibleTextInDropdown("id&browser", "Galaxy S7 - Chrome");
+		String advanced_settings = getDriver().findElementById("advanced_settings").getAttribute("class"); 
+		if(advanced_settings.isEmpty()){
+			clickOn("id&advanced_settings");
+		}	
+		selectByVisibleTextInDropdown("id&connection", "LTE (12 Mbps/12 Mbps 70ms RTT)");
+		enterText("id&number_of_tests", "1");
+		clickOn("id&viewBoth");
+		clickOn("Xpath&//div[@id='start_test-container']//button");
+		waitTime(3000);
+		String result = driver.getCurrentUrl();
+		waitTime(300000);
+		String str = getDriver().findElementByXPath("//table[@id='tableResults']/tbody/tr[3]/td[@id='fvLoadTime']").getText();
+		StringBuffer sb = new StringBuffer(str);	
+		for (int j = 0; j < sb.length(); j++) {
+			if(sb.charAt(j) == 's'){
+			sb.deleteCharAt(j);
+		    }
+		}			
+		String strg = sb.toString();
+		float f = Float.parseFloat(strg);
+		DecimalFormat decimalFormat = new DecimalFormat("#.##");
+		float twoDigitsF = Float.valueOf(decimalFormat.format(f));
+		String loadTime = String.valueOf(twoDigitsF);
+		clickOn("linktext&Logout");
+		closeWindow();
+		return new String[] {result,loadTime};
+	}
+	
+	public String[] getDesktopViewResponseTimeInWebPageTest(String url) throws Exception{
+		invokeApp(browserName);
+		getUrl("https://www.webpagetest.org/");
+		clickOn("linktext&Login with Google");
+		waitTime(1000);		
+		enterText("id&identifierId", "performance.rpa@gmail.com");
+		waitTime(1000);
+		clickOn("id&identifierNext");
+		waitTime(2000);
+		enterText("Xpath&//input[@type='password']", "Ameexusa@2018");		
+		waitTime(1000);
+		clickOn("id&passwordNext");
+		waitTime(2000);	
+		enterText("id&url", url);
+		selectByVisibleTextInDropdown("id&browser", "Chrome");
+		String advanced_settings = getDriver().findElementById("advanced_settings").getAttribute("class"); 
+		if(advanced_settings.isEmpty()){
+			clickOn("id&advanced_settings");
+		}	
+		selectByVisibleTextInDropdown("id&connection", "Cable (5/1 Mbps 28ms RTT)");
+		enterText("id&number_of_tests", "1");
+		clickOn("id&viewBoth");
+		clickOn("Xpath&//div[@id='start_test-container']//button");
+		waitTime(3000);
+		String result = driver.getCurrentUrl();
+		waitTime(120000);
+		String str = getDriver().findElementByXPath("//table[@id='tableResults']/tbody/tr[3]/td[@id='fvLoadTime']").getText();
+		StringBuffer sb = new StringBuffer(str);	
+		for(int j = 0; j < sb.length(); j++){
+			if(sb.charAt(j) == 's'){
+				sb.deleteCharAt(j);
+		    }
+		}			
+		String strg = sb.toString();
+		float f = Float.parseFloat(strg);
+		DecimalFormat decimalFormat = new DecimalFormat("#.##");
+		float twoDigitsF = Float.valueOf(decimalFormat.format(f));
+		String loadTime = String.valueOf(twoDigitsF);
+		String requests = driver.findElementByXPath("//table[@id='tableResults']/tbody/tr[3]/td[@id='fvRequestsDoc']").getText();
+		String bytes = driver.findElementByXPath("//table[@id='tableResults']/tbody/tr[3]/td[@id='fvBytesInDoc']").getText();
+		clickOn("linktext&Logout");
+		closeWindow();
+		return new String[] {result,loadTime,requests,bytes};
+	}
 	
 	public void getDesktopWebPageTestResult() throws Exception{
 		ExcelDataUtility testData = new ExcelDataUtility("./data/Performance_Audit.xlsx");
@@ -162,24 +247,6 @@ public class Performance_Audit_Library extends GenericWrappers{
 		}	
 		closeWindow();
 	}
-
-	public void Page_count() throws Exception{		
-		ExcelDataUtility testData = new ExcelDataUtility("./data/Performance_Audit.xlsx");
-		invokeApp(browserName);
-		for(int i = 1; i <= testData.getTotalRowNumber("Site_Link"); i++){
-			driver.get("https://www.google.com");
-			String url = testData.getCellData("Site_Link", 0, i);
-		driver.findElement(By.xpath("//input[@class='gLFyf gsfi']")).sendKeys("site:", url);
-		driver.findElement(By.xpath("//input[@class='gLFyf gsfi']")).sendKeys(Keys.ENTER);
-		WebElement element = driver.findElement(By.xpath("//div[@id='resultStats']"));
-		String result = element.getText();
-		String [] aSplit = result.split(" ");
-		System.out.println("Count is "+ aSplit[1]);
-		testData.setCellData("Site_Link", 1, i, aSplit[1]);
-		}
-		closeWindow();
-    }
-
 	
 	public void getGTMetrixGoogleGradeResult() throws Exception{
 		ExcelDataUtility testData = new ExcelDataUtility("./data/Performance_Audit.xlsx");
