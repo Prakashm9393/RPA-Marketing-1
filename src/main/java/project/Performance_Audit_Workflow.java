@@ -9,11 +9,8 @@ public class Performance_Audit_Workflow{
 	
 	Performance_Audit_Library library = new Performance_Audit_Library();
 	
-<<<<<<< HEAD
     @Test(priority=0)
-=======
-	//@Test(priority=0)
->>>>>>> a8b36ba599f16539072d7ae22699ff16c830da8b
+
 	public void start0_get_mobile_web_page_test_run(){
 		
 		try{
@@ -62,7 +59,7 @@ public class Performance_Audit_Workflow{
 		}catch(Exception e){			
 			throw new RuntimeException("Failed - " + e.toString());
 		}
-<<<<<<< HEAD
+
 	}
 	
 	@Test(priority=5)
@@ -74,8 +71,4 @@ public class Performance_Audit_Workflow{
 			throw new RuntimeException("Failed - " + e.toString());
 		}
 	}
-=======
 	}	
->>>>>>> a8b36ba599f16539072d7ae22699ff16c830da8b
-
-}

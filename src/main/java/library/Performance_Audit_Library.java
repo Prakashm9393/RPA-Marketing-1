@@ -162,7 +162,6 @@ public class Performance_Audit_Library extends GenericWrappers{
 		}	
 		closeWindow();
 	}
-<<<<<<< HEAD
 
 	public void Page_count() throws Exception{		
 		ExcelDataUtility testData = new ExcelDataUtility("./data/Performance_Audit.xlsx");
@@ -180,7 +179,7 @@ public class Performance_Audit_Library extends GenericWrappers{
 		}
 		closeWindow();
     }
-=======
+
 	
 	public void getGTMetrixGoogleGradeResult() throws Exception{
 		ExcelDataUtility testData = new ExcelDataUtility("./data/Performance_Audit.xlsx");
@@ -206,5 +205,4 @@ public class Performance_Audit_Library extends GenericWrappers{
 		closeWindow();
 	}	
 	
->>>>>>> a8b36ba599f16539072d7ae22699ff16c830da8b
 }
