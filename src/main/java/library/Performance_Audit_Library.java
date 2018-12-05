@@ -1,9 +1,11 @@
 package library;
 
 import java.text.DecimalFormat;
-
-import activities.GenericWrappers;
+import org.openqa.selenium.By;
+import org.openqa.selenium.Keys;
+import org.openqa.selenium.WebElement;
 import activities.ExcelDataUtility;
+import activities.GenericWrappers;
 
 public class Performance_Audit_Library extends GenericWrappers{
 	
@@ -150,15 +152,31 @@ public class Performance_Audit_Library extends GenericWrappers{
 			String url = testData.getCellData("Page_Speed_Insight", 0, i);
 			enterText("name&url", url);			
 			mouseOverAndClickAction("Xpath&//div[@role='button' and text()=' ANALYZE ']");
-			waitTime(3000);			
+			waitTime(60000);			
 			String Mobile_value = getElement("Xpath&(//div[@class='lh-gauge__percentage'])[1]").getText();
 			mouseOverAndClickAction("Xpath&//div[@class='tab-title' and text()='Desktop']");			
 			waitTime(800);
 			String Desktop_value = getElement("Xpath&(//div[@class='lh-gauge__percentage'])[2]").getText();			
 			testData.setCellData("Page_Speed_Insight", 1, i, Mobile_value+"%");
 			testData.setCellData("Page_Speed_Insight", 2, i, Desktop_value+"%");			
-		}		
+		}	
 		closeWindow();
 	}
 
+	public void Page_count() throws Exception{		
+		ExcelDataUtility testData = new ExcelDataUtility("./data/Performance_Audit.xlsx");
+		invokeApp(browserName);
+		for(int i = 1; i <= testData.getTotalRowNumber("Site_Link"); i++){
+			driver.get("https://www.google.com");
+			String url = testData.getCellData("Site_Link", 0, i);
+		driver.findElement(By.xpath("//input[@class='gLFyf gsfi']")).sendKeys("site:", url);
+		driver.findElement(By.xpath("//input[@class='gLFyf gsfi']")).sendKeys(Keys.ENTER);
+		WebElement element = driver.findElement(By.xpath("//div[@id='resultStats']"));
+		String result = element.getText();
+		String [] aSplit = result.split(" ");
+		System.out.println("Count is "+ aSplit[1]);
+		testData.setCellData("Site_Link", 1, i, aSplit[1]);
+		}
+		closeWindow();
+    }
 }

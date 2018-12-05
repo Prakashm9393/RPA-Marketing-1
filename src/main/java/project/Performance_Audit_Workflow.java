@@ -9,7 +9,7 @@ public class Performance_Audit_Workflow{
 	
 	Performance_Audit_Library library = new Performance_Audit_Library();
 	
-	@Test(priority=0)
+    @Test(priority=0)
 	public void start0_get_mobile_web_page_test_run(){
 		try{
 			library.getMobileWebPageTestResult();
@@ -53,6 +53,16 @@ public class Performance_Audit_Workflow{
 		try{
 			library.waitTime();
 			library.putMobileWebPageTest();
+		}catch(Exception e){			
+			throw new RuntimeException("Failed - " + e.toString());
+		}
+	}
+	
+	@Test(priority=5)
+	public void next5_Page_count(){
+		try{
+			library.waitTime();
+			library.Page_count();
 		}catch(Exception e){			
 			throw new RuntimeException("Failed - " + e.toString());
 		}
