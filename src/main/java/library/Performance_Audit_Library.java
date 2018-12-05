@@ -162,6 +162,7 @@ public class Performance_Audit_Library extends GenericWrappers{
 		}	
 		closeWindow();
 	}
+<<<<<<< HEAD
 
 	public void Page_count() throws Exception{		
 		ExcelDataUtility testData = new ExcelDataUtility("./data/Performance_Audit.xlsx");
@@ -179,4 +180,31 @@ public class Performance_Audit_Library extends GenericWrappers{
 		}
 		closeWindow();
     }
+=======
+	
+	public void getGTMetrixGoogleGradeResult() throws Exception{
+		ExcelDataUtility testData = new ExcelDataUtility("./data/Performance_Audit.xlsx");
+		invokeApp(browserName);
+		getUrl("https://gtmetrix.com/");
+		clickOn("linktext&Log In");
+		waitTime(1000);		
+		enterText("id&li-email", "mahesh.ameex@gmail.com");
+		enterText("id&li-password", "123456");		
+		waitTime(1000);
+		clickOn("xpath&//button[text()='Log In']");
+		waitTime(2000);	
+		for(int i = 1; i <= testData.getTotalRowNumber("GTMetrix"); i++){
+			getUrl("https://gtmetrix.com/");
+			String url = testData.getCellData("GTMetrix", 0, i);
+			enterText("name&url", url);
+			clickOn("Xpath&//button[text()='Analyze']");
+			waitTime(60000);			
+			String result = getDriver().getCurrentUrl();
+			testData.setCellData("GTMetrix", 4, i,result);		
+		}
+		clickOn("linktext&Logout");
+		closeWindow();
+	}	
+	
+>>>>>>> a8b36ba599f16539072d7ae22699ff16c830da8b
 }
