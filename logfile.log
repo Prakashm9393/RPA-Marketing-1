@@ -1259,3 +1259,73 @@ Session ID: 253ecdf3aef6020e2cc88f3879173eec
 2018-12-05 21:56:38,937 INFO  [Log] Implicit wait applied on the driver for 30 seconds. 
 2018-12-05 21:56:51,878 INFO  [Log] The element with id: browser is selected with visible text: Chrome 
 2018-12-05 21:56:52,032 INFO  [Log] The element with id: connection is selected with visible text: Cable (5/1 Mbps 28ms RTT) 
+2018-12-06 11:16:51,849 INFO  [Log] Invoke AUT: https://www.webpagetest.org/ in chrome browser successfully. 
+2018-12-06 11:16:51,886 INFO  [Log] Implicit wait applied on the driver for 30 seconds. 
+2018-12-06 11:17:09,508 INFO  [Log] The element with id: browser is selected with visible text: Chrome 
+2018-12-06 11:17:09,657 INFO  [Log] The element with id: connection is selected with visible text: Cable (5/1 Mbps 28ms RTT) 
+2018-12-06 11:19:47,509 INFO  [Log] Invoke AUT: https://www.webpagetest.org/ in chrome browser successfully. 
+2018-12-06 11:19:47,512 INFO  [Log] Implicit wait applied on the driver for 30 seconds. 
+2018-12-06 11:19:59,555 INFO  [Log] The element with id: browser is selected with visible text: Galaxy S7 - Chrome 
+2018-12-06 11:19:59,725 INFO  [Log] The element with id: connection is selected with visible text: LTE (12 Mbps/12 Mbps 70ms RTT) 
+2018-12-06 11:30:15,443 INFO  [Log] Invoke AUT: https://www.webpagetest.org/ in chrome browser successfully. 
+2018-12-06 11:30:15,448 INFO  [Log] Implicit wait applied on the driver for 30 seconds. 
+2018-12-06 11:30:27,683 INFO  [Log] The element with id: browser is selected with visible text: Galaxy S7 - Chrome 
+2018-12-06 11:30:27,869 INFO  [Log] The element with id: connection is selected with visible text: LTE (12 Mbps/12 Mbps 70ms RTT) 
+2018-12-06 12:10:32,518 INFO  [Log] Invoke AUT: https://www.webpagetest.org/ in chrome browser successfully. 
+2018-12-06 12:10:32,524 INFO  [Log] Implicit wait applied on the driver for 30 seconds. 
+2018-12-06 12:10:44,557 INFO  [Log] The element with id: browser is selected with visible text: Galaxy S7 - Chrome 
+2018-12-06 12:10:44,774 INFO  [Log] The element with id: connection is selected with visible text: LTE (12 Mbps/12 Mbps 70ms RTT) 
+2018-12-06 12:12:08,915 INFO  [Log] Invoke AUT: https://www.webpagetest.org/ in chrome browser successfully. 
+2018-12-06 12:12:08,920 INFO  [Log] Implicit wait applied on the driver for 30 seconds. 
+2018-12-06 12:12:21,129 INFO  [Log] The element with id: browser is selected with visible text: Galaxy S7 - Chrome 
+2018-12-06 12:12:21,298 INFO  [Log] The element with id: connection is selected with visible text: LTE (12 Mbps/12 Mbps 70ms RTT) 
+2018-12-06 12:15:14,192 INFO  [Log] Invoke AUT: https://www.webpagetest.org/ in chrome browser successfully. 
+2018-12-06 12:15:14,196 INFO  [Log] Implicit wait applied on the driver for 30 seconds. 
+2018-12-06 12:15:27,698 INFO  [Log] The element with id: browser is selected with visible text: Galaxy S7 - Chrome 
+2018-12-06 12:15:27,890 INFO  [Log] The element with id: connection is selected with visible text: LTE (12 Mbps/12 Mbps 70ms RTT) 
+2018-12-06 12:16:49,462 INFO  [Log] Invoke AUT: https://www.webpagetest.org/ in chrome browser successfully. 
+2018-12-06 12:16:49,469 INFO  [Log] Implicit wait applied on the driver for 30 seconds. 
+2018-12-06 12:17:02,318 INFO  [Log] The element with id: browser is selected with visible text: Galaxy S7 - Chrome 
+2018-12-06 12:17:02,465 INFO  [Log] The element with id: connection is selected with visible text: LTE (12 Mbps/12 Mbps 70ms RTT) 
+2018-12-06 12:18:20,857 INFO  [Log] Invoke AUT: https://www.webpagetest.org/ in chrome browser successfully. 
+2018-12-06 12:18:20,871 INFO  [Log] Implicit wait applied on the driver for 30 seconds. 
+2018-12-06 12:18:33,300 INFO  [Log] The element with id: browser is selected with visible text: Galaxy S7 - Chrome 
+2018-12-06 12:18:33,465 INFO  [Log] The element with id: connection is selected with visible text: LTE (12 Mbps/12 Mbps 70ms RTT) 
+2018-12-06 12:20:24,480 INFO  [Log] Invoke AUT: https://www.webpagetest.org/ in chrome browser successfully. 
+2018-12-06 12:20:24,483 INFO  [Log] Implicit wait applied on the driver for 30 seconds. 
+2018-12-06 12:20:36,661 INFO  [Log] The element with id: browser is selected with visible text: Galaxy S7 - Chrome 
+2018-12-06 12:20:36,815 INFO  [Log] The element with id: connection is selected with visible text: LTE (12 Mbps/12 Mbps 70ms RTT) 
+2018-12-06 12:22:17,544 INFO  [Log] Invoke AUT: https://www.webpagetest.org/ in chrome browser successfully. 
+2018-12-06 12:22:17,548 INFO  [Log] Implicit wait applied on the driver for 30 seconds. 
+2018-12-06 12:22:29,489 INFO  [Log] The element with id: browser is selected with visible text: Galaxy S7 - Chrome 
+2018-12-06 12:22:29,726 INFO  [Log] The element with id: connection is selected with visible text: LTE (12 Mbps/12 Mbps 70ms RTT) 
+2018-12-06 12:23:37,726 INFO  [Log] Invoke AUT: https://www.webpagetest.org/ in chrome browser successfully. 
+2018-12-06 12:23:37,730 INFO  [Log] Implicit wait applied on the driver for 30 seconds. 
+2018-12-06 12:23:49,610 INFO  [Log] The element with id: browser is selected with visible text: Galaxy S7 - Chrome 
+2018-12-06 12:23:49,769 INFO  [Log] The element with id: connection is selected with visible text: LTE (12 Mbps/12 Mbps 70ms RTT) 
+2018-12-06 12:25:10,515 INFO  [Log] Invoke AUT: https://www.webpagetest.org/ in chrome browser successfully. 
+2018-12-06 12:25:10,520 INFO  [Log] Implicit wait applied on the driver for 30 seconds. 
+2018-12-06 12:25:42,389 FATAL [Log] Unable to find the given element identifierId :org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of element located by By.id: identifierId (tried for 10 second(s) with 500 MILLISECONDS interval) 
+2018-12-06 12:26:03,350 FATAL [Log] Unable to find the given element //input[@type='password'] :org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of element located by By.xpath: //input[@type='password'] (tried for 10 second(s) with 500 MILLISECONDS interval)
+Build info: version: '3.6.0', revision: '6fbf3ec767', time: '2017-09-27T15:28:36.4Z'
+System info: host: 'MJN_TEST_AUTOMA', ip: '10.10.4.218', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '10.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{mobileEmulationEnabled=false, hasTouchScreen=false, platform=XP, acceptSslCerts=false, acceptInsecureCerts=false, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, platformName=XP, setWindowRect=true, unexpectedAlertBehaviour=, applicationCacheEnabled=false, rotatable=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.40.565498 (ea082db3280dd6843ebfb08a625e3eb905c4f5ab), userDataDir=C:\Users\user\AppData\Local\Temp\scoped_dir23184_21861}, takesHeapSnapshot=true, pageLoadStrategy=normal, unhandledPromptBehavior=, databaseEnabled=false, handlesAlerts=true, version=70.0.3538.110, browserConnectionEnabled=false, nativeEvents=true, locationContextEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 353cf678bd592ecbbf9bbb67a5039930 
+2018-12-06 12:26:34,416 FATAL [Log] Unable to find the given element passwordNext :org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of element located by By.id: passwordNext (tried for 10 second(s) with 500 MILLISECONDS interval) 
+2018-12-06 12:27:06,465 FATAL [Log] Unable to find the given element url :org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of element located by By.id: url (tried for 10 second(s) with 500 MILLISECONDS interval) 
+2018-12-06 12:27:36,555 FATAL [Log] The visible text: Galaxy S7 - Chrome could not be selected. org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"id","selector":"browser"}
+  (Session info: chrome=70.0.3538.110)
+  (Driver info: chromedriver=2.40.565498 (ea082db3280dd6843ebfb08a625e3eb905c4f5ab),platform=Windows NT 10.0.17134 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.6.0', revision: '6fbf3ec767', time: '2017-09-27T15:28:36.4Z'
+System info: host: 'MJN_TEST_AUTOMA', ip: '10.10.4.218', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '10.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{mobileEmulationEnabled=false, hasTouchScreen=false, platform=XP, acceptSslCerts=false, acceptInsecureCerts=false, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, platformName=XP, setWindowRect=true, unexpectedAlertBehaviour=, applicationCacheEnabled=false, rotatable=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.40.565498 (ea082db3280dd6843ebfb08a625e3eb905c4f5ab), userDataDir=C:\Users\user\AppData\Local\Temp\scoped_dir23184_21861}, takesHeapSnapshot=true, pageLoadStrategy=normal, unhandledPromptBehavior=, databaseEnabled=false, handlesAlerts=true, version=70.0.3538.110, browserConnectionEnabled=false, nativeEvents=true, locationContextEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 353cf678bd592ecbbf9bbb67a5039930
+*** Element info: {Using=id, value=browser} 
+2018-12-06 12:28:18,714 INFO  [Log] Invoke AUT: https://www.webpagetest.org/ in chrome browser successfully. 
+2018-12-06 12:28:18,717 INFO  [Log] Implicit wait applied on the driver for 30 seconds. 
+2018-12-06 12:28:31,967 INFO  [Log] The element with id: browser is selected with visible text: Galaxy S7 - Chrome 
+2018-12-06 12:28:32,128 INFO  [Log] The element with id: connection is selected with visible text: LTE (12 Mbps/12 Mbps 70ms RTT) 

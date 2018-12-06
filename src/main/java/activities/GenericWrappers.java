@@ -1649,5 +1649,74 @@ public class GenericWrappers{
 		}
 		return bReturn;
 	}
+	
+	public boolean waitUntilElementIsVisible(String locator,long sec){
+		//Log4j Configuration XML file 	
+	    DOMConfigurator.configure("log4j.xml");
+		
+		boolean bReturn = false;
+		String[] data = locator.split("&");
+		String key = data[0];
+		String value = data[1];
+		if(key.equalsIgnoreCase("ID")){
+			try {
+				WebDriverWait wait = new WebDriverWait(getDriver(), sec);
+				wait.until(ExpectedConditions.visibilityOfElementLocated(By.id(value)));							
+				bReturn = true;
+			} catch (Exception e) {				
+				Log.fatal("Failed - Unable to find the given element "+value+" with in "+sec+" seconds:"+e.toString());
+				throw new RuntimeException("Failed - Unable to find the given element "+value+" with in "+sec+" seconds:"+e.toString());
+			}			
+		}else if(key.equalsIgnoreCase("NAME")){
+			try {
+				WebDriverWait wait = new WebDriverWait(getDriver(), sec);
+				wait.until(ExpectedConditions.visibilityOfElementLocated(By.name(value)));								
+				bReturn = true;
+			} catch (Exception e) {				
+				Log.fatal("Failed - Unable to find the given element "+value+" with in "+sec+" seconds:"+e.toString());	
+				throw new RuntimeException("Failed - Unable to find the given element "+value+" with in "+sec+" seconds:"+e.toString());
+			}			
+		}else if(key.equalsIgnoreCase("CLASSNAME")){
+			try {
+				WebDriverWait wait = new WebDriverWait(getDriver(), sec);
+				wait.until(ExpectedConditions.visibilityOfElementLocated(By.className(value)));								
+				bReturn = true;
+			} catch (Exception e) {				
+				Log.fatal("Failed - Unable to find the given element "+value+" with in "+sec+" seconds:"+e.toString());	
+				throw new RuntimeException("Failed - Unable to find the given element "+value+" with in "+sec+" seconds:"+e.toString());
+			}					
+		}else if(key.equalsIgnoreCase("TAGNAME")){
+			try {
+				WebDriverWait wait = new WebDriverWait(getDriver(), sec);
+				wait.until(ExpectedConditions.visibilityOfElementLocated(By.tagName(value)));								
+				bReturn = true;
+			} catch (Exception e) {				
+				Log.fatal("Failed - Unable to find the given element "+value+" with in "+sec+" seconds:"+e.toString());	
+				throw new RuntimeException("Failed - Unable to find the given element "+value+" with in "+sec+" seconds:"+e.toString());
+			}			
+		}else if(key.equalsIgnoreCase("CSSSELECTOR")){
+			try {
+				WebDriverWait wait = new WebDriverWait(getDriver(), sec);
+				wait.until(ExpectedConditions.visibilityOfElementLocated(By.cssSelector(value)));								
+				bReturn = true;
+			} catch (Exception e) {				
+				Log.fatal("Failed - Unable to find the given element "+value+" with in "+sec+" seconds:"+e.toString());
+				throw new RuntimeException("Failed - Unable to find the given element "+value+" with in "+sec+" seconds:"+e.toString());
+			}			
+		}else if(key.equalsIgnoreCase("XPATH")){
+			try {
+				WebDriverWait wait = new WebDriverWait(getDriver(), sec);
+				wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath(value)));								
+				bReturn = true;
+			} catch (Exception e) {				
+				Log.fatal("Failed - Unable to find the given element "+value+" with in "+sec+" seconds:"+e.toString());
+				throw new RuntimeException("Failed - Unable to find the given element "+value+" with in "+sec+" seconds:"+e.toString());
+			}			
+		}else{
+			Log.error("Kindly, provide correct locator option for enterText.");			
+			throw new RuntimeException("Kindly, provide correct locator option for enterText.");
+		}
+		return bReturn;
+	}
 
 }
