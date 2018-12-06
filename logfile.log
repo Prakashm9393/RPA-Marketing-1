@@ -1333,3 +1333,122 @@ Session ID: 353cf678bd592ecbbf9bbb67a5039930
 2018-12-06 15:03:18,711 INFO  [Log] Implicit wait applied on the driver for 30 seconds. 
 2018-12-06 15:03:35,299 INFO  [Log] The element with id: browser is selected with visible text: Galaxy S7 - Chrome 
 2018-12-06 15:03:35,474 INFO  [Log] The element with id: connection is selected with visible text: LTE (12 Mbps/12 Mbps 70ms RTT) 
+2018-12-06 17:23:28,675 INFO  [Log] Invoke AUT: https://developers.google.com/speed/pagespeed/insights/ in chrome browser successfully. 
+2018-12-06 17:23:28,682 INFO  [Log] Implicit wait applied on the driver for 30 seconds. 
+2018-12-06 17:23:29,806 INFO  [Log] The mouse over by xpath : //div[@role='button' and text()=' ANALYZE '] is performed. 
+2018-12-06 17:24:30,256 INFO  [Log] The mouse over by xpath : //div[@class='tab-title' and text()='Desktop'] is performed. 
+2018-12-06 17:53:50,453 INFO  [Log] Invoke AUT: https://developers.google.com/speed/pagespeed/insights/ in chrome browser successfully. 
+2018-12-06 17:53:50,464 INFO  [Log] Implicit wait applied on the driver for 30 seconds. 
+2018-12-06 17:53:51,065 INFO  [Log] The mouse over by xpath : //div[@role='button' and text()=' ANALYZE '] is performed. 
+2018-12-06 17:54:51,490 INFO  [Log] The mouse over by xpath : //div[@class='tab-title' and text()='Desktop'] is performed. 
+2018-12-06 17:55:03,269 INFO  [Log] Invoke AUT: https://developers.google.com/speed/pagespeed/insights/ in chrome browser successfully. 
+2018-12-06 17:55:03,274 INFO  [Log] Implicit wait applied on the driver for 30 seconds. 
+2018-12-06 17:55:04,009 INFO  [Log] The mouse over by xpath : //div[@role='button' and text()=' ANALYZE '] is performed. 
+2018-12-06 17:56:04,412 INFO  [Log] The mouse over by xpath : //div[@class='tab-title' and text()='Desktop'] is performed. 
+2018-12-06 17:56:16,061 INFO  [Log] Invoke AUT: https://developers.google.com/speed/pagespeed/insights/ in chrome browser successfully. 
+2018-12-06 17:56:16,065 INFO  [Log] Implicit wait applied on the driver for 30 seconds. 
+2018-12-06 17:56:16,450 INFO  [Log] The mouse over by xpath : //div[@role='button' and text()=' ANALYZE '] is performed. 
+2018-12-06 17:57:16,766 INFO  [Log] The mouse over by xpath : //div[@class='tab-title' and text()='Desktop'] is performed. 
+2018-12-06 17:57:46,379 INFO  [Log] Invoke AUT: https://developers.google.com/speed/pagespeed/insights/ in chrome browser successfully. 
+2018-12-06 17:57:46,390 INFO  [Log] Implicit wait applied on the driver for 30 seconds. 
+2018-12-06 17:57:46,895 INFO  [Log] The mouse over by xpath : //div[@role='button' and text()=' ANALYZE '] is performed. 
+2018-12-06 17:58:47,315 INFO  [Log] The mouse over by xpath : //div[@class='tab-title' and text()='Desktop'] is performed. 
+2018-12-06 17:59:01,649 INFO  [Log] Invoke AUT: https://developers.google.com/speed/pagespeed/insights/ in chrome browser successfully. 
+2018-12-06 17:59:01,652 INFO  [Log] Implicit wait applied on the driver for 30 seconds. 
+2018-12-06 17:59:02,160 INFO  [Log] The mouse over by xpath : //div[@role='button' and text()=' ANALYZE '] is performed. 
+2018-12-06 18:00:02,572 INFO  [Log] The mouse over by xpath : //div[@class='tab-title' and text()='Desktop'] is performed. 
+2018-12-06 18:00:14,372 INFO  [Log] Invoke AUT: https://developers.google.com/speed/pagespeed/insights/ in chrome browser successfully. 
+2018-12-06 18:00:14,378 INFO  [Log] Implicit wait applied on the driver for 30 seconds. 
+2018-12-06 18:00:14,903 INFO  [Log] The mouse over by xpath : //div[@role='button' and text()=' ANALYZE '] is performed. 
+2018-12-06 18:01:15,272 INFO  [Log] The mouse over by xpath : //div[@class='tab-title' and text()='Desktop'] is performed. 
+2018-12-06 18:01:26,388 INFO  [Log] Invoke AUT: https://developers.google.com/speed/pagespeed/insights/ in chrome browser successfully. 
+2018-12-06 18:01:26,392 INFO  [Log] Implicit wait applied on the driver for 30 seconds. 
+2018-12-06 18:01:27,001 INFO  [Log] The mouse over by xpath : //div[@role='button' and text()=' ANALYZE '] is performed. 
+2018-12-06 18:02:27,351 INFO  [Log] The mouse over by xpath : //div[@class='tab-title' and text()='Desktop'] is performed. 
+2018-12-06 18:34:21,297 INFO  [Log] Invoke AUT: https://developers.google.com/speed/pagespeed/insights/ in chrome browser successfully. 
+2018-12-06 18:34:21,303 INFO  [Log] Implicit wait applied on the driver for 30 seconds. 
+2018-12-06 18:34:21,867 INFO  [Log] The mouse over by xpath : //div[@role='button' and text()=' ANALYZE '] is performed. 
+2018-12-06 18:35:22,287 INFO  [Log] The mouse over by xpath : //div[@class='tab-title' and text()='Desktop'] is performed. 
+2018-12-06 18:35:33,664 INFO  [Log] Invoke AUT: https://developers.google.com/speed/pagespeed/insights/ in chrome browser successfully. 
+2018-12-06 18:35:33,670 INFO  [Log] Implicit wait applied on the driver for 30 seconds. 
+2018-12-06 18:35:34,143 INFO  [Log] The mouse over by xpath : //div[@role='button' and text()=' ANALYZE '] is performed. 
+2018-12-06 18:36:57,232 INFO  [Log] Invoke AUT: https://developers.google.com/speed/pagespeed/insights/ in chrome browser successfully. 
+2018-12-06 18:36:57,237 INFO  [Log] Implicit wait applied on the driver for 30 seconds. 
+2018-12-06 18:36:57,642 INFO  [Log] The mouse over by xpath : //div[@role='button' and text()=' ANALYZE '] is performed. 
+2018-12-06 18:37:58,082 INFO  [Log] The mouse over by xpath : //div[@class='tab-title' and text()='Desktop'] is performed. 
+2018-12-06 18:38:09,812 INFO  [Log] Invoke AUT: https://developers.google.com/speed/pagespeed/insights/ in chrome browser successfully. 
+2018-12-06 18:38:09,816 INFO  [Log] Implicit wait applied on the driver for 30 seconds. 
+2018-12-06 18:38:10,132 INFO  [Log] The mouse over by xpath : //div[@role='button' and text()=' ANALYZE '] is performed. 
+2018-12-06 18:39:10,515 INFO  [Log] The mouse over by xpath : //div[@class='tab-title' and text()='Desktop'] is performed. 
+2018-12-06 18:39:22,127 INFO  [Log] Invoke AUT: https://developers.google.com/speed/pagespeed/insights/ in chrome browser successfully. 
+2018-12-06 18:39:22,131 INFO  [Log] Implicit wait applied on the driver for 30 seconds. 
+2018-12-06 18:39:22,397 INFO  [Log] The mouse over by xpath : //div[@role='button' and text()=' ANALYZE '] is performed. 
+2018-12-06 18:40:22,739 INFO  [Log] The mouse over by xpath : //div[@class='tab-title' and text()='Desktop'] is performed. 
+2018-12-06 18:40:34,574 INFO  [Log] Invoke AUT: https://developers.google.com/speed/pagespeed/insights/ in chrome browser successfully. 
+2018-12-06 18:40:34,579 INFO  [Log] Implicit wait applied on the driver for 30 seconds. 
+2018-12-06 18:40:34,829 INFO  [Log] The mouse over by xpath : //div[@role='button' and text()=' ANALYZE '] is performed. 
+2018-12-06 18:41:35,150 INFO  [Log] The mouse over by xpath : //div[@class='tab-title' and text()='Desktop'] is performed. 
+2018-12-06 18:41:46,447 INFO  [Log] Invoke AUT: https://developers.google.com/speed/pagespeed/insights/ in chrome browser successfully. 
+2018-12-06 18:41:46,451 INFO  [Log] Implicit wait applied on the driver for 30 seconds. 
+2018-12-06 18:41:46,780 INFO  [Log] The mouse over by xpath : //div[@role='button' and text()=' ANALYZE '] is performed. 
+2018-12-06 18:42:47,114 INFO  [Log] The mouse over by xpath : //div[@class='tab-title' and text()='Desktop'] is performed. 
+2018-12-06 18:42:58,774 INFO  [Log] Invoke AUT: https://developers.google.com/speed/pagespeed/insights/ in chrome browser successfully. 
+2018-12-06 18:42:58,779 INFO  [Log] Implicit wait applied on the driver for 30 seconds. 
+2018-12-06 18:42:59,392 INFO  [Log] The mouse over by xpath : //div[@role='button' and text()=' ANALYZE '] is performed. 
+2018-12-06 18:43:59,637 INFO  [Log] The mouse over by xpath : //div[@class='tab-title' and text()='Desktop'] is performed. 
+2018-12-06 18:44:10,369 INFO  [Log] Invoke AUT: https://developers.google.com/speed/pagespeed/insights/ in chrome browser successfully. 
+2018-12-06 18:44:10,373 INFO  [Log] Implicit wait applied on the driver for 30 seconds. 
+2018-12-06 18:44:10,754 INFO  [Log] The mouse over by xpath : //div[@role='button' and text()=' ANALYZE '] is performed. 
+2018-12-06 18:45:11,009 INFO  [Log] The mouse over by xpath : //div[@class='tab-title' and text()='Desktop'] is performed. 
+2018-12-06 20:23:01,879 INFO  [Log] Invoke AUT: https://gtmetrix.com/ in chrome browser successfully. 
+2018-12-06 20:23:01,884 INFO  [Log] Implicit wait applied on the driver for 30 seconds. 
+2018-12-06 20:23:07,363 INFO  [Log] Invoke AUT: https://gtmetrix.com/ in chrome browser successfully. 
+2018-12-06 20:23:07,367 INFO  [Log] Implicit wait applied on the driver for 30 seconds. 
+2018-12-06 20:27:02,768 INFO  [Log] Invoke AUT: https://gtmetrix.com/ in chrome browser successfully. 
+2018-12-06 20:27:02,780 INFO  [Log] Implicit wait applied on the driver for 30 seconds. 
+2018-12-06 20:27:08,546 INFO  [Log] Invoke AUT: https://gtmetrix.com/ in chrome browser successfully. 
+2018-12-06 20:27:08,553 INFO  [Log] Implicit wait applied on the driver for 30 seconds. 
+2018-12-06 21:05:11,683 INFO  [Log] Invoke AUT: https://gtmetrix.com/ in chrome browser successfully. 
+2018-12-06 21:05:11,687 INFO  [Log] Implicit wait applied on the driver for 30 seconds. 
+2018-12-06 21:05:17,202 INFO  [Log] Invoke AUT: https://gtmetrix.com/ in chrome browser successfully. 
+2018-12-06 21:05:17,206 INFO  [Log] Implicit wait applied on the driver for 30 seconds. 
+2018-12-06 21:06:28,658 INFO  [Log] Invoke AUT: https://gtmetrix.com/ in chrome browser successfully. 
+2018-12-06 21:06:28,662 INFO  [Log] Implicit wait applied on the driver for 30 seconds. 
+2018-12-06 21:06:33,913 INFO  [Log] Invoke AUT: https://gtmetrix.com/ in chrome browser successfully. 
+2018-12-06 21:06:33,915 INFO  [Log] Implicit wait applied on the driver for 30 seconds. 
+2018-12-06 21:07:48,157 INFO  [Log] Invoke AUT: https://gtmetrix.com/ in chrome browser successfully. 
+2018-12-06 21:07:48,161 INFO  [Log] Implicit wait applied on the driver for 30 seconds. 
+2018-12-06 21:07:53,597 INFO  [Log] Invoke AUT: https://gtmetrix.com/ in chrome browser successfully. 
+2018-12-06 21:07:53,601 INFO  [Log] Implicit wait applied on the driver for 30 seconds. 
+2018-12-06 21:09:04,822 INFO  [Log] Invoke AUT: https://gtmetrix.com/ in chrome browser successfully. 
+2018-12-06 21:09:04,825 INFO  [Log] Implicit wait applied on the driver for 30 seconds. 
+2018-12-06 21:09:09,863 INFO  [Log] Invoke AUT: https://gtmetrix.com/ in chrome browser successfully. 
+2018-12-06 21:09:09,865 INFO  [Log] Implicit wait applied on the driver for 30 seconds. 
+2018-12-06 21:10:21,007 INFO  [Log] Invoke AUT: https://gtmetrix.com/ in chrome browser successfully. 
+2018-12-06 21:10:21,011 INFO  [Log] Implicit wait applied on the driver for 30 seconds. 
+2018-12-06 21:10:26,244 INFO  [Log] Invoke AUT: https://gtmetrix.com/ in chrome browser successfully. 
+2018-12-06 21:10:26,248 INFO  [Log] Implicit wait applied on the driver for 30 seconds. 
+2018-12-06 21:11:37,477 INFO  [Log] Invoke AUT: https://gtmetrix.com/ in chrome browser successfully. 
+2018-12-06 21:11:37,480 INFO  [Log] Implicit wait applied on the driver for 30 seconds. 
+2018-12-06 21:11:42,841 INFO  [Log] Invoke AUT: https://gtmetrix.com/ in chrome browser successfully. 
+2018-12-06 21:11:42,844 INFO  [Log] Implicit wait applied on the driver for 30 seconds. 
+2018-12-06 21:12:55,557 INFO  [Log] Invoke AUT: https://gtmetrix.com/ in chrome browser successfully. 
+2018-12-06 21:12:55,558 INFO  [Log] Implicit wait applied on the driver for 30 seconds. 
+2018-12-06 21:13:01,199 INFO  [Log] Invoke AUT: https://gtmetrix.com/ in chrome browser successfully. 
+2018-12-06 21:13:01,202 INFO  [Log] Implicit wait applied on the driver for 30 seconds. 
+2018-12-06 21:14:13,380 INFO  [Log] Invoke AUT: https://gtmetrix.com/ in chrome browser successfully. 
+2018-12-06 21:14:13,383 INFO  [Log] Implicit wait applied on the driver for 30 seconds. 
+2018-12-06 21:14:18,759 INFO  [Log] Invoke AUT: https://gtmetrix.com/ in chrome browser successfully. 
+2018-12-06 21:14:18,761 INFO  [Log] Implicit wait applied on the driver for 30 seconds. 
+2018-12-06 21:15:30,529 INFO  [Log] Invoke AUT: https://gtmetrix.com/ in chrome browser successfully. 
+2018-12-06 21:15:30,532 INFO  [Log] Implicit wait applied on the driver for 30 seconds. 
+2018-12-06 21:15:35,827 INFO  [Log] Invoke AUT: https://gtmetrix.com/ in chrome browser successfully. 
+2018-12-06 21:15:35,831 INFO  [Log] Implicit wait applied on the driver for 30 seconds. 
+2018-12-06 21:19:32,447 INFO  [Log] Invoke AUT: https://gtmetrix.com/ in chrome browser successfully. 
+2018-12-06 21:19:32,454 INFO  [Log] Implicit wait applied on the driver for 30 seconds. 
+2018-12-06 21:19:38,095 INFO  [Log] Invoke AUT: https://gtmetrix.com/ in chrome browser successfully. 
+2018-12-06 21:19:38,099 INFO  [Log] Implicit wait applied on the driver for 30 seconds. 
+2018-12-06 21:22:31,025 INFO  [Log] Invoke AUT: https://gtmetrix.com/ in chrome browser successfully. 
+2018-12-06 21:22:31,032 INFO  [Log] Implicit wait applied on the driver for 30 seconds. 
+2018-12-06 21:22:36,382 INFO  [Log] Invoke AUT: https://gtmetrix.com/ in chrome browser successfully. 
+2018-12-06 21:22:36,386 INFO  [Log] Implicit wait applied on the driver for 30 seconds. 

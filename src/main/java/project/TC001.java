@@ -83,9 +83,29 @@ public class TC001{
 		}			
 	}
 	
-	@Test
+	//@Test
 	public void test_TC004(){
 		Retry.reRunPageCountFailedOne();
 	}
-
+    //@Test
+	public void test_TC005(){
+		try{
+			String[] result = library.getGoogleSpeedScoreResult("https://www.digikey.in");
+			System.out.println("Mobile Vaule: "+result[0]+"%");
+			System.out.println("Desktop Vaule: "+result[1]+"%");
+		}catch(Exception e){			
+			e.printStackTrace();
+		}
+    }		
+    @Test
+	public void test_TC006(){
+		try{
+			String[] result = library.getGTMetrixGoogleGradeResult("https://www.digikey.in");
+			System.out.println("URL: "+result[0]);
+			System.out.println("gscore: "+result[1]);
+			System.out.println("yslow: "+result[2]);
+		}catch(Exception e){			
+			e.printStackTrace();
+		}
+    }	
 }

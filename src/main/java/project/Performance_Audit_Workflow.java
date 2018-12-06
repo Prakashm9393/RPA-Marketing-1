@@ -39,7 +39,7 @@ public class Performance_Audit_Workflow{
 		}
 	}
 	
-	@Test(priority=1)
+	//@Test(priority=1)
 	public void next1_put_desktop_web_page_test_run(){
 		for(int i = 1; i <= testData.getTotalRowNumber("Web_Page_Test_Desktop"); i++){
 			try {
@@ -62,14 +62,44 @@ public class Performance_Audit_Workflow{
 		}
 	}	
 	
-	//@Test(priority=2)
+	//@Test
 	public void next2_get_google_page_speed_run(){
-		try{
-			library.waitTime();
-			library.getGoogleSpeedScoreResult();
-		}catch (Exception e){			
-			e.printStackTrace();
-		}
+		for(int i = 1; i <= testData.getTotalRowNumber("Page_Insight"); i++){
+			try{
+				String url = testData.getCellData("Page_Insight", 0, i);
+				String[] result = library.getGoogleSpeedScoreResult(url);	
+				String Mobile_value = result[0];
+				String Desktop_value = result[1];
+				testData.setCellData("Page_Insight", 1, i, Mobile_value+"%");
+				testData.setCellData("Page_Insight", 2, i, Desktop_value+"%");	
+				System.out.println("Row "+i+" data entered successfully.");
+			}catch(Exception e){
+				System.err.println("Unable to enter data into the "+i+" row.");
+			}finally{
+				library.waitTime();
+			}
+		}		
 	}		
+	
+	@Test
+	public void next3_get_gtmetrix(){
+		for(int i = 1; i <= testData.getTotalRowNumber("GT_metrix"); i++){
+			try{
+				String url = testData.getCellData("GT_metrix", 0, i);
+				String[] result = library.getGTMetrixGoogleGradeResult(url);	
+				String Url = result[0];
+				String Gscore = result[1];
+				String Yscore = result[2];
+				testData.setCellData("GT_metrix", 3, i, Url);
+				testData.setCellData("GT_metrix", 1, i, Gscore);	
+				testData.setCellData("GT_metrix", 2, i, Yscore);	
+				System.out.println("Row "+i+" data entered successfully.");
+			}catch(Exception e){
+				System.err.println("Unable to enter data into the "+i+" row.");
+			}finally{
+				library.waitTime();
+			}
+		}		
+	}
 	
 }

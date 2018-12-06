@@ -94,47 +94,47 @@ public class Performance_Audit_Library extends GenericWrappers{
 		return new String[] {result,loadTime,requests,bytes};
 	}			
 	
-	public void getGoogleSpeedScoreResult() throws Exception{
-		ExcelDataUtility testData = new ExcelDataUtility("./data/Performance_Audit.xlsx");
+	public String[] getGoogleSpeedScoreResult(String url) throws Exception{
 		invokeApp(browserName);
-		for(int i = 1; i <= testData.getTotalRowNumber("Page_Speed_Insight"); i++){
-			getUrl("https://developers.google.com/speed/pagespeed/insights/");
-			String url = testData.getCellData("Page_Speed_Insight", 0, i);
-			enterText("name&url", url);			
-			mouseOverAndClickAction("Xpath&//div[@role='button' and text()=' ANALYZE ']");
-			waitTime(60000);			
-			String Mobile_value = getElement("Xpath&(//div[@class='lh-gauge__percentage'])[1]").getText();
-			mouseOverAndClickAction("Xpath&//div[@class='tab-title' and text()='Desktop']");			
-			waitTime(800);
-			String Desktop_value = getElement("Xpath&(//div[@class='lh-gauge__percentage'])[2]").getText();			
-			testData.setCellData("Page_Speed_Insight", 1, i, Mobile_value+"%");
-			testData.setCellData("Page_Speed_Insight", 2, i, Desktop_value+"%");			
-		}	
-		closeWindow();
+		getUrl("https://developers.google.com/speed/pagespeed/insights/");
+		enterText("name&url", url);			
+		mouseOverAndClickAction("Xpath&//div[@role='button' and text()=' ANALYZE ']");
+		waitTime(60000);			
+		String Mobile_value = getElement("Xpath&(//div[@class='lh-gauge__percentage'])[1]").getText();
+		mouseOverAndClickAction("Xpath&//div[@class='tab-title' and text()='Desktop']");			
+		waitTime(800);
+		String Desktop_value = getElement("Xpath&(//div[@class='lh-gauge__percentage'])[2]").getText();			
+	    closeWindow();
+		return new String[] {Mobile_value,Desktop_value};
 	}
 	
-	public void getGTMetrixGoogleGradeResult() throws Exception{
-		ExcelDataUtility testData = new ExcelDataUtility("./data/Performance_Audit.xlsx");
+	public String[] getGTMetrixGoogleGradeResult(String url) throws Exception{
 		invokeApp(browserName);
 		getUrl("https://gtmetrix.com/");
 		clickOn("linktext&Log In");
 		waitTime(1000);		
-		enterText("id&li-email", "mahesh.ameex@gmail.com");
-		enterText("id&li-password", "123456");		
+		enterText("id&li-email", "manika.kannappan@ameexusa.com");
+		enterText("id&li-password", "ameex123");		
 		waitTime(1000);
 		clickOn("xpath&//button[text()='Log In']");
 		waitTime(2000);	
-		for(int i = 1; i <= testData.getTotalRowNumber("GTMetrix"); i++){
-			getUrl("https://gtmetrix.com/");
-			String url = testData.getCellData("GTMetrix", 0, i);
-			enterText("name&url", url);
-			clickOn("Xpath&//button[text()='Analyze']");
-			waitTime(60000);			
-			String result = getDriver().getCurrentUrl();
-			testData.setCellData("GTMetrix", 4, i,result);		
-		}
+		getUrl("https://gtmetrix.com/");
+		enterText("name&url", url);
+		clickOn("Xpath&//button[text()='Analyze']");
+		waitTime(60000);			
+		String Pagespeedscore = getElement("(//div[@class='report-score'])[1]/span/i").getText();
+		String [] aSplit = Pagespeedscore.split("-");
+		String Googlescore = aSplit[2];
+		String Gpercent = getElement("(//div[@class='report-score'])[1]/span/span").getText();
+		String Googlescorepercent = Googlescore.concat(Gpercent);
+		String Yscore = getElement("(//div[@class='report-score'])[2]/span/i").getText();
+		String [] aSplit1 = Yscore.split("-");
+		String yscorevalue = aSplit1[2];
+		String ypercent = getElement("(//div[@class='report-score'])[2]/span/span").getText();
+		String yscorepercent = yscorevalue.concat(ypercent);
+		String result = getDriver().getCurrentUrl();
 		clickOn("linktext&Logout");
 		closeWindow();
-	}	
-	
+		return new String[] {result,Googlescorepercent,yscorepercent};
+		}		
 }
