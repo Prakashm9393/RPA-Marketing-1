@@ -1329,3 +1329,7 @@ Session ID: 353cf678bd592ecbbf9bbb67a5039930
 2018-12-06 12:28:18,717 INFO  [Log] Implicit wait applied on the driver for 30 seconds. 
 2018-12-06 12:28:31,967 INFO  [Log] The element with id: browser is selected with visible text: Galaxy S7 - Chrome 
 2018-12-06 12:28:32,128 INFO  [Log] The element with id: connection is selected with visible text: LTE (12 Mbps/12 Mbps 70ms RTT) 
+2018-12-06 15:03:18,702 INFO  [Log] Invoke AUT: https://www.webpagetest.org/ in chrome browser successfully. 
+2018-12-06 15:03:18,711 INFO  [Log] Implicit wait applied on the driver for 30 seconds. 
+2018-12-06 15:03:35,299 INFO  [Log] The element with id: browser is selected with visible text: Galaxy S7 - Chrome 
+2018-12-06 15:03:35,474 INFO  [Log] The element with id: connection is selected with visible text: LTE (12 Mbps/12 Mbps 70ms RTT) 

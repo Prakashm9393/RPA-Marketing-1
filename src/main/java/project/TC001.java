@@ -4,6 +4,7 @@ import org.testng.annotations.BeforeClass;
 import org.testng.annotations.Test;
 
 import activities.ExcelDataUtility;
+import activities.Retry;
 import library.Performance_Audit_Library;
 
 public class TC001{
@@ -20,7 +21,7 @@ public class TC001{
 		}
 	}
 	
-	@Test
+	//@Test
 	public void test_TC001(){
 		for(int i = 1; i <= testData.getTotalRowNumber("Web_Page_Test_Mobile"); i++){
 			try{
@@ -54,8 +55,37 @@ public class TC001{
 			System.out.println("The Page size: "+ rBytes);
 		}catch(Exception e){			
 			e.printStackTrace();
-		}
-		
+		}		
+	}
+	
+	//@Test
+	public void test_TC003(){
+		for(int i = 1; i <= testData.getTotalRowNumber("Web_Page_Test_Desktop"); i++){
+			if(testData.isCellEmpty("Web_Page_Test_Desktop", 1, i)){
+				try {
+					String url = testData.getCellData("Web_Page_Test_Desktop", 0, i);
+					String[] result = library.getDesktopViewResponseTimeInWebPageTest(url);
+					String rUrl = result[0];
+					String rTime = result[1];
+					String rRequest = result[2];
+					String rBytes = result[3];
+					testData.setCellData("Web_Page_Test_Desktop", 4, i, rUrl);
+					testData.setCellData("Web_Page_Test_Desktop", 3, i, rTime);
+					testData.setCellData("Web_Page_Test_Desktop", 2, i, rRequest);
+					testData.setCellData("Web_Page_Test_Desktop", 1, i, rBytes);
+					System.out.println("Row "+i+" data entered successfully.");
+				}catch(Exception e){
+					System.err.println("Unable to enter data into the "+i+" row.");				
+				}finally{
+					library.waitTime();
+				}
+			}
+		}			
+	}
+	
+	@Test
+	public void test_TC004(){
+		Retry.reRunPageCountFailedOne();
 	}
 
 }

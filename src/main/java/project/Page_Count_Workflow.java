@@ -32,6 +32,8 @@ public class Page_Count_Workflow{
 				System.out.println("Row "+i+" data entered successfully.");
 			}catch(Exception e){
 				System.err.println("Unable to enter data into the "+i+" row.");
+			}finally{
+				pcLibrary.waitTime();
 			}
 		}				
 	}
