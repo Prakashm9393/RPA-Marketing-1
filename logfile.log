@@ -1545,3 +1545,17 @@ Session ID: 07c9bdb44ec2ac72a8b98125a0d64b77
 2018-12-07 14:54:03,431 INFO  [Log] Invoke AUT: https://search.google.com/test/mobile-friendly in chrome browser successfully. 
 2018-12-07 14:54:03,439 INFO  [Log] Implicit wait applied on the driver for 30 seconds. 
 2018-12-07 14:55:46,336 ERROR [Log] Unable to find the id : //div[@class='N5SJAd ZcmAe'] in the DOM elements. org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of element located by By.xpath: //div[@class='N5SJAd ZcmAe'] (tried for 10 second(s) with 500 MILLISECONDS interval) 
+2018-12-07 16:32:54,036 INFO  [Log] Invoke AUT: https://developers.google.com/speed/pagespeed/insights/ in chrome browser successfully. 
+2018-12-07 16:32:54,040 INFO  [Log] Implicit wait applied on the driver for 30 seconds. 
+2018-12-07 16:32:54,344 INFO  [Log] The mouse over by xpath : //div[@role='button' and text()=' ANALYZE '] is performed. 
+2018-12-07 16:33:54,615 INFO  [Log] The mouse over by xpath : //div[@class='tab-title' and text()='Desktop'] is performed. 
+2018-12-07 16:34:11,544 INFO  [Log] Invoke AUT: https://gtmetrix.com/ in chrome browser successfully. 
+2018-12-07 16:34:11,550 INFO  [Log] Implicit wait applied on the driver for 30 seconds. 
+2018-12-07 16:34:55,020 INFO  [Log] Invoke AUT: https://www.webpagetest.org/ in chrome browser successfully. 
+2018-12-07 16:34:55,024 INFO  [Log] Implicit wait applied on the driver for 30 seconds. 
+2018-12-07 16:35:08,708 INFO  [Log] The element with id: browser is selected with visible text: Galaxy S7 - Chrome 
+2018-12-07 16:35:08,861 INFO  [Log] The element with id: connection is selected with visible text: LTE (12 Mbps/12 Mbps 70ms RTT) 
+2018-12-07 16:37:57,236 INFO  [Log] Invoke AUT: https://www.webpagetest.org/ in chrome browser successfully. 
+2018-12-07 16:37:57,244 INFO  [Log] Implicit wait applied on the driver for 30 seconds. 
+2018-12-07 16:38:10,881 INFO  [Log] The element with id: browser is selected with visible text: Chrome 
+2018-12-07 16:38:11,150 INFO  [Log] The element with id: connection is selected with visible text: Cable (5/1 Mbps 28ms RTT) 
