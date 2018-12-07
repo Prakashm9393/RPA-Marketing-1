@@ -5,6 +5,7 @@ import org.testng.annotations.Test;
 
 import activities.ExcelDataUtility;
 import activities.Retry;
+import library.Mobile_Friendliness_Library;
 import library.Performance_Audit_Library;
 
 public class TC001{
@@ -109,11 +110,12 @@ public class TC001{
 		}
     }	
     
-    //@Test
+    @Test
 	public void test_TC007(){
+		Mobile_Friendliness_Library ml = new Mobile_Friendliness_Library();
 		try{
-			String[] result = library.getmobilefriendly("https://www.digikey.in");
-			System.out.println("URL:"+result[1]);
+			String[] result = ml.getMobileFriendliness("https://www.digikey.in");
+			System.out.println("Explaination: "+result[1]);
 			System.out.println("result: "+result[0]);
 		}catch(Exception e){			
 			e.printStackTrace();

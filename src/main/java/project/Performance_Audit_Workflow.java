@@ -101,22 +101,4 @@ public class Performance_Audit_Workflow{
 			}
 		}		
 	}
-	//@Test
-	public void next4_mobile_friendly(){
-		for(int i = 1; i <= testData.getTotalRowNumber("Mobile_friendly"); i++){
-			try{
-				String url = testData.getCellData("Mobile_friendly", 0, i);
-				String[] result = library.getmobilefriendly(url);	
-				String Result = result[0];
-				String Resulturl = result[1];
-				testData.setCellData("Mobile_friendly", 1, i, Result);
-				testData.setCellData("Mobile_friendly", 2, i, Resulturl);	
-				System.out.println("Row "+i+" data entered successfully.");
-			}catch(Exception e){
-				System.err.println("Unable to enter data into the "+i+" row.");
-			}finally{
-				library.waitTime();
-			}
-		}		
-	}
 }
