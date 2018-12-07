@@ -97,7 +97,7 @@ public class TC001{
 			e.printStackTrace();
 		}
     }		
-    @Test
+   // @Test
 	public void test_TC006(){
 		try{
 			String[] result = library.getGradeInGTMetrix("https://www.digikey.in");
@@ -108,4 +108,15 @@ public class TC001{
 			e.printStackTrace();
 		}
     }	
+    
+    //@Test
+	public void test_TC007(){
+		try{
+			String[] result = library.getmobilefriendly("https://www.digikey.in");
+			System.out.println("URL:"+result[1]);
+			System.out.println("result: "+result[0]);
+		}catch(Exception e){			
+			e.printStackTrace();
+		}
+    }
 }

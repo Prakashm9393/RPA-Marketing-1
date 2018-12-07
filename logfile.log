@@ -1493,3 +1493,55 @@ Session ID: 07c9bdb44ec2ac72a8b98125a0d64b77
 2018-12-07 12:26:08,769 INFO  [Log] Implicit wait applied on the driver for 30 seconds. 
 2018-12-07 12:27:06,445 INFO  [Log] Invoke AUT: https://gtmetrix.com/ in chrome browser successfully. 
 2018-12-07 12:27:06,449 INFO  [Log] Implicit wait applied on the driver for 30 seconds. 
+2018-12-07 13:20:50,132 INFO  [Log] Invoke AUT: https://search.google.com/test/mobile-friendly in chrome browser successfully. 
+2018-12-07 13:20:50,140 INFO  [Log] Implicit wait applied on the driver for 30 seconds. 
+2018-12-07 13:21:20,337 FATAL [Log] Unable to find the given element url :org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of element located by By.name: url (tried for 10 second(s) with 500 MILLISECONDS interval) 
+2018-12-07 13:21:20,648 INFO  [Log] The mouse over by xpath : //div[@class='BYyR7e snByac'] is performed. 
+2018-12-07 13:22:50,973 ERROR [Log] Unable to find the id : //div[@class='N5SJAd ZcmAe'] in the DOM elements. org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of element located by By.xpath: //div[@class='N5SJAd ZcmAe'] (tried for 10 second(s) with 500 MILLISECONDS interval) 
+2018-12-07 13:25:13,587 INFO  [Log] Invoke AUT: https://search.google.com/test/mobile-friendly in chrome browser successfully. 
+2018-12-07 13:25:13,591 INFO  [Log] Implicit wait applied on the driver for 30 seconds. 
+2018-12-07 13:25:13,761 INFO  [Log] The mouse over by xpath : //div[@class='BYyR7e snByac'] is performed. 
+2018-12-07 13:25:43,924 FATAL [Log] Unable to find the given element url :org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of element located by By.name: url (tried for 10 second(s) with 500 MILLISECONDS interval) 
+2018-12-07 13:27:14,198 ERROR [Log] Unable to find the id : //div[@class='N5SJAd ZcmAe'] in the DOM elements. org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of element located by By.xpath: //div[@class='N5SJAd ZcmAe'] (tried for 10 second(s) with 500 MILLISECONDS interval) 
+2018-12-07 13:30:50,590 INFO  [Log] Invoke AUT: https://search.google.com/test/mobile-friendly in chrome browser successfully. 
+2018-12-07 13:30:50,599 INFO  [Log] Implicit wait applied on the driver for 30 seconds. 
+2018-12-07 13:31:21,043 FATAL [Log] Unable to find the given element url :org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of element located by By.name: url (tried for 10 second(s) with 500 MILLISECONDS interval) 
+2018-12-07 13:32:51,329 ERROR [Log] Unable to find the id : //div[@class='N5SJAd ZcmAe'] in the DOM elements. org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of element located by By.xpath: //div[@class='N5SJAd ZcmAe'] (tried for 10 second(s) with 500 MILLISECONDS interval) 
+2018-12-07 13:41:32,851 INFO  [Log] Invoke AUT: https://search.google.com/test/mobile-friendly in chrome browser successfully. 
+2018-12-07 13:41:32,864 INFO  [Log] Implicit wait applied on the driver for 30 seconds. 
+2018-12-07 13:42:25,277 INFO  [Log] Invoke AUT: http://search.google.com/test/mobile-friendly in chrome browser successfully. 
+2018-12-07 13:42:25,285 INFO  [Log] Implicit wait applied on the driver for 30 seconds. 
+2018-12-07 13:43:55,513 FATAL [Log] Unable to find the given element url :org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of element located by By.name: url (tried for 10 second(s) with 500 MILLISECONDS interval) 
+2018-12-07 13:45:25,781 ERROR [Log] Unable to find the id : //div[@class='N5SJAd ZcmAe'] in the DOM elements. org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of element located by By.xpath: //div[@class='N5SJAd ZcmAe'] (tried for 10 second(s) with 500 MILLISECONDS interval) 
+2018-12-07 13:55:20,777 INFO  [Log] Invoke AUT: https://search.google.com/test/mobile-friendly in chrome browser successfully. 
+2018-12-07 13:55:20,788 INFO  [Log] Implicit wait applied on the driver for 30 seconds. 
+2018-12-07 13:56:54,985 INFO  [Log] Invoke AUT: https://search.google.com/test/mobile-friendly in chrome browser successfully. 
+2018-12-07 13:56:54,994 INFO  [Log] Implicit wait applied on the driver for 30 seconds. 
+2018-12-07 14:00:27,873 INFO  [Log] Invoke AUT: https://search.google.com/test/mobile-friendly in chrome browser successfully. 
+2018-12-07 14:00:27,877 INFO  [Log] Implicit wait applied on the driver for 30 seconds. 
+2018-12-07 14:02:12,627 ERROR [Log] Unable to find the id : //div[@class='N5SJAd ZcmAe'] in the DOM elements. org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of element located by By.xpath: //div[@class='N5SJAd ZcmAe'] (tried for 10 second(s) with 500 MILLISECONDS interval) 
+2018-12-07 14:39:40,871 INFO  [Log] Invoke AUT: https://search.google.com/test/mobile-friendly in chrome browser successfully. 
+2018-12-07 14:39:40,875 INFO  [Log] Implicit wait applied on the driver for 30 seconds. 
+2018-12-07 14:41:22,781 ERROR [Log] Unable to find the id : //div[@class='N5SJAd ZcmAe'] in the DOM elements. org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of element located by By.xpath: //div[@class='N5SJAd ZcmAe'] (tried for 10 second(s) with 500 MILLISECONDS interval) 
+2018-12-07 14:41:33,753 INFO  [Log] Invoke AUT: https://search.google.com/test/mobile-friendly in chrome browser successfully. 
+2018-12-07 14:41:33,758 INFO  [Log] Implicit wait applied on the driver for 30 seconds. 
+2018-12-07 14:42:55,027 INFO  [Log] Invoke AUT: https://search.google.com/test/mobile-friendly in chrome browser successfully. 
+2018-12-07 14:42:55,031 INFO  [Log] Implicit wait applied on the driver for 30 seconds. 
+2018-12-07 14:44:30,666 INFO  [Log] Invoke AUT: https://search.google.com/test/mobile-friendly in chrome browser successfully. 
+2018-12-07 14:44:30,674 INFO  [Log] Implicit wait applied on the driver for 30 seconds. 
+2018-12-07 14:46:13,644 ERROR [Log] Unable to find the id : //div[@class='N5SJAd ZcmAe'] in the DOM elements. org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of element located by By.xpath: //div[@class='N5SJAd ZcmAe'] (tried for 10 second(s) with 500 MILLISECONDS interval) 
+2018-12-07 14:46:24,544 INFO  [Log] Invoke AUT: https://search.google.com/test/mobile-friendly in chrome browser successfully. 
+2018-12-07 14:46:24,546 INFO  [Log] Implicit wait applied on the driver for 30 seconds. 
+2018-12-07 14:48:09,573 ERROR [Log] Unable to find the id : //div[@class='N5SJAd ZcmAe'] in the DOM elements. org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of element located by By.xpath: //div[@class='N5SJAd ZcmAe'] (tried for 10 second(s) with 500 MILLISECONDS interval) 
+2018-12-07 14:48:20,206 INFO  [Log] Invoke AUT: https://search.google.com/test/mobile-friendly in chrome browser successfully. 
+2018-12-07 14:48:20,209 INFO  [Log] Implicit wait applied on the driver for 30 seconds. 
+2018-12-07 14:50:02,632 ERROR [Log] Unable to find the id : //div[@class='N5SJAd ZcmAe'] in the DOM elements. org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of element located by By.xpath: //div[@class='N5SJAd ZcmAe'] (tried for 10 second(s) with 500 MILLISECONDS interval) 
+2018-12-07 14:50:13,116 INFO  [Log] Invoke AUT: https://search.google.com/test/mobile-friendly in chrome browser successfully. 
+2018-12-07 14:50:13,119 INFO  [Log] Implicit wait applied on the driver for 30 seconds. 
+2018-12-07 14:51:57,138 ERROR [Log] Unable to find the id : //div[@class='N5SJAd ZcmAe'] in the DOM elements. org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of element located by By.xpath: //div[@class='N5SJAd ZcmAe'] (tried for 10 second(s) with 500 MILLISECONDS interval) 
+2018-12-07 14:52:08,306 INFO  [Log] Invoke AUT: https://search.google.com/test/mobile-friendly in chrome browser successfully. 
+2018-12-07 14:52:08,309 INFO  [Log] Implicit wait applied on the driver for 30 seconds. 
+2018-12-07 14:53:52,285 ERROR [Log] Unable to find the id : //div[@class='N5SJAd ZcmAe'] in the DOM elements. org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of element located by By.xpath: //div[@class='N5SJAd ZcmAe'] (tried for 10 second(s) with 500 MILLISECONDS interval) 
+2018-12-07 14:54:03,431 INFO  [Log] Invoke AUT: https://search.google.com/test/mobile-friendly in chrome browser successfully. 
+2018-12-07 14:54:03,439 INFO  [Log] Implicit wait applied on the driver for 30 seconds. 
+2018-12-07 14:55:46,336 ERROR [Log] Unable to find the id : //div[@class='N5SJAd ZcmAe'] in the DOM elements. org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of element located by By.xpath: //div[@class='N5SJAd ZcmAe'] (tried for 10 second(s) with 500 MILLISECONDS interval) 
