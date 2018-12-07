@@ -1545,3 +1545,23 @@ Session ID: 07c9bdb44ec2ac72a8b98125a0d64b77
 2018-12-07 14:54:03,431 INFO  [Log] Invoke AUT: https://search.google.com/test/mobile-friendly in chrome browser successfully. 
 2018-12-07 14:54:03,439 INFO  [Log] Implicit wait applied on the driver for 30 seconds. 
 2018-12-07 14:55:46,336 ERROR [Log] Unable to find the id : //div[@class='N5SJAd ZcmAe'] in the DOM elements. org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of element located by By.xpath: //div[@class='N5SJAd ZcmAe'] (tried for 10 second(s) with 500 MILLISECONDS interval) 
+2018-12-07 18:27:31,923 INFO  [Log] Invoke AUT: https://www.bing.com/webmaster/tools/mobile-friendliness in chrome browser successfully. 
+2018-12-07 18:27:31,927 INFO  [Log] Implicit wait applied on the driver for 30 seconds. 
+2018-12-07 18:41:10,521 INFO  [Log] Invoke AUT: https://www.bing.com/webmaster/tools/mobile-friendliness in chrome browser successfully. 
+2018-12-07 18:41:10,525 INFO  [Log] Implicit wait applied on the driver for 30 seconds. 
+2018-12-07 18:54:29,142 INFO  [Log] Invoke AUT: https://www.bing.com/webmaster/tools/mobile-friendliness in chrome browser successfully. 
+2018-12-07 18:54:29,146 INFO  [Log] Implicit wait applied on the driver for 30 seconds. 
+2018-12-07 18:54:56,969 INFO  [Log] Invoke AUT: https://www.bing.com/webmaster/tools/mobile-friendliness in chrome browser successfully. 
+2018-12-07 18:54:56,974 INFO  [Log] Implicit wait applied on the driver for 30 seconds. 
+2018-12-07 18:55:21,545 INFO  [Log] Invoke AUT: https://www.bing.com/webmaster/tools/mobile-friendliness in chrome browser successfully. 
+2018-12-07 18:55:21,553 INFO  [Log] Implicit wait applied on the driver for 30 seconds. 
+2018-12-07 19:00:28,410 FATAL [Log] Failed - Unable to find the given element result-section with in 300 seconds:org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of element located by By.id: result-section (tried for 300 second(s) with 500 MILLISECONDS interval) 
+2018-12-07 19:00:49,792 INFO  [Log] Invoke AUT: https://www.bing.com/webmaster/tools/mobile-friendliness in chrome browser successfully. 
+2018-12-07 19:00:49,797 INFO  [Log] Implicit wait applied on the driver for 30 seconds. 
+2018-12-07 19:05:56,896 FATAL [Log] Failed - Unable to find the given element result-section with in 300 seconds:org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of element located by By.id: result-section (tried for 300 second(s) with 500 MILLISECONDS interval) 
+2018-12-07 19:06:06,343 INFO  [Log] Invoke AUT: https://www.bing.com/webmaster/tools/mobile-friendliness in chrome browser successfully. 
+2018-12-07 19:06:06,346 INFO  [Log] Implicit wait applied on the driver for 30 seconds. 
+2018-12-07 19:06:38,263 INFO  [Log] Invoke AUT: https://www.bing.com/webmaster/tools/mobile-friendliness in chrome browser successfully. 
+2018-12-07 19:06:38,267 INFO  [Log] Implicit wait applied on the driver for 30 seconds. 
+2018-12-07 19:07:03,195 INFO  [Log] Invoke AUT: https://www.bing.com/webmaster/tools/mobile-friendliness in chrome browser successfully. 
+2018-12-07 19:07:03,198 INFO  [Log] Implicit wait applied on the driver for 30 seconds. 

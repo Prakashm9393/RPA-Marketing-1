@@ -20,7 +20,7 @@ public class Performance_Audit_Workflow{
 		}
 	}
 	
-    //@Test(priority=0)
+    @Test(priority=0)
 	public void start0_get_mobile_web_page_test_run(){		
 		for(int i = 1; i <= testData.getTotalRowNumber("Web_Page_Test_Mobile"); i++){
 			try{
@@ -39,7 +39,7 @@ public class Performance_Audit_Workflow{
 		}
 	}
 	
-	//@Test(priority=1)
+	@Test(priority=1)
 	public void next1_put_desktop_web_page_test_run(){
 		for(int i = 1; i <= testData.getTotalRowNumber("Web_Page_Test_Desktop"); i++){
 			try {
@@ -62,7 +62,7 @@ public class Performance_Audit_Workflow{
 		}
 	}	
 	
-	//@Test
+	@Test
 	public void next2_get_google_page_speed_run(){
 		for(int i = 1; i <= testData.getTotalRowNumber("Page_Insight"); i++){
 			try{
@@ -81,7 +81,7 @@ public class Performance_Audit_Workflow{
 		}		
 	}		
 	
-	//@Test
+	@Test
 	public void next3_get_gtmetrix(){
 		for(int i = 1; i <= testData.getTotalRowNumber("GT_metrix"); i++){
 			try{
@@ -101,22 +101,5 @@ public class Performance_Audit_Workflow{
 			}
 		}		
 	}
-	@Test
-	public void next4_mobile_friendly(){
-		for(int i = 1; i <= testData.getTotalRowNumber("Mobile_friendly"); i++){
-			try{
-				String url = testData.getCellData("Mobile_friendly", 0, i);
-				String[] result = library.getmobilefriendly(url);	
-				String Result = result[0];
-				String Resulturl = result[1];
-				testData.setCellData("Mobile_friendly", 1, i, Result);
-				testData.setCellData("Mobile_friendly", 2, i, Resulturl);	
-				System.out.println("Row "+i+" data entered successfully.");
-			}catch(Exception e){
-				System.err.println("Unable to enter data into the "+i+" row.");
-			}finally{
-				library.waitTime();
-			}
-		}		
-	}
+	
 }

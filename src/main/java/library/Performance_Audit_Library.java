@@ -153,28 +153,6 @@ public class Performance_Audit_Library extends GenericWrappers{
 		clickOn("linktext&Log Out");
 		closeWindow();
 		return new String[] {result,googleScorePercent,yScorePercent};
-    }		
+    }	
 	
-	public String[] getmobilefriendly(String url) throws Exception{
-		invokeApp(browserName);
-		getUrl("https://search.google.com/test/mobile-friendly");		
-		clickOn("Xpath&//a[text()='Sign in']");
-		waitTime(1000);		
-		enterText("id&identifierId", "performance.rpa@gmail.com");
-		waitTime(1000);
-		clickOn("id&identifierNext");
-		waitTime(2000);
-		enterText("Xpath&//input[@type='password']", "Ameexusa@2018");		
-		waitTime(1000);
-		clickOn("id&passwordNext");
-		waitTime(2000);
-		waitUntilElementIsVisible("xpath&//input[@aria-label='Enter a URL to test']", 300);
-		enterText("xpath&//input[@aria-label='Enter a URL to test']", url);	
-		clickOn("Xpath&//div[text()='run test']");
-		waitTime(60000);			
-		String result = getElement("Xpath&//div[@class='N5SJAd ZcmAe']").getText();
-		String resulturl = getDriver().getCurrentUrl();
-		closeWindow();
-		return new String[] {result,resulturl};
-	}
 }
