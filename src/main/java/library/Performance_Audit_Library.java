@@ -1,10 +1,29 @@
 package library;
 
+import java.io.File;
+import java.io.FileInputStream;
+import java.io.FileNotFoundException;
+import java.io.IOException;
 import java.text.DecimalFormat;
-import activities.ExcelDataUtility;
+import java.util.Properties;
+
 import activities.GenericWrappers;
 
 public class Performance_Audit_Library extends GenericWrappers{
+	
+	public String loadExcelFlieName(){
+		Properties prop = new Properties();
+		String fileName = null;
+		try {
+			prop.load(new FileInputStream(new File("./config.properties")));
+			fileName = prop.getProperty("Excel.FileName");
+		}catch (FileNotFoundException e){			
+			throw new RuntimeException("'config.properties' file not found in the project root path.");
+		}catch (IOException e){
+			throw new RuntimeException("Unable to read the config.properties file.");			
+		}
+		return fileName;
+	}
 	
 	public String[] getMobileViewResponseTimeInWebPageTest(String url) throws Exception{
 		invokeApp(browserName);
@@ -100,41 +119,39 @@ public class Performance_Audit_Library extends GenericWrappers{
 		enterText("name&url", url);			
 		mouseOverAndClickAction("Xpath&//div[@role='button' and text()=' ANALYZE ']");
 		waitTime(60000);			
-		String Mobile_value = getElement("Xpath&(//div[@class='lh-gauge__percentage'])[1]").getText();
+		String mobileValue = getElement("Xpath&(//div[@class='lh-gauge__percentage'])[1]").getText();
 		mouseOverAndClickAction("Xpath&//div[@class='tab-title' and text()='Desktop']");			
 		waitTime(800);
-		String Desktop_value = getElement("Xpath&(//div[@class='lh-gauge__percentage'])[2]").getText();			
+		String desktopValue = getElement("Xpath&(//div[@class='lh-gauge__percentage'])[2]").getText();			
 	    closeWindow();
-		return new String[] {Mobile_value,Desktop_value};
+		return new String[] {mobileValue,desktopValue};
 	}
 	
-	public String[] getGTMetrixGoogleGradeResult(String url) throws Exception{
+	public String[] getGradeInGTMetrix(String url) throws Exception{
 		invokeApp(browserName);
 		getUrl("https://gtmetrix.com/");
 		clickOn("linktext&Log In");
-		waitTime(1000);		
+		waitUntilElementIsVisible("id&li-email", 300);		
 		enterText("id&li-email", "manika.kannappan@ameexusa.com");
 		enterText("id&li-password", "ameex123");		
-		waitTime(1000);
 		clickOn("xpath&//button[text()='Log In']");
-		waitTime(2000);	
-		getUrl("https://gtmetrix.com/");
+		waitUntilElementIsVisible("xpath&//header//li[@class='user-nav-welcome']", 300);		
 		enterText("name&url", url);
 		clickOn("Xpath&//button[text()='Analyze']");
-		waitTime(60000);			
-		String Pagespeedscore = getElement("(//div[@class='report-score'])[1]/span/i").getText();
-		String [] aSplit = Pagespeedscore.split("-");
-		String Googlescore = aSplit[2];
-		String Gpercent = getElement("(//div[@class='report-score'])[1]/span/span").getText();
-		String Googlescorepercent = Googlescore.concat(Gpercent);
-		String Yscore = getElement("(//div[@class='report-score'])[2]/span/i").getText();
-		String [] aSplit1 = Yscore.split("-");
-		String yscorevalue = aSplit1[2];
-		String ypercent = getElement("(//div[@class='report-score'])[2]/span/span").getText();
-		String yscorepercent = yscorevalue.concat(ypercent);
+		waitUntilElementIsVisible("xpath&(//div[@class='report-score'])[1]/span/i", 300);				
+		String pageSpeedScore = getElement("xpath&(//div[@class='report-score'])[1]/span/i").getAttribute("class");
+		String [] aSplit = pageSpeedScore.split("-");
+		String googlescore = aSplit[2];
+		String gPercent = getElement("xpath&(//div[@class='report-score'])[1]/span/span").getText();
+		String googleScorePercent = googlescore.concat(gPercent);
+		String yScore = getElement("xpath&(//div[@class='report-score'])[2]/span/i").getAttribute("class");
+		String [] aSplit1 = yScore.split("-");
+		String yScoreValue = aSplit1[2];
+		String yPercent = getElement("xpath&(//div[@class='report-score'])[2]/span/span").getText();
+		String yScorePercent = yScoreValue.concat(yPercent);
 		String result = getDriver().getCurrentUrl();
-		clickOn("linktext&Logout");
+		clickOn("linktext&Log Out");
 		closeWindow();
-		return new String[] {result,Googlescorepercent,yscorepercent};
-		}		
+		return new String[] {result,googleScorePercent,yScorePercent};
+    }		
 }

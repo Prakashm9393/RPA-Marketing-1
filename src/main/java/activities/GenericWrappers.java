@@ -34,7 +34,7 @@ import activities.Log;
 
 public class GenericWrappers{
 	
-	public String browserName, gHubIp, gHubPort;
+	public String browserName, gHubIp, gHubPort, fileName;
 	
 	public GenericWrappers(){
 		Properties prop = new Properties();
@@ -43,6 +43,7 @@ public class GenericWrappers{
 			browserName = prop.getProperty("Launch.Browser.Name");
 			gHubIp = prop.getProperty("Grid.Hub.IP");
 			gHubPort = prop.getProperty("Grid.Hub.Port");
+			fileName = prop.getProperty("Excel.FileName");
 		}catch (FileNotFoundException e){			
 			throw new RuntimeException("'config.properties' file not found in the project root path.");
 		}catch (IOException e){

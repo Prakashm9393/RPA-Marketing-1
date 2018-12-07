@@ -86,13 +86,13 @@ public class Performance_Audit_Workflow{
 		for(int i = 1; i <= testData.getTotalRowNumber("GT_metrix"); i++){
 			try{
 				String url = testData.getCellData("GT_metrix", 0, i);
-				String[] result = library.getGTMetrixGoogleGradeResult(url);	
-				String Url = result[0];
-				String Gscore = result[1];
-				String Yscore = result[2];
-				testData.setCellData("GT_metrix", 3, i, Url);
-				testData.setCellData("GT_metrix", 1, i, Gscore);	
-				testData.setCellData("GT_metrix", 2, i, Yscore);	
+				String[] result = library.getGradeInGTMetrix(url);	
+				String rUrl = result[0];
+				String gScore = result[1];
+				String yScore = result[2];
+				testData.setCellData("GT_metrix", 3, i, rUrl);
+				testData.setCellData("GT_metrix", 1, i, gScore);	
+				testData.setCellData("GT_metrix", 2, i, yScore);	
 				System.out.println("Row "+i+" data entered successfully.");
 			}catch(Exception e){
 				System.err.println("Unable to enter data into the "+i+" row.");

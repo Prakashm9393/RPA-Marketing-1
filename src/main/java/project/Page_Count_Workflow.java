@@ -15,7 +15,7 @@ public class Page_Count_Workflow{
 	@BeforeClass
 	public void setUp(){
 		try{
-			testData = new ExcelDataUtility("./data/Performance_Audit.xlsx");
+			testData = new ExcelDataUtility("./data/"+pcLibrary.loadExcelFlieName()+".xlsx");
 			sheetName = "Page_Count";
 		}catch (Exception e){			
 			e.printStackTrace();

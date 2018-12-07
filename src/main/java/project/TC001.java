@@ -100,7 +100,7 @@ public class TC001{
     @Test
 	public void test_TC006(){
 		try{
-			String[] result = library.getGTMetrixGoogleGradeResult("https://www.digikey.in");
+			String[] result = library.getGradeInGTMetrix("https://www.digikey.in");
 			System.out.println("URL: "+result[0]);
 			System.out.println("gscore: "+result[1]);
 			System.out.println("yslow: "+result[2]);
