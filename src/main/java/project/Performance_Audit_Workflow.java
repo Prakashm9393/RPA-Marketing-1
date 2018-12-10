@@ -14,7 +14,7 @@ public class Performance_Audit_Workflow{
 	@BeforeClass
 	public void setUp(){
 		try{
-			testData = new ExcelDataUtility("./data/Performance_Audit.xlsx");			
+			testData = new ExcelDataUtility("./data/"+library.loadExcelFlieName()+".xlsx");			
 		}catch (Exception e){			
 			e.printStackTrace();
 		}
@@ -33,6 +33,7 @@ public class Performance_Audit_Workflow{
 				System.out.println("Row "+i+" data entered successfully.");
 			}catch(Exception e){			
 				System.err.println("Unable to enter data into the "+i+" row.");
+				library.quitBrowser();
 			}finally{
 				library.waitTime();
 			}			
@@ -55,14 +56,15 @@ public class Performance_Audit_Workflow{
 				testData.setCellData("Web_Page_Test_Desktop", 1, i, rBytes);
 				System.out.println("Row "+i+" data entered successfully.");
 			}catch(Exception e){
-				System.err.println("Unable to enter data into the "+i+" row.");				
+				System.err.println("Unable to enter data into the "+i+" row.");		
+				library.quitBrowser();
 			}finally{
 				library.waitTime();
 			}
 		}
 	}	
 	
-	@Test
+	@Test(priority=2)
 	public void next2_get_google_page_speed_run(){
 		for(int i = 1; i <= testData.getTotalRowNumber("Page_Insight"); i++){
 			try{
@@ -75,13 +77,14 @@ public class Performance_Audit_Workflow{
 				System.out.println("Row "+i+" data entered successfully.");
 			}catch(Exception e){
 				System.err.println("Unable to enter data into the "+i+" row.");
+				library.quitBrowser();
 			}finally{
 				library.waitTime();
 			}
 		}		
 	}		
 	
-	@Test
+	@Test(priority=3)
 	public void next3_get_gtmetrix(){
 		for(int i = 1; i <= testData.getTotalRowNumber("GT_metrix"); i++){
 			try{
@@ -96,6 +99,7 @@ public class Performance_Audit_Workflow{
 				System.out.println("Row "+i+" data entered successfully.");
 			}catch(Exception e){
 				System.err.println("Unable to enter data into the "+i+" row.");
+				library.quitBrowser();
 			}finally{
 				library.waitTime();
 			}

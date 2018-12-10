@@ -1565,3 +1565,248 @@ Session ID: 07c9bdb44ec2ac72a8b98125a0d64b77
 2018-12-07 19:06:38,267 INFO  [Log] Implicit wait applied on the driver for 30 seconds. 
 2018-12-07 19:07:03,195 INFO  [Log] Invoke AUT: https://www.bing.com/webmaster/tools/mobile-friendliness in chrome browser successfully. 
 2018-12-07 19:07:03,198 INFO  [Log] Implicit wait applied on the driver for 30 seconds. 
+2018-12-10 15:18:01,842 INFO  [Log] Invoke AUT: https://www.bing.com/webmaster/tools/mobile-friendliness in chrome browser successfully. 
+2018-12-10 15:18:01,849 INFO  [Log] Implicit wait applied on the driver for 30 seconds. 
+2018-12-10 15:18:30,545 INFO  [Log] Invoke AUT: https://www.bing.com/webmaster/tools/mobile-friendliness in chrome browser successfully. 
+2018-12-10 15:18:30,551 INFO  [Log] Implicit wait applied on the driver for 30 seconds. 
+2018-12-10 15:19:18,235 INFO  [Log] Invoke AUT: https://developers.google.com/speed/pagespeed/insights/ in chrome browser successfully. 
+2018-12-10 15:19:18,239 INFO  [Log] Implicit wait applied on the driver for 30 seconds. 
+2018-12-10 15:19:18,557 INFO  [Log] The mouse over by xpath : //div[@role='button' and text()=' ANALYZE '] is performed. 
+2018-12-10 15:20:18,787 INFO  [Log] The mouse over by xpath : //div[@class='tab-title' and text()='Desktop'] is performed. 
+2018-12-10 15:20:29,657 INFO  [Log] Invoke AUT: https://developers.google.com/speed/pagespeed/insights/ in chrome browser successfully. 
+2018-12-10 15:20:29,660 INFO  [Log] Implicit wait applied on the driver for 30 seconds. 
+2018-12-10 15:20:29,934 INFO  [Log] The mouse over by xpath : //div[@role='button' and text()=' ANALYZE '] is performed. 
+2018-12-10 15:21:30,175 INFO  [Log] The mouse over by xpath : //div[@class='tab-title' and text()='Desktop'] is performed. 
+2018-12-10 15:21:41,074 INFO  [Log] Invoke AUT: https://developers.google.com/speed/pagespeed/insights/ in chrome browser successfully. 
+2018-12-10 15:21:41,076 INFO  [Log] Implicit wait applied on the driver for 30 seconds. 
+2018-12-10 15:21:41,345 INFO  [Log] The mouse over by xpath : //div[@role='button' and text()=' ANALYZE '] is performed. 
+2018-12-10 15:22:41,591 INFO  [Log] The mouse over by xpath : //div[@class='tab-title' and text()='Desktop'] is performed. 
+2018-12-10 15:22:52,648 INFO  [Log] Invoke AUT: https://developers.google.com/speed/pagespeed/insights/ in chrome browser successfully. 
+2018-12-10 15:22:52,652 INFO  [Log] Implicit wait applied on the driver for 30 seconds. 
+2018-12-10 15:22:52,926 INFO  [Log] The mouse over by xpath : //div[@role='button' and text()=' ANALYZE '] is performed. 
+2018-12-10 15:23:53,170 INFO  [Log] The mouse over by xpath : //div[@class='tab-title' and text()='Desktop'] is performed. 
+2018-12-10 15:24:04,182 INFO  [Log] Invoke AUT: https://developers.google.com/speed/pagespeed/insights/ in chrome browser successfully. 
+2018-12-10 15:24:04,187 INFO  [Log] Implicit wait applied on the driver for 30 seconds. 
+2018-12-10 15:24:04,493 INFO  [Log] The mouse over by xpath : //div[@role='button' and text()=' ANALYZE '] is performed. 
+2018-12-10 15:25:04,741 INFO  [Log] The mouse over by xpath : //div[@class='tab-title' and text()='Desktop'] is performed. 
+2018-12-10 15:25:15,933 INFO  [Log] Invoke AUT: https://developers.google.com/speed/pagespeed/insights/ in chrome browser successfully. 
+2018-12-10 15:25:15,936 INFO  [Log] Implicit wait applied on the driver for 30 seconds. 
+2018-12-10 15:25:16,205 INFO  [Log] The mouse over by xpath : //div[@role='button' and text()=' ANALYZE '] is performed. 
+2018-12-10 15:26:16,459 INFO  [Log] The mouse over by xpath : //div[@class='tab-title' and text()='Desktop'] is performed. 
+2018-12-10 15:26:27,373 INFO  [Log] Invoke AUT: https://developers.google.com/speed/pagespeed/insights/ in chrome browser successfully. 
+2018-12-10 15:26:27,376 INFO  [Log] Implicit wait applied on the driver for 30 seconds. 
+2018-12-10 15:26:27,671 INFO  [Log] The mouse over by xpath : //div[@role='button' and text()=' ANALYZE '] is performed. 
+2018-12-10 15:27:27,941 INFO  [Log] The mouse over by xpath : //div[@class='tab-title' and text()='Desktop'] is performed. 
+2018-12-10 15:27:41,569 INFO  [Log] Invoke AUT: https://gtmetrix.com/ in chrome browser successfully. 
+2018-12-10 15:27:41,572 INFO  [Log] Implicit wait applied on the driver for 30 seconds. 
+2018-12-10 15:28:18,781 INFO  [Log] Invoke AUT: https://gtmetrix.com/ in chrome browser successfully. 
+2018-12-10 15:28:18,785 INFO  [Log] Implicit wait applied on the driver for 30 seconds. 
+2018-12-10 15:29:02,387 INFO  [Log] Invoke AUT: https://gtmetrix.com/ in chrome browser successfully. 
+2018-12-10 15:29:02,392 INFO  [Log] Implicit wait applied on the driver for 30 seconds. 
+2018-12-10 15:29:41,608 INFO  [Log] Invoke AUT: https://gtmetrix.com/ in chrome browser successfully. 
+2018-12-10 15:29:41,612 INFO  [Log] Implicit wait applied on the driver for 30 seconds. 
+2018-12-10 15:30:33,124 INFO  [Log] Invoke AUT: https://gtmetrix.com/ in chrome browser successfully. 
+2018-12-10 15:30:33,129 INFO  [Log] Implicit wait applied on the driver for 30 seconds. 
+2018-12-10 15:32:15,128 INFO  [Log] Invoke AUT: https://gtmetrix.com/ in chrome browser successfully. 
+2018-12-10 15:32:15,133 INFO  [Log] Implicit wait applied on the driver for 30 seconds. 
+2018-12-10 15:33:05,152 INFO  [Log] Invoke AUT: https://gtmetrix.com/ in chrome browser successfully. 
+2018-12-10 15:33:05,155 INFO  [Log] Implicit wait applied on the driver for 30 seconds. 
+2018-12-10 15:33:47,105 INFO  [Log] Invoke AUT: https://gtmetrix.com/ in chrome browser successfully. 
+2018-12-10 15:33:47,107 INFO  [Log] Implicit wait applied on the driver for 30 seconds. 
+2018-12-10 15:34:27,627 INFO  [Log] Invoke AUT: https://gtmetrix.com/ in chrome browser successfully. 
+2018-12-10 15:34:27,631 INFO  [Log] Implicit wait applied on the driver for 30 seconds. 
+2018-12-10 15:35:12,900 INFO  [Log] Invoke AUT: https://gtmetrix.com/ in chrome browser successfully. 
+2018-12-10 15:35:12,903 INFO  [Log] Implicit wait applied on the driver for 30 seconds. 
+2018-12-10 15:36:04,159 INFO  [Log] Invoke AUT: https://www.webpagetest.org/ in chrome browser successfully. 
+2018-12-10 15:36:04,162 INFO  [Log] Implicit wait applied on the driver for 30 seconds. 
+2018-12-10 15:36:16,275 INFO  [Log] The element with id: browser is selected with visible text: Galaxy S7 - Chrome 
+2018-12-10 15:36:16,468 INFO  [Log] The element with id: connection is selected with visible text: LTE (12 Mbps/12 Mbps 70ms RTT) 
+2018-12-10 15:41:25,794 FATAL [Log] Failed - Unable to find the given element //table[@id='tableResults'] with in 300 seconds:org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of element located by By.xpath: //table[@id='tableResults'] (tried for 300 second(s) with 500 MILLISECONDS interval) 
+2018-12-10 15:41:35,508 INFO  [Log] Invoke AUT: https://www.webpagetest.org/ in chrome browser successfully. 
+2018-12-10 15:41:35,511 INFO  [Log] Implicit wait applied on the driver for 30 seconds. 
+2018-12-10 15:41:47,219 INFO  [Log] The element with id: browser is selected with visible text: Galaxy S7 - Chrome 
+2018-12-10 15:41:47,373 INFO  [Log] The element with id: connection is selected with visible text: LTE (12 Mbps/12 Mbps 70ms RTT) 
+2018-12-10 15:45:18,435 INFO  [Log] Invoke AUT: https://www.webpagetest.org/ in chrome browser successfully. 
+2018-12-10 15:45:18,437 INFO  [Log] Implicit wait applied on the driver for 30 seconds. 
+2018-12-10 15:45:30,513 INFO  [Log] The element with id: browser is selected with visible text: Galaxy S7 - Chrome 
+2018-12-10 15:45:30,697 INFO  [Log] The element with id: connection is selected with visible text: LTE (12 Mbps/12 Mbps 70ms RTT) 
+2018-12-10 15:50:40,305 FATAL [Log] Failed - Unable to find the given element //table[@id='tableResults'] with in 300 seconds:org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of element located by By.xpath: //table[@id='tableResults'] (tried for 300 second(s) with 500 MILLISECONDS interval) 
+2018-12-10 15:50:49,669 INFO  [Log] Invoke AUT: https://www.webpagetest.org/ in chrome browser successfully. 
+2018-12-10 15:50:49,671 INFO  [Log] Implicit wait applied on the driver for 30 seconds. 
+2018-12-10 15:51:04,723 INFO  [Log] The element with id: browser is selected with visible text: Galaxy S7 - Chrome 
+2018-12-10 15:51:04,878 INFO  [Log] The element with id: connection is selected with visible text: LTE (12 Mbps/12 Mbps 70ms RTT) 
+2018-12-10 15:56:13,981 FATAL [Log] Failed - Unable to find the given element //table[@id='tableResults'] with in 300 seconds:org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of element located by By.xpath: //table[@id='tableResults'] (tried for 300 second(s) with 500 MILLISECONDS interval) 
+2018-12-10 15:56:23,609 INFO  [Log] Invoke AUT: https://www.webpagetest.org/ in chrome browser successfully. 
+2018-12-10 15:56:23,612 INFO  [Log] Implicit wait applied on the driver for 30 seconds. 
+2018-12-10 15:56:37,668 INFO  [Log] The element with id: browser is selected with visible text: Galaxy S7 - Chrome 
+2018-12-10 15:56:37,839 INFO  [Log] The element with id: connection is selected with visible text: LTE (12 Mbps/12 Mbps 70ms RTT) 
+2018-12-10 16:01:15,867 INFO  [Log] Invoke AUT: https://www.webpagetest.org/ in chrome browser successfully. 
+2018-12-10 16:01:15,870 INFO  [Log] Implicit wait applied on the driver for 30 seconds. 
+2018-12-10 16:01:27,490 INFO  [Log] The element with id: browser is selected with visible text: Galaxy S7 - Chrome 
+2018-12-10 16:01:27,645 INFO  [Log] The element with id: connection is selected with visible text: LTE (12 Mbps/12 Mbps 70ms RTT) 
+2018-12-10 16:06:38,771 FATAL [Log] Failed - Unable to find the given element //table[@id='tableResults'] with in 300 seconds:org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of element located by By.xpath: //table[@id='tableResults'] (tried for 300 second(s) with 500 MILLISECONDS interval) 
+2018-12-10 16:06:49,674 INFO  [Log] Invoke AUT: https://www.webpagetest.org/ in chrome browser successfully. 
+2018-12-10 16:06:49,677 INFO  [Log] Implicit wait applied on the driver for 30 seconds. 
+2018-12-10 16:07:07,486 INFO  [Log] The element with id: browser is selected with visible text: Galaxy S7 - Chrome 
+2018-12-10 16:07:07,819 INFO  [Log] The element with id: connection is selected with visible text: LTE (12 Mbps/12 Mbps 70ms RTT) 
+2018-12-10 16:12:17,395 FATAL [Log] Failed - Unable to find the given element //table[@id='tableResults'] with in 300 seconds:org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of element located by By.xpath: //table[@id='tableResults'] (tried for 300 second(s) with 500 MILLISECONDS interval) 
+2018-12-10 16:12:29,294 INFO  [Log] Invoke AUT: https://www.webpagetest.org/ in chrome browser successfully. 
+2018-12-10 16:12:29,297 INFO  [Log] Implicit wait applied on the driver for 30 seconds. 
+2018-12-10 16:12:41,504 INFO  [Log] The element with id: browser is selected with visible text: Galaxy S7 - Chrome 
+2018-12-10 16:12:41,666 INFO  [Log] The element with id: connection is selected with visible text: LTE (12 Mbps/12 Mbps 70ms RTT) 
+2018-12-10 16:17:12,561 INFO  [Log] Invoke AUT: https://www.webpagetest.org/ in chrome browser successfully. 
+2018-12-10 16:17:12,562 INFO  [Log] Implicit wait applied on the driver for 30 seconds. 
+2018-12-10 16:17:23,741 INFO  [Log] The element with id: browser is selected with visible text: Galaxy S7 - Chrome 
+2018-12-10 16:17:23,986 INFO  [Log] The element with id: connection is selected with visible text: LTE (12 Mbps/12 Mbps 70ms RTT) 
+2018-12-10 16:19:05,140 INFO  [Log] Invoke AUT: https://www.webpagetest.org/ in chrome browser successfully. 
+2018-12-10 16:19:05,143 INFO  [Log] Implicit wait applied on the driver for 30 seconds. 
+2018-12-10 16:19:19,441 INFO  [Log] The element with id: browser is selected with visible text: Galaxy S7 - Chrome 
+2018-12-10 16:19:19,593 INFO  [Log] The element with id: connection is selected with visible text: LTE (12 Mbps/12 Mbps 70ms RTT) 
+2018-12-10 16:20:55,050 INFO  [Log] Invoke AUT: https://www.webpagetest.org/ in chrome browser successfully. 
+2018-12-10 16:20:55,052 INFO  [Log] Implicit wait applied on the driver for 30 seconds. 
+2018-12-10 16:21:06,254 INFO  [Log] The element with id: browser is selected with visible text: Chrome 
+2018-12-10 16:21:06,380 INFO  [Log] The element with id: connection is selected with visible text: Cable (5/1 Mbps 28ms RTT) 
+2018-12-10 16:22:02,162 INFO  [Log] Invoke AUT: https://www.webpagetest.org/ in chrome browser successfully. 
+2018-12-10 16:22:02,166 INFO  [Log] Implicit wait applied on the driver for 30 seconds. 
+2018-12-10 16:22:34,252 FATAL [Log] Unable to find the given element identifierId :org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of element located by By.id: identifierId (tried for 10 second(s) with 500 MILLISECONDS interval) 
+2018-12-10 16:22:46,676 FATAL [Log] Unable to find the given element identifierNext :org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of element located by By.id: identifierNext (tried for 10 second(s) with 500 MILLISECONDS interval) 
+2018-12-10 16:22:54,823 FATAL [Log] Unable to find the given element //input[@type='password'] :org.openqa.selenium.WebDriverException: chrome not reachable
+  (Session info: chrome=70.0.3538.110)
+  (Driver info: chromedriver=2.40.565498 (ea082db3280dd6843ebfb08a625e3eb905c4f5ab),platform=Windows NT 10.0.17134 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.6.0', revision: '6fbf3ec767', time: '2017-09-27T15:28:36.4Z'
+System info: host: 'MJN_TEST_AUTOMA', ip: '172.23.12.113', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '10.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{mobileEmulationEnabled=false, hasTouchScreen=false, platform=XP, acceptSslCerts=false, acceptInsecureCerts=false, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, platformName=XP, setWindowRect=true, unexpectedAlertBehaviour=, applicationCacheEnabled=false, rotatable=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.40.565498 (ea082db3280dd6843ebfb08a625e3eb905c4f5ab), userDataDir=C:\Users\user\AppData\Local\Temp\scoped_dir27536_12663}, takesHeapSnapshot=true, pageLoadStrategy=normal, unhandledPromptBehavior=, databaseEnabled=false, handlesAlerts=true, version=70.0.3538.110, browserConnectionEnabled=false, nativeEvents=true, locationContextEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 0f1d5f46514982692ce6cb280934b322
+*** Element info: {Using=xpath, value=//input[@type='password']} 
+2018-12-10 16:23:01,867 FATAL [Log] Unable to find the given element passwordNext :org.openqa.selenium.WebDriverException: chrome not reachable
+  (Session info: chrome=70.0.3538.110)
+  (Driver info: chromedriver=2.40.565498 (ea082db3280dd6843ebfb08a625e3eb905c4f5ab),platform=Windows NT 10.0.17134 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.6.0', revision: '6fbf3ec767', time: '2017-09-27T15:28:36.4Z'
+System info: host: 'MJN_TEST_AUTOMA', ip: '172.23.12.113', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '10.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{mobileEmulationEnabled=false, hasTouchScreen=false, platform=XP, acceptSslCerts=false, acceptInsecureCerts=false, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, platformName=XP, setWindowRect=true, unexpectedAlertBehaviour=, applicationCacheEnabled=false, rotatable=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.40.565498 (ea082db3280dd6843ebfb08a625e3eb905c4f5ab), userDataDir=C:\Users\user\AppData\Local\Temp\scoped_dir27536_12663}, takesHeapSnapshot=true, pageLoadStrategy=normal, unhandledPromptBehavior=, databaseEnabled=false, handlesAlerts=true, version=70.0.3538.110, browserConnectionEnabled=false, nativeEvents=true, locationContextEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 0f1d5f46514982692ce6cb280934b322
+*** Element info: {Using=id, value=passwordNext} 
+2018-12-10 16:23:09,994 FATAL [Log] Unable to find the given element url :org.openqa.selenium.WebDriverException: chrome not reachable
+  (Session info: chrome=70.0.3538.110)
+  (Driver info: chromedriver=2.40.565498 (ea082db3280dd6843ebfb08a625e3eb905c4f5ab),platform=Windows NT 10.0.17134 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.6.0', revision: '6fbf3ec767', time: '2017-09-27T15:28:36.4Z'
+System info: host: 'MJN_TEST_AUTOMA', ip: '172.23.12.113', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '10.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{mobileEmulationEnabled=false, hasTouchScreen=false, platform=XP, acceptSslCerts=false, acceptInsecureCerts=false, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, platformName=XP, setWindowRect=true, unexpectedAlertBehaviour=, applicationCacheEnabled=false, rotatable=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.40.565498 (ea082db3280dd6843ebfb08a625e3eb905c4f5ab), userDataDir=C:\Users\user\AppData\Local\Temp\scoped_dir27536_12663}, takesHeapSnapshot=true, pageLoadStrategy=normal, unhandledPromptBehavior=, databaseEnabled=false, handlesAlerts=true, version=70.0.3538.110, browserConnectionEnabled=false, nativeEvents=true, locationContextEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 0f1d5f46514982692ce6cb280934b322
+*** Element info: {Using=id, value=url} 
+2018-12-10 16:23:16,165 FATAL [Log] The visible text: Chrome could not be selected. org.openqa.selenium.WebDriverException: chrome not reachable
+  (Session info: chrome=70.0.3538.110)
+  (Driver info: chromedriver=2.40.565498 (ea082db3280dd6843ebfb08a625e3eb905c4f5ab),platform=Windows NT 10.0.17134 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.6.0', revision: '6fbf3ec767', time: '2017-09-27T15:28:36.4Z'
+System info: host: 'MJN_TEST_AUTOMA', ip: '172.23.12.113', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '10.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{mobileEmulationEnabled=false, hasTouchScreen=false, platform=XP, acceptSslCerts=false, acceptInsecureCerts=false, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, platformName=XP, setWindowRect=true, unexpectedAlertBehaviour=, applicationCacheEnabled=false, rotatable=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.40.565498 (ea082db3280dd6843ebfb08a625e3eb905c4f5ab), userDataDir=C:\Users\user\AppData\Local\Temp\scoped_dir27536_12663}, takesHeapSnapshot=true, pageLoadStrategy=normal, unhandledPromptBehavior=, databaseEnabled=false, handlesAlerts=true, version=70.0.3538.110, browserConnectionEnabled=false, nativeEvents=true, locationContextEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 0f1d5f46514982692ce6cb280934b322
+*** Element info: {Using=id, value=browser} 
+2018-12-10 16:23:32,739 INFO  [Log] Invoke AUT: https://www.webpagetest.org/ in chrome browser successfully. 
+2018-12-10 16:23:32,742 INFO  [Log] Implicit wait applied on the driver for 30 seconds. 
+2018-12-10 16:23:44,000 INFO  [Log] The element with id: browser is selected with visible text: Chrome 
+2018-12-10 16:23:44,152 INFO  [Log] The element with id: connection is selected with visible text: Cable (5/1 Mbps 28ms RTT) 
+2018-12-10 16:24:34,930 INFO  [Log] Invoke AUT: https://www.webpagetest.org/ in chrome browser successfully. 
+2018-12-10 16:24:34,933 INFO  [Log] Implicit wait applied on the driver for 30 seconds. 
+2018-12-10 16:24:48,328 INFO  [Log] The element with id: browser is selected with visible text: Chrome 
+2018-12-10 16:24:48,547 INFO  [Log] The element with id: connection is selected with visible text: Cable (5/1 Mbps 28ms RTT) 
+2018-12-10 16:25:45,329 INFO  [Log] Invoke AUT: https://www.webpagetest.org/ in chrome browser successfully. 
+2018-12-10 16:25:45,335 INFO  [Log] Implicit wait applied on the driver for 30 seconds. 
+2018-12-10 16:25:56,961 INFO  [Log] The element with id: browser is selected with visible text: Chrome 
+2018-12-10 16:25:57,112 INFO  [Log] The element with id: connection is selected with visible text: Cable (5/1 Mbps 28ms RTT) 
+2018-12-10 16:27:16,873 INFO  [Log] Invoke AUT: https://www.webpagetest.org/ in chrome browser successfully. 
+2018-12-10 16:27:16,875 INFO  [Log] Implicit wait applied on the driver for 30 seconds. 
+2018-12-10 16:27:28,882 INFO  [Log] The element with id: browser is selected with visible text: Chrome 
+2018-12-10 16:27:29,002 INFO  [Log] The element with id: connection is selected with visible text: Cable (5/1 Mbps 28ms RTT) 
+2018-12-10 16:28:37,209 INFO  [Log] Invoke AUT: https://www.webpagetest.org/ in chrome browser successfully. 
+2018-12-10 16:28:37,211 INFO  [Log] Implicit wait applied on the driver for 30 seconds. 
+2018-12-10 16:28:50,431 INFO  [Log] The element with id: browser is selected with visible text: Chrome 
+2018-12-10 16:28:50,555 INFO  [Log] The element with id: connection is selected with visible text: Cable (5/1 Mbps 28ms RTT) 
+2018-12-10 16:29:36,088 INFO  [Log] Invoke AUT: https://www.webpagetest.org/ in chrome browser successfully. 
+2018-12-10 16:29:36,091 INFO  [Log] Implicit wait applied on the driver for 30 seconds. 
+2018-12-10 16:29:47,478 INFO  [Log] The element with id: browser is selected with visible text: Chrome 
+2018-12-10 16:29:47,602 INFO  [Log] The element with id: connection is selected with visible text: Cable (5/1 Mbps 28ms RTT) 
+2018-12-10 16:30:40,898 INFO  [Log] Invoke AUT: https://www.webpagetest.org/ in chrome browser successfully. 
+2018-12-10 16:30:40,903 INFO  [Log] Implicit wait applied on the driver for 30 seconds. 
+2018-12-10 16:30:52,511 INFO  [Log] The element with id: browser is selected with visible text: Chrome 
+2018-12-10 16:30:52,636 INFO  [Log] The element with id: connection is selected with visible text: Cable (5/1 Mbps 28ms RTT) 
+2018-12-10 16:31:55,758 INFO  [Log] Invoke AUT: https://www.webpagetest.org/ in chrome browser successfully. 
+2018-12-10 16:31:55,759 INFO  [Log] Implicit wait applied on the driver for 30 seconds. 
+2018-12-10 16:32:09,425 INFO  [Log] The element with id: browser is selected with visible text: Chrome 
+2018-12-10 16:32:09,549 INFO  [Log] The element with id: connection is selected with visible text: Cable (5/1 Mbps 28ms RTT) 
+2018-12-10 16:38:12,254 INFO  [Log] Invoke AUT: https://www.webpagetest.org/ in chrome browser successfully. 
+2018-12-10 16:38:12,257 INFO  [Log] Implicit wait applied on the driver for 30 seconds. 
+2018-12-10 16:38:23,427 INFO  [Log] The element with id: browser is selected with visible text: Galaxy S7 - Chrome 
+2018-12-10 16:38:23,625 INFO  [Log] The element with id: connection is selected with visible text: LTE (12 Mbps/12 Mbps 70ms RTT) 
+2018-12-10 16:40:53,167 INFO  [Log] Invoke AUT: https://www.webpagetest.org/ in chrome browser successfully. 
+2018-12-10 16:40:53,170 INFO  [Log] Implicit wait applied on the driver for 30 seconds. 
+2018-12-10 16:41:04,064 INFO  [Log] The element with id: browser is selected with visible text: Galaxy S7 - Chrome 
+2018-12-10 16:41:04,300 INFO  [Log] The element with id: connection is selected with visible text: LTE (12 Mbps/12 Mbps 70ms RTT) 
+2018-12-10 16:46:13,566 FATAL [Log] Failed - Unable to find the given element //table[@id='tableResults'] with in 300 seconds:org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of element located by By.xpath: //table[@id='tableResults'] (tried for 300 second(s) with 500 MILLISECONDS interval) 
+2018-12-10 16:46:14,231 INFO  [Log] Successfully closed the browsers. 
+2018-12-10 16:46:24,253 INFO  [Log] Invoke AUT: https://www.webpagetest.org/ in chrome browser successfully. 
+2018-12-10 16:46:24,257 INFO  [Log] Implicit wait applied on the driver for 30 seconds. 
+2018-12-10 16:46:36,088 INFO  [Log] The element with id: browser is selected with visible text: Galaxy S7 - Chrome 
+2018-12-10 16:46:36,314 INFO  [Log] The element with id: connection is selected with visible text: LTE (12 Mbps/12 Mbps 70ms RTT) 
+2018-12-10 16:51:45,642 FATAL [Log] Failed - Unable to find the given element //table[@id='tableResults'] with in 300 seconds:org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of element located by By.xpath: //table[@id='tableResults'] (tried for 300 second(s) with 500 MILLISECONDS interval) 
+2018-12-10 16:51:47,741 INFO  [Log] Successfully closed the browsers. 
+2018-12-10 16:51:56,924 INFO  [Log] Invoke AUT: https://www.bing.com/webmaster/tools/mobile-friendliness in chrome browser successfully. 
+2018-12-10 16:51:56,927 INFO  [Log] Implicit wait applied on the driver for 30 seconds. 
+2018-12-10 16:52:23,234 INFO  [Log] Invoke AUT: https://www.bing.com/webmaster/tools/mobile-friendliness in chrome browser successfully. 
+2018-12-10 16:52:23,239 INFO  [Log] Implicit wait applied on the driver for 30 seconds. 
+2018-12-10 16:53:15,181 INFO  [Log] Invoke AUT: https://www.webpagetest.org/ in chrome browser successfully. 
+2018-12-10 16:53:15,196 INFO  [Log] Implicit wait applied on the driver for 30 seconds. 
+2018-12-10 16:53:28,278 INFO  [Log] The element with id: browser is selected with visible text: Chrome 
+2018-12-10 16:53:28,404 INFO  [Log] The element with id: connection is selected with visible text: Cable (5/1 Mbps 28ms RTT) 
+2018-12-10 16:54:25,270 INFO  [Log] Invoke AUT: https://www.webpagetest.org/ in chrome browser successfully. 
+2018-12-10 16:54:25,273 INFO  [Log] Implicit wait applied on the driver for 30 seconds. 
+2018-12-10 16:54:40,246 INFO  [Log] The element with id: browser is selected with visible text: Chrome 
+2018-12-10 16:54:40,385 INFO  [Log] The element with id: connection is selected with visible text: Cable (5/1 Mbps 28ms RTT) 
+2018-12-10 16:55:27,627 INFO  [Log] Invoke AUT: https://developers.google.com/speed/pagespeed/insights/ in chrome browser successfully. 
+2018-12-10 16:55:27,630 INFO  [Log] Implicit wait applied on the driver for 30 seconds. 
+2018-12-10 16:55:27,930 INFO  [Log] The mouse over by xpath : //div[@role='button' and text()=' ANALYZE '] is performed. 
+2018-12-10 16:56:28,124 INFO  [Log] The mouse over by xpath : //div[@class='tab-title' and text()='Desktop'] is performed. 
+2018-12-10 16:56:39,235 INFO  [Log] Invoke AUT: https://developers.google.com/speed/pagespeed/insights/ in chrome browser successfully. 
+2018-12-10 16:56:39,239 INFO  [Log] Implicit wait applied on the driver for 30 seconds. 
+2018-12-10 16:56:39,543 INFO  [Log] The mouse over by xpath : //div[@role='button' and text()=' ANALYZE '] is performed. 
+2018-12-10 16:57:39,780 INFO  [Log] The mouse over by xpath : //div[@class='tab-title' and text()='Desktop'] is performed. 
+2018-12-10 16:57:53,236 INFO  [Log] Invoke AUT: https://gtmetrix.com/ in chrome browser successfully. 
+2018-12-10 16:57:53,241 INFO  [Log] Implicit wait applied on the driver for 30 seconds. 
+2018-12-10 16:58:28,526 INFO  [Log] Invoke AUT: https://gtmetrix.com/ in chrome browser successfully. 
+2018-12-10 16:58:28,531 INFO  [Log] Implicit wait applied on the driver for 30 seconds. 
+2018-12-10 17:07:58,999 INFO  [Log] Invoke AUT: https://www.webpagetest.org/ in chrome browser successfully. 
+2018-12-10 17:07:59,004 INFO  [Log] Implicit wait applied on the driver for 30 seconds. 
+2018-12-10 17:08:12,160 INFO  [Log] The element with id: browser is selected with visible text: Chrome 
+2018-12-10 17:08:12,340 INFO  [Log] The element with id: connection is selected with visible text: Cable (5/1 Mbps 28ms RTT) 
+2018-12-10 17:09:15,258 INFO  [Log] Invoke AUT: https://www.webpagetest.org/ in chrome browser successfully. 
+2018-12-10 17:09:15,266 INFO  [Log] Implicit wait applied on the driver for 30 seconds. 
+2018-12-10 17:09:27,706 INFO  [Log] The element with id: browser is selected with visible text: Chrome 
+2018-12-10 17:09:27,883 INFO  [Log] The element with id: connection is selected with visible text: Cable (5/1 Mbps 28ms RTT) 
+2018-12-10 17:14:24,848 INFO  [Log] Invoke AUT: https://www.bing.com/webmaster/tools/mobile-friendliness in chrome browser successfully. 
+2018-12-10 17:14:24,855 INFO  [Log] Implicit wait applied on the driver for 30 seconds. 
+2018-12-10 17:14:50,327 INFO  [Log] Invoke AUT: https://www.bing.com/webmaster/tools/mobile-friendliness in chrome browser successfully. 
+2018-12-10 17:14:50,332 INFO  [Log] Implicit wait applied on the driver for 30 seconds. 
+2018-12-10 17:19:32,745 INFO  [Log] Invoke AUT: https://developers.google.com/speed/pagespeed/insights/ in chrome browser successfully. 
+2018-12-10 17:19:32,749 INFO  [Log] Implicit wait applied on the driver for 30 seconds. 
+2018-12-10 17:19:33,271 INFO  [Log] The mouse over by xpath : //div[@role='button' and text()=' ANALYZE '] is performed. 
+2018-12-10 17:20:33,507 INFO  [Log] The mouse over by xpath : //div[@class='tab-title' and text()='Desktop'] is performed. 
+2018-12-10 17:20:59,076 INFO  [Log] Invoke AUT: https://developers.google.com/speed/pagespeed/insights/ in chrome browser successfully. 
+2018-12-10 17:20:59,081 INFO  [Log] Implicit wait applied on the driver for 30 seconds. 
+2018-12-10 17:20:59,432 INFO  [Log] The mouse over by xpath : //div[@role='button' and text()=' ANALYZE '] is performed. 
+2018-12-10 17:21:59,663 INFO  [Log] The mouse over by xpath : //div[@class='tab-title' and text()='Desktop'] is performed. 
+2018-12-10 17:22:09,989 INFO  [Log] Invoke AUT: https://developers.google.com/speed/pagespeed/insights/ in chrome browser successfully. 
+2018-12-10 17:22:09,992 INFO  [Log] Implicit wait applied on the driver for 30 seconds. 
+2018-12-10 17:22:10,254 INFO  [Log] The mouse over by xpath : //div[@role='button' and text()=' ANALYZE '] is performed. 
+2018-12-10 17:23:10,462 INFO  [Log] The mouse over by xpath : //div[@class='tab-title' and text()='Desktop'] is performed. 
+2018-12-10 17:28:28,802 INFO  [Log] Invoke AUT: https://gtmetrix.com/ in chrome browser successfully. 
+2018-12-10 17:28:28,811 INFO  [Log] Implicit wait applied on the driver for 30 seconds. 
+2018-12-10 17:29:34,802 INFO  [Log] Invoke AUT: https://gtmetrix.com/ in chrome browser successfully. 
+2018-12-10 17:29:34,809 INFO  [Log] Implicit wait applied on the driver for 30 seconds. 
