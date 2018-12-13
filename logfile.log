@@ -1830,3 +1830,137 @@ Session ID: 0f1d5f46514982692ce6cb280934b322
 =======
 >>>>>>> ce0b339f672a058ac085669fc5b5e64c9a8b9cc5
 >>>>>>> 273284f8fc6f775148738b5943fed58e2e3edde1
+2018-12-12 15:05:29,787 INFO  [Log] Invoke AUT: https://www.bing.com/webmaster/tools/mobile-friendliness in chrome browser successfully. 
+2018-12-12 15:05:29,791 INFO  [Log] Implicit wait applied on the driver for 30 seconds. 
+2018-12-12 15:05:57,813 INFO  [Log] Invoke AUT: https://www.bing.com/webmaster/tools/mobile-friendliness in chrome browser successfully. 
+2018-12-12 15:05:57,816 INFO  [Log] Implicit wait applied on the driver for 30 seconds. 
+2018-12-12 19:09:31,525 INFO  [Log] Invoke AUT: https://www.webpagetest.org/ in chrome browser successfully. 
+2018-12-12 19:09:31,530 INFO  [Log] Implicit wait applied on the driver for 30 seconds. 
+2018-12-12 19:10:05,238 INFO  [Log] The element with id: browser is selected with visible text: Galaxy S7 - Chrome 
+2018-12-12 19:10:05,397 INFO  [Log] The element with id: connection is selected with visible text: LTE (12 Mbps/12 Mbps 70ms RTT) 
+2018-12-12 19:13:25,758 INFO  [Log] Invoke AUT: https://www.webpagetest.org/ in chrome browser successfully. 
+2018-12-12 19:13:25,762 INFO  [Log] Implicit wait applied on the driver for 30 seconds. 
+2018-12-12 19:13:37,708 FATAL [Log] Unable to find the given element identifierId :org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of element located by By.id: identifierId (tried for 10 second(s) with 500 MILLISECONDS interval) 
+2018-12-12 19:13:48,888 FATAL [Log] Unable to find the given element identifierNext :org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of element located by By.id: identifierNext (tried for 10 second(s) with 500 MILLISECONDS interval) 
+2018-12-12 19:14:01,048 FATAL [Log] Unable to find the given element //input[@type='password'] :org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of element located by By.xpath: //input[@type='password'] (tried for 10 second(s) with 500 MILLISECONDS interval) 
+2018-12-12 19:14:12,209 FATAL [Log] Unable to find the given element passwordNext :org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of element located by By.id: passwordNext (tried for 10 second(s) with 500 MILLISECONDS interval) 
+2018-12-12 19:14:24,345 FATAL [Log] Unable to find the given element url :org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of element located by By.id: url (tried for 10 second(s) with 500 MILLISECONDS interval) 
+2018-12-12 19:14:24,368 FATAL [Log] The visible text: Galaxy S7 - Chrome could not be selected. org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=71.0.3578.80)
+  (Driver info: chromedriver=2.40.565498 (ea082db3280dd6843ebfb08a625e3eb905c4f5ab),platform=Windows NT 10.0.17763 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.6.0', revision: '6fbf3ec767', time: '2017-09-27T15:28:36.4Z'
+System info: host: 'AMX_701', ip: '10.10.4.64', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '10.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{mobileEmulationEnabled=false, hasTouchScreen=false, platform=XP, acceptSslCerts=false, acceptInsecureCerts=false, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, platformName=XP, setWindowRect=true, unexpectedAlertBehaviour=, applicationCacheEnabled=false, rotatable=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.40.565498 (ea082db3280dd6843ebfb08a625e3eb905c4f5ab), userDataDir=C:\Users\User\AppData\Local\Temp\scoped_dir6956_21572}, takesHeapSnapshot=true, pageLoadStrategy=normal, unhandledPromptBehavior=, databaseEnabled=false, handlesAlerts=true, version=71.0.3578.80, browserConnectionEnabled=false, nativeEvents=true, locationContextEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 51ee2140121f1df8076274ec3cad3081
+*** Element info: {Using=id, value=browser} 
+2018-12-12 19:14:24,936 INFO  [Log] Successfully closed the browsers. 
+2018-12-12 19:14:33,903 INFO  [Log] Invoke AUT: https://www.webpagetest.org/ in chrome browser successfully. 
+2018-12-12 19:14:33,907 INFO  [Log] Implicit wait applied on the driver for 30 seconds. 
+2018-12-12 19:14:51,436 FATAL [Log] Unable to find the given element identifierId :org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of element located by By.id: identifierId (tried for 10 second(s) with 500 MILLISECONDS interval) 
+2018-12-12 19:15:02,553 FATAL [Log] Unable to find the given element identifierNext :org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of element located by By.id: identifierNext (tried for 10 second(s) with 500 MILLISECONDS interval) 
+2018-12-12 19:21:24,881 INFO  [Log] Invoke AUT: https://gtmetrix.com/ in chrome browser successfully. 
+2018-12-12 19:21:24,888 INFO  [Log] Implicit wait applied on the driver for 30 seconds. 
+2018-12-12 19:29:44,943 INFO  [Log] Invoke AUT: https://www.webpagetest.org/ in chrome browser successfully. 
+2018-12-12 19:29:44,952 INFO  [Log] Implicit wait applied on the driver for 30 seconds. 
+2018-12-12 19:31:10,727 INFO  [Log] Invoke AUT: https://gtmetrix.com/ in chrome browser successfully. 
+2018-12-12 19:31:10,735 INFO  [Log] Implicit wait applied on the driver for 30 seconds. 
+2018-12-12 19:37:39,089 INFO  [Log] Invoke AUT: https://gtmetrix.com/ in chrome browser successfully. 
+2018-12-12 19:37:39,093 INFO  [Log] Implicit wait applied on the driver for 30 seconds. 
+2018-12-12 19:38:13,534 INFO  [Log] Successfully closed the browsers. 
+2018-12-12 19:38:23,957 INFO  [Log] Invoke AUT: https://gtmetrix.com/ in chrome browser successfully. 
+2018-12-12 19:38:23,961 INFO  [Log] Implicit wait applied on the driver for 30 seconds. 
+2018-12-12 19:46:10,771 INFO  [Log] Invoke AUT: https://gtmetrix.com/ in chrome browser successfully. 
+2018-12-12 19:46:10,776 INFO  [Log] Implicit wait applied on the driver for 30 seconds. 
+2018-12-12 19:46:45,159 INFO  [Log] Successfully closed the browsers. 
+2018-12-12 19:48:54,022 INFO  [Log] Invoke AUT: https://gtmetrix.com/ in chrome browser successfully. 
+2018-12-12 19:48:54,030 INFO  [Log] Implicit wait applied on the driver for 30 seconds. 
+2018-12-12 19:52:40,468 INFO  [Log] Invoke AUT: https://gtmetrix.com/ in chrome browser successfully. 
+2018-12-12 19:52:40,472 INFO  [Log] Implicit wait applied on the driver for 30 seconds. 
+2018-12-12 19:56:27,713 INFO  [Log] Invoke AUT: https://gtmetrix.com/ in chrome browser successfully. 
+2018-12-12 19:56:27,716 INFO  [Log] Implicit wait applied on the driver for 30 seconds. 
+2018-12-12 19:57:01,944 INFO  [Log] Successfully closed the browsers. 
+2018-12-12 19:57:45,571 INFO  [Log] Invoke AUT: https://gtmetrix.com/ in chrome browser successfully. 
+2018-12-12 19:57:45,575 INFO  [Log] Implicit wait applied on the driver for 30 seconds. 
+2018-12-12 19:57:58,527 INFO  [Log] Successfully closed the browsers. 
+2018-12-12 20:12:39,293 INFO  [Log] Invoke AUT: https://gtmetrix.com/ in chrome browser successfully. 
+2018-12-12 20:12:39,303 INFO  [Log] Implicit wait applied on the driver for 30 seconds. 
+2018-12-12 20:13:02,621 INFO  [Log] Successfully closed the browsers. 
+2018-12-12 20:18:28,971 INFO  [Log] Invoke AUT: https://gtmetrix.com/ in chrome browser successfully. 
+2018-12-12 20:18:28,974 INFO  [Log] Implicit wait applied on the driver for 30 seconds. 
+2018-12-12 20:19:44,950 INFO  [Log] Invoke AUT: https://gtmetrix.com/ in chrome browser successfully. 
+2018-12-12 20:19:44,957 INFO  [Log] Implicit wait applied on the driver for 30 seconds. 
+2018-12-12 20:22:16,931 INFO  [Log] Invoke AUT: https://gtmetrix.com/ in chrome browser successfully. 
+2018-12-12 20:22:16,939 INFO  [Log] Implicit wait applied on the driver for 30 seconds. 
+2018-12-12 20:26:28,222 INFO  [Log] Invoke AUT: https://gtmetrix.com/ in chrome browser successfully. 
+2018-12-12 20:26:28,231 INFO  [Log] Implicit wait applied on the driver for 30 seconds. 
+2018-12-12 20:33:41,697 INFO  [Log] Invoke AUT: https://gtmetrix.com/ in chrome browser successfully. 
+2018-12-12 20:33:41,701 INFO  [Log] Implicit wait applied on the driver for 30 seconds. 
+2018-12-12 20:34:09,635 INFO  [Log] Successfully closed the browsers. 
+2018-12-12 21:01:49,450 INFO  [Log] Invoke AUT: https://gtmetrix.com/ in chrome browser successfully. 
+2018-12-12 21:01:49,458 INFO  [Log] Implicit wait applied on the driver for 30 seconds. 
+2018-12-12 21:01:52,685 INFO  [Log] The element with id: af-region is selected with visible text: Dallas, USA 
+2018-12-13 12:04:20,184 INFO  [Log] Invoke AUT: https://gtmetrix.com/ in chrome browser successfully. 
+2018-12-13 12:04:20,190 INFO  [Log] Implicit wait applied on the driver for 30 seconds. 
+2018-12-13 12:04:23,389 INFO  [Log] The element with id: af-region is selected with visible text: Dallas, USA 
+2018-12-13 12:05:03,892 ERROR [Log] Unable to find the id : (//div[@class='report-page-detail'])/span) in the DOM elements. org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of element located by By.xpath: (//div[@class='report-page-detail'])/span) (tried for 10 second(s) with 500 MILLISECONDS interval) 
+2018-12-13 12:05:05,157 INFO  [Log] Successfully closed the browsers. 
+2018-12-13 12:07:22,503 INFO  [Log] Invoke AUT: https://gtmetrix.com/ in chrome browser successfully. 
+2018-12-13 12:07:22,509 INFO  [Log] Implicit wait applied on the driver for 30 seconds. 
+2018-12-13 12:07:25,697 INFO  [Log] The element with id: af-region is selected with visible text: Dallas, USA 
+2018-12-13 12:08:04,441 ERROR [Log] Unable to find the id : (//div[@class='report-page-detail'])/span) in the DOM elements. org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of element located by By.xpath: (//div[@class='report-page-detail'])/span) (tried for 10 second(s) with 500 MILLISECONDS interval) 
+2018-12-13 12:08:05,636 INFO  [Log] Successfully closed the browsers. 
+2018-12-13 12:08:13,986 INFO  [Log] Invoke AUT: https://gtmetrix.com/ in chrome browser successfully. 
+2018-12-13 12:08:13,994 INFO  [Log] Implicit wait applied on the driver for 30 seconds. 
+2018-12-13 12:09:10,293 INFO  [Log] Invoke AUT: https://gtmetrix.com/ in chrome browser successfully. 
+2018-12-13 12:09:10,300 INFO  [Log] Implicit wait applied on the driver for 30 seconds. 
+2018-12-13 12:09:13,474 INFO  [Log] The element with id: af-region is selected with visible text: Dallas, USA 
+2018-12-13 12:09:44,340 ERROR [Log] Unable to find the id : (//div[@class='report-page-detail'])/span) in the DOM elements. org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of element located by By.xpath: (//div[@class='report-page-detail'])/span) (tried for 10 second(s) with 500 MILLISECONDS interval) 
+2018-12-13 12:09:45,613 INFO  [Log] Successfully closed the browsers. 
+2018-12-13 12:19:08,595 INFO  [Log] Invoke AUT: https://gtmetrix.com/ in chrome browser successfully. 
+2018-12-13 12:19:08,603 INFO  [Log] Implicit wait applied on the driver for 30 seconds. 
+2018-12-13 12:19:11,876 INFO  [Log] The element with id: af-region is selected with visible text: Dallas, USA 
+2018-12-13 12:19:41,731 ERROR [Log] Unable to find the id : (//div[@class='report-page-detail'])/span) in the DOM elements. org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of element located by By.xpath: (//div[@class='report-page-detail'])/span) (tried for 10 second(s) with 500 MILLISECONDS interval) 
+2018-12-13 12:19:43,137 INFO  [Log] Successfully closed the browsers. 
+2018-12-13 12:27:24,586 INFO  [Log] Invoke AUT: https://gtmetrix.com/ in chrome browser successfully. 
+2018-12-13 12:27:24,589 INFO  [Log] Implicit wait applied on the driver for 30 seconds. 
+2018-12-13 12:27:27,683 INFO  [Log] The element with id: af-region is selected with visible text: Dallas, USA 
+2018-12-13 12:28:08,468 ERROR [Log] Unable to find the id : (//div[@class='report-page-detail'])/span) in the DOM elements. org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of element located by By.xpath: (//div[@class='report-page-detail'])/span) (tried for 10 second(s) with 500 MILLISECONDS interval) 
+2018-12-13 12:45:27,728 INFO  [Log] Invoke AUT: https://gtmetrix.com/ in chrome browser successfully. 
+2018-12-13 12:45:27,733 INFO  [Log] Implicit wait applied on the driver for 30 seconds. 
+2018-12-13 12:45:30,901 INFO  [Log] The element with id: af-region is selected with visible text: Dallas, USA 
+2018-12-13 12:47:32,113 INFO  [Log] Invoke AUT: https://gtmetrix.com/ in chrome browser successfully. 
+2018-12-13 12:47:32,121 INFO  [Log] Implicit wait applied on the driver for 30 seconds. 
+2018-12-13 12:47:35,389 INFO  [Log] The element with id: af-region is selected with visible text: Dallas, USA 
+2018-12-13 12:50:18,048 INFO  [Log] Invoke AUT: https://gtmetrix.com/ in chrome browser successfully. 
+2018-12-13 12:50:18,056 INFO  [Log] Implicit wait applied on the driver for 30 seconds. 
+2018-12-13 12:50:21,273 INFO  [Log] The element with id: af-region is selected with visible text: Dallas, USA 
+2018-12-13 12:51:02,089 ERROR [Log] Unable to find the id : (//div[@class='report-page-detail'])/span) in the DOM elements. org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of element located by By.xpath: (//div[@class='report-page-detail'])/span) (tried for 10 second(s) with 500 MILLISECONDS interval) 
+2018-12-13 12:51:03,358 INFO  [Log] Successfully closed the browsers. 
+2018-12-13 12:52:16,705 INFO  [Log] Invoke AUT: https://gtmetrix.com/ in chrome browser successfully. 
+2018-12-13 12:52:16,713 INFO  [Log] Implicit wait applied on the driver for 30 seconds. 
+2018-12-13 12:52:19,837 INFO  [Log] The element with id: af-region is selected with visible text: Dallas, USA 
+2018-12-13 13:17:57,905 INFO  [Log] Invoke AUT: https://gtmetrix.com/ in chrome browser successfully. 
+2018-12-13 13:17:57,908 INFO  [Log] Implicit wait applied on the driver for 30 seconds. 
+2018-12-13 13:18:01,385 INFO  [Log] The element with id: af-region is selected with visible text: Dallas, USA 
+2018-12-13 13:18:32,739 INFO  [Log] Invoke AUT: https://gtmetrix.com/ in chrome browser successfully. 
+2018-12-13 13:18:32,745 INFO  [Log] Implicit wait applied on the driver for 30 seconds. 
+2018-12-13 13:32:16,373 INFO  [Log] Invoke AUT: https://gtmetrix.com/ in chrome browser successfully. 
+2018-12-13 13:32:16,378 INFO  [Log] Implicit wait applied on the driver for 30 seconds. 
+2018-12-13 13:32:19,847 INFO  [Log] The element with id: af-region is selected with visible text: Dallas, USA 
+2018-12-13 13:33:00,456 ERROR [Log] Unable to find the id : (//div[@class='report-page-detail'])/span) in the DOM elements. org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of element located by By.xpath: (//div[@class='report-page-detail'])/span) (tried for 10 second(s) with 500 MILLISECONDS interval) 
+2018-12-13 13:33:01,812 INFO  [Log] Successfully closed the browsers. 
+2018-12-13 13:33:48,050 INFO  [Log] Invoke AUT: https://gtmetrix.com/ in chrome browser successfully. 
+2018-12-13 13:33:48,057 INFO  [Log] Implicit wait applied on the driver for 30 seconds. 
+2018-12-13 13:33:51,367 INFO  [Log] The element with id: af-region is selected with visible text: Dallas, USA 
+2018-12-13 13:34:19,705 ERROR [Log] Unable to find the id : (//div[@class='report-page-detail'])/span) in the DOM elements. org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of element located by By.xpath: (//div[@class='report-page-detail'])/span) (tried for 10 second(s) with 500 MILLISECONDS interval) 
+2018-12-13 14:40:31,008 INFO  [Log] Invoke AUT: https://gtmetrix.com/ in chrome browser successfully. 
+2018-12-13 14:40:31,015 INFO  [Log] Implicit wait applied on the driver for 30 seconds. 
+2018-12-13 14:40:34,290 INFO  [Log] The element with id: af-region is selected with visible text: Dallas, USA 
+2018-12-13 14:41:13,557 ERROR [Log] Unable to find the id : (//div[@class='report-page-detail'])/span) in the DOM elements. org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of element located by By.xpath: (//div[@class='report-page-detail'])/span) (tried for 10 second(s) with 500 MILLISECONDS interval) 
+2018-12-13 14:41:14,772 INFO  [Log] Successfully closed the browsers. 
+2018-12-13 14:54:15,304 INFO  [Log] Invoke AUT: https://gtmetrix.com/ in chrome browser successfully. 
+2018-12-13 14:54:15,314 INFO  [Log] Implicit wait applied on the driver for 30 seconds. 
+2018-12-13 14:54:18,490 INFO  [Log] The element with id: af-region is selected with visible text: Dallas, USA 
