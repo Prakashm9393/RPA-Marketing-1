@@ -110,7 +110,7 @@ public class TC001{
 		}
     }	
     
-    @Test
+    //@Test
 	public void test_TC007(){
 		Mobile_Friendliness_Library ml = new Mobile_Friendliness_Library();
 		try{
