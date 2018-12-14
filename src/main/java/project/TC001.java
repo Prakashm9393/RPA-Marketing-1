@@ -98,19 +98,24 @@ public class TC001{
 			e.printStackTrace();
 		}
     }		
-   // @Test
+    @Test
 	public void test_TC006(){
 		try{
 			String[] result = library.getGradeInGTMetrix("https://www.digikey.in");
 			System.out.println("URL: "+result[0]);
 			System.out.println("gscore: "+result[1]);
 			System.out.println("yslow: "+result[2]);
+			System.out.println("fullLoadTime: "+result[3]);
 		}catch(Exception e){			
 			e.printStackTrace();
 		}
     }	
     
+<<<<<<< HEAD
     //@Test
+=======
+   // @Test
+>>>>>>> 5e36249a837eb4546328cbfc712f683c7fdff429
 	public void test_TC007(){
 		Mobile_Friendliness_Library ml = new Mobile_Friendliness_Library();
 		try{

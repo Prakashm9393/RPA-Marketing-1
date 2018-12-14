@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="RPA_Email_Market">
+  <test thread-count="5" name="RPA_Email_Market_Workflows">
+    <classes> 
+      <class name="project.Performance_Audit_Workflow"/>     
+      <class name="project.Mobile_Friendliness_Workflow"/>
+      <class name="project.Page_Count_Workflow"/>      
+    </classes>
+  </test> <!-- RPA_Email_Market_Workflows -->
+</suite> <!-- RPA_Email_Market -->

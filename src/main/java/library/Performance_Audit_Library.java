@@ -7,6 +7,10 @@ import java.io.IOException;
 import java.text.DecimalFormat;
 import java.util.Properties;
 
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.support.ui.Select;
+
 import activities.GenericWrappers;
 
 public class Performance_Audit_Library extends GenericWrappers{
@@ -135,7 +139,11 @@ public class Performance_Audit_Library extends GenericWrappers{
 		enterText("id&li-email", "manika.kannappan@ameexusa.com");
 		enterText("id&li-password", "ameex123");		
 		clickOn("xpath&//button[text()='Log In']");
-		waitUntilElementIsVisible("xpath&//header//li[@class='user-nav-welcome']", 300);		
+		waitUntilElementIsVisible("xpath&//header//li[@class='user-nav-welcome']", 300);
+		// To change country as US from Canada
+		clickOn("linktext&Analysis Options");		
+		selectByVisibleTextInDropdown("id&af-region", "Dallas, USA");
+		// To change country as US from Canada
 		enterText("name&url", url);
 		clickOn("Xpath&//button[text()='Analyze']");
 		waitUntilElementIsVisible("xpath&(//div[@class='report-score'])[1]/span/i", 300);				
@@ -149,10 +157,13 @@ public class Performance_Audit_Library extends GenericWrappers{
 		String yScoreValue = aSplit1[2];
 		String yPercent = getElement("xpath&(//div[@class='report-score'])[2]/span/span").getText();
 		String yScorePercent = yScoreValue.concat(yPercent);
+		// To take full load time
+		String fullLoadTime = getElement("xpath&(//div[@class='report-page-detail'])/span").getText();
+		//System.out.println(fullLoadTime);
 		String result = getDriver().getCurrentUrl();
 		clickOn("linktext&Log Out");
 		closeWindow();
-		return new String[] {result,googleScorePercent,yScorePercent};
+		return new String[] {result,googleScorePercent,yScorePercent,fullLoadTime};
     }	
 	
 }
