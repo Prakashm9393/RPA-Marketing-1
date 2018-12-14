@@ -20,7 +20,7 @@ public class Performance_Audit_Workflow{
 		}
 	}
 	
-    @Test(priority=0)
+  //  @Test(priority=0)
 	public void start0_get_mobile_web_page_test_run(){		
 		for(int i = 1; i <= testData.getTotalRowNumber("Web_Page_Test_Mobile"); i++){
 			try{
@@ -40,7 +40,7 @@ public class Performance_Audit_Workflow{
 		}
 	}
 	
-	@Test(priority=1)
+	//@Test(priority=1)
 	public void next1_put_desktop_web_page_test_run(){
 		for(int i = 1; i <= testData.getTotalRowNumber("Web_Page_Test_Desktop"); i++){
 			try {
@@ -64,7 +64,7 @@ public class Performance_Audit_Workflow{
 		}
 	}	
 	
-	@Test(priority=2)
+	//@Test(priority=2)
 	public void next2_get_google_page_speed_run(){
 		for(int i = 1; i <= testData.getTotalRowNumber("Page_Insight"); i++){
 			try{
@@ -93,9 +93,11 @@ public class Performance_Audit_Workflow{
 				String rUrl = result[0];
 				String gScore = result[1];
 				String yScore = result[2];
-				testData.setCellData("GT_metrix", 3, i, rUrl);
+				String pageloadtime = result[3];
+				testData.setCellData("GT_metrix", 4, i, rUrl);
 				testData.setCellData("GT_metrix", 1, i, gScore);	
 				testData.setCellData("GT_metrix", 2, i, yScore);	
+				testData.setCellData("GT_metrix", 3, i, pageloadtime);
 				System.out.println("Row "+i+" data entered successfully.");
 			}catch(Exception e){
 				System.err.println("Unable to enter data into the "+i+" row.");

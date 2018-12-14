@@ -98,7 +98,7 @@ public class TC001{
 			e.printStackTrace();
 		}
     }		
-    @Test
+    //@Test
 	public void test_TC006(){
 		try{
 			String[] result = library.getGradeInGTMetrix("https://www.digikey.in");

@@ -1964,3 +1964,9 @@ Session ID: 51ee2140121f1df8076274ec3cad3081
 2018-12-13 14:54:15,304 INFO  [Log] Invoke AUT: https://gtmetrix.com/ in chrome browser successfully. 
 2018-12-13 14:54:15,314 INFO  [Log] Implicit wait applied on the driver for 30 seconds. 
 2018-12-13 14:54:18,490 INFO  [Log] The element with id: af-region is selected with visible text: Dallas, USA 
+2018-12-14 16:12:32,126 INFO  [Log] Invoke AUT: https://gtmetrix.com/ in chrome browser successfully. 
+2018-12-14 16:12:32,130 INFO  [Log] Implicit wait applied on the driver for 30 seconds. 
+2018-12-14 16:12:36,156 INFO  [Log] The element with id: af-region is selected with visible text: Dallas, USA 
+2018-12-14 16:13:23,531 INFO  [Log] Invoke AUT: https://gtmetrix.com/ in chrome browser successfully. 
+2018-12-14 16:13:23,537 INFO  [Log] Implicit wait applied on the driver for 30 seconds. 
+2018-12-14 16:13:27,114 INFO  [Log] The element with id: af-region is selected with visible text: Dallas, USA 
