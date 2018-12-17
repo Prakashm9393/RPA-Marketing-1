@@ -22,7 +22,7 @@ public class Page_Count_Workflow{
 		}
 	}
 	
-	@Test
+	//@Test
 	public void start0_get_page_count(){		
 		for(int i = 1; i <= testData.getTotalRowNumber(sheetName); i++){
 			try {				

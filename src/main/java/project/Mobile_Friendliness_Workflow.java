@@ -22,7 +22,7 @@ public class Mobile_Friendliness_Workflow{
 		}
 	}
 	
-	@Test
+	//@Test
 	public void start0_get_mobile_friendliness(){		
 		for(int i = 1; i <= testData.getTotalRowNumber(sheetName); i++){
 			try {				

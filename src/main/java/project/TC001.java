@@ -111,7 +111,11 @@ public class TC001{
 		}
     }	
     
+<<<<<<< HEAD
+    //@Test
+=======
    // @Test
+>>>>>>> 5e36249a837eb4546328cbfc712f683c7fdff429
 	public void test_TC007(){
 		Mobile_Friendliness_Library ml = new Mobile_Friendliness_Library();
 		try{
