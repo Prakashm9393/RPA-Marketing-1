@@ -35,6 +35,7 @@ public class Performance_Audit_Workflow{
 				System.err.println("Unable to enter data into the "+i+" row.");
 				library.quitBrowser();
 			}finally{
+				library.quitBrowser();
 				library.waitTime();
 			}			
 		}
@@ -59,12 +60,13 @@ public class Performance_Audit_Workflow{
 				System.err.println("Unable to enter data into the "+i+" row.");		
 				library.quitBrowser();
 			}finally{
+				library.quitBrowser();
 				library.waitTime();
 			}
 		}
 	}	
 	
-	//@Test(priority=2)
+	@Test(priority=2)
 	public void next2_get_google_page_speed_run(){
 		for(int i = 1; i <= testData.getTotalRowNumber("Page_Insight"); i++){
 			try{
@@ -72,19 +74,27 @@ public class Performance_Audit_Workflow{
 				String[] result = library.getGoogleSpeedScoreResult(url);	
 				String Mobile_value = result[0];
 				String Desktop_value = result[1];
+				String Tti_M = result[2];
+				String Fmp_M = result[3];
+				String Tti_D = result[4];
+				String Fmp_D = result[5];				
 				testData.setCellData("Page_Insight", 1, i, Mobile_value+"%");
-				testData.setCellData("Page_Insight", 2, i, Desktop_value+"%");	
+				testData.setCellData("Page_Insight", 4, i, Desktop_value+"%");
+				testData.setCellData("Page_Insight", 2, i, Tti_M);
+				testData.setCellData("Page_Insight", 3, i, Fmp_M);
+				testData.setCellData("Page_Insight", 5, i, Tti_D);
+				testData.setCellData("Page_Insight", 6, i, Fmp_D);
 				System.out.println("Row "+i+" data entered successfully.");
 			}catch(Exception e){
-				System.err.println("Unable to enter data into the "+i+" row.");
-				library.quitBrowser();
+				System.err.println("Unable to enter data into the "+i+" row.");				
 			}finally{
+				library.quitBrowser();
 				library.waitTime();
 			}
 		}		
 	}		
 	
-	@Test(priority=3)
+	//@Test(priority=3)
 	public void next3_get_gtmetrix(){
 		for(int i = 1; i <= testData.getTotalRowNumber("GT_metrix"); i++){
 			try{
@@ -103,6 +113,7 @@ public class Performance_Audit_Workflow{
 				System.err.println("Unable to enter data into the "+i+" row.");
 				library.quitBrowser();
 			}finally{
+				library.quitBrowser();
 				library.waitTime();
 			}
 		}		

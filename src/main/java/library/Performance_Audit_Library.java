@@ -7,10 +7,6 @@ import java.io.IOException;
 import java.text.DecimalFormat;
 import java.util.Properties;
 
-import org.openqa.selenium.By;
-import org.openqa.selenium.WebElement;
-import org.openqa.selenium.support.ui.Select;
-
 import activities.GenericWrappers;
 
 public class Performance_Audit_Library extends GenericWrappers{
@@ -68,7 +64,6 @@ public class Performance_Audit_Library extends GenericWrappers{
 		float twoDigitsF = Float.valueOf(decimalFormat.format(f));
 		String loadTime = String.valueOf(twoDigitsF);
 		clickOn("linktext&Logout");
-		closeWindow();
 		return new String[] {result,loadTime};
 	}
 	
@@ -113,7 +108,6 @@ public class Performance_Audit_Library extends GenericWrappers{
 		String requests = driver.findElementByXPath("//table[@id='tableResults']/tbody/tr[3]/td[@id='fvRequestsDoc']").getText();
 		String bytes = driver.findElementByXPath("//table[@id='tableResults']/tbody/tr[3]/td[@id='fvBytesInDoc']").getText();
 		clickOn("linktext&Logout");
-		closeWindow();
 		return new String[] {result,loadTime,requests,bytes};
 	}			
 	
@@ -124,11 +118,14 @@ public class Performance_Audit_Library extends GenericWrappers{
 		mouseOverAndClickAction("Xpath&//div[@role='button' and text()=' ANALYZE ']");
 		waitTime(60000);			
 		String mobileValue = getElement("Xpath&(//div[@class='lh-gauge__percentage'])[1]").getText();
+		String timetoInteractive = getElement("Xpath&(//div[@id='interactive'])[1]//div[@class='lh-metric__value']").getText();
+		String firstMeaningfulPaint = getElement("Xpath&(//div[@id='first-meaningful-paint'])[1]//div[@class='lh-metric__value']").getText();
 		mouseOverAndClickAction("Xpath&//div[@class='tab-title' and text()='Desktop']");			
 		waitTime(800);
-		String desktopValue = getElement("Xpath&(//div[@class='lh-gauge__percentage'])[2]").getText();			
-	    closeWindow();
-		return new String[] {mobileValue,desktopValue};
+		String desktopValue = getElement("Xpath&(//div[@class='lh-gauge__percentage'])[2]").getText();
+		String timetoInteractiveDesktop = getElement("Xpath&(//div[@id='interactive'])[2]//div[@class='lh-metric__value']").getText();
+		String firstMeaningfulPaintDesktop = getElement("Xpath&(//div[@id='first-meaningful-paint'])[2]//div[@class='lh-metric__value']").getText();
+		return new String[] {mobileValue,desktopValue,timetoInteractive,firstMeaningfulPaint,timetoInteractiveDesktop,firstMeaningfulPaintDesktop};
 	}
 	
 	public String[] getGradeInGTMetrix(String url) throws Exception{
@@ -159,10 +156,8 @@ public class Performance_Audit_Library extends GenericWrappers{
 		String yScorePercent = yScoreValue.concat(yPercent);
 		// To take full load time
 		String fullLoadTime = getElement("xpath&(//div[@class='report-page-detail'])/span").getText();
-		//System.out.println(fullLoadTime);
 		String result = getDriver().getCurrentUrl();
-		clickOn("linktext&Log Out");
-		closeWindow();
+		clickOn("linktext&Log Out");		
 		return new String[] {result,googleScorePercent,yScorePercent,fullLoadTime};
     }	
 	

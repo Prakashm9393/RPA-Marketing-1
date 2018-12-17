@@ -2679,3 +2679,75 @@ Session ID: 51ee2140121f1df8076274ec3cad3081
 =======
 >>>>>>> 5e36249a837eb4546328cbfc712f683c7fdff429
 >>>>>>> a7a427c6c7bb8ded3d0b6fc35dcb88bb1ed42004
+2018-12-17 17:30:58,972 INFO  [Log] Invoke AUT: https://developers.google.com/speed/pagespeed/insights/ in chrome browser successfully. 
+2018-12-17 17:30:58,976 INFO  [Log] Implicit wait applied on the driver for 30 seconds. 
+2018-12-17 17:30:59,296 INFO  [Log] The mouse over by xpath : //div[@role='button' and text()=' ANALYZE '] is performed. 
+2018-12-17 17:31:59,618 INFO  [Log] The mouse over by xpath : //div[@class='tab-title' and text()='Desktop'] is performed. 
+2018-12-17 17:32:10,558 ERROR [Log] Unable to find the id : (//div[@class='lh-metric__value'])[3] in the DOM elements. org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of element located by By.xpath: (//div[@class='lh-metric__value'])[3] (tried for 10 second(s) with 500 MILLISECONDS interval)
+Build info: version: '3.6.0', revision: '6fbf3ec767', time: '2017-09-27T15:28:36.4Z'
+System info: host: 'AMX_701', ip: '10.10.4.64', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '10.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{mobileEmulationEnabled=false, hasTouchScreen=false, platform=XP, acceptSslCerts=false, acceptInsecureCerts=false, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, platformName=XP, setWindowRect=true, unexpectedAlertBehaviour=, applicationCacheEnabled=false, rotatable=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.40.565498 (ea082db3280dd6843ebfb08a625e3eb905c4f5ab), userDataDir=C:\Users\User\AppData\Local\Temp\scoped_dir6808_8884}, takesHeapSnapshot=true, pageLoadStrategy=normal, unhandledPromptBehavior=, databaseEnabled=false, handlesAlerts=true, version=71.0.3578.98, browserConnectionEnabled=false, nativeEvents=true, locationContextEnabled=true, cssSelectorsEnabled=true}]
+Session ID: c490a8114836e32fd48d261870f24648 
+2018-12-17 17:34:31,043 INFO  [Log] Invoke AUT: https://developers.google.com/speed/pagespeed/insights/ in chrome browser successfully. 
+2018-12-17 17:34:31,048 INFO  [Log] Implicit wait applied on the driver for 30 seconds. 
+2018-12-17 17:34:31,369 INFO  [Log] The mouse over by xpath : //div[@role='button' and text()=' ANALYZE '] is performed. 
+2018-12-17 17:35:31,700 INFO  [Log] The mouse over by xpath : //div[@class='tab-title' and text()='Desktop'] is performed. 
+2018-12-17 17:35:43,009 ERROR [Log] Unable to find the id : (//div[@class='lh-metric__value'])[3] in the DOM elements. org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of element located by By.xpath: (//div[@class='lh-metric__value'])[3] (tried for 10 second(s) with 500 MILLISECONDS interval)
+Build info: version: '3.6.0', revision: '6fbf3ec767', time: '2017-09-27T15:28:36.4Z'
+System info: host: 'AMX_701', ip: '10.10.4.64', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '10.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{mobileEmulationEnabled=false, hasTouchScreen=false, platform=XP, acceptSslCerts=false, acceptInsecureCerts=false, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, platformName=XP, setWindowRect=true, unexpectedAlertBehaviour=, applicationCacheEnabled=false, rotatable=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.40.565498 (ea082db3280dd6843ebfb08a625e3eb905c4f5ab), userDataDir=C:\Users\User\AppData\Local\Temp\scoped_dir8316_22116}, takesHeapSnapshot=true, pageLoadStrategy=normal, unhandledPromptBehavior=, databaseEnabled=false, handlesAlerts=true, version=71.0.3578.98, browserConnectionEnabled=false, nativeEvents=true, locationContextEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 8d40c0d646b3e2002fc6087a90504d17 
+2018-12-17 17:40:35,915 INFO  [Log] Invoke AUT: https://developers.google.com/speed/pagespeed/insights/ in chrome browser successfully. 
+2018-12-17 17:40:35,918 INFO  [Log] Implicit wait applied on the driver for 30 seconds. 
+2018-12-17 17:40:36,220 INFO  [Log] The mouse over by xpath : //div[@role='button' and text()=' ANALYZE '] is performed. 
+2018-12-17 17:41:36,600 INFO  [Log] The mouse over by xpath : //div[@class='tab-title' and text()='Desktop'] is performed. 
+2018-12-17 17:41:47,880 ERROR [Log] Unable to find the id : (//div[@class='lh-metric__value'])[3] in the DOM elements. org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of element located by By.xpath: (//div[@class='lh-metric__value'])[3] (tried for 10 second(s) with 500 MILLISECONDS interval)
+Build info: version: '3.6.0', revision: '6fbf3ec767', time: '2017-09-27T15:28:36.4Z'
+System info: host: 'AMX_701', ip: '10.10.4.64', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '10.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{mobileEmulationEnabled=false, hasTouchScreen=false, platform=XP, acceptSslCerts=false, acceptInsecureCerts=false, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, platformName=XP, setWindowRect=true, unexpectedAlertBehaviour=, applicationCacheEnabled=false, rotatable=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.40.565498 (ea082db3280dd6843ebfb08a625e3eb905c4f5ab), userDataDir=C:\Users\User\AppData\Local\Temp\scoped_dir7064_32173}, takesHeapSnapshot=true, pageLoadStrategy=normal, unhandledPromptBehavior=, databaseEnabled=false, handlesAlerts=true, version=71.0.3578.98, browserConnectionEnabled=false, nativeEvents=true, locationContextEnabled=true, cssSelectorsEnabled=true}]
+Session ID: d88cbaf62bafbb17e2f3d7d897ccb331 
+2018-12-17 17:43:22,943 INFO  [Log] Invoke AUT: https://developers.google.com/speed/pagespeed/insights/ in chrome browser successfully. 
+2018-12-17 17:43:22,949 INFO  [Log] Implicit wait applied on the driver for 30 seconds. 
+2018-12-17 17:43:23,241 INFO  [Log] The mouse over by xpath : //div[@role='button' and text()=' ANALYZE '] is performed. 
+2018-12-17 17:44:23,567 INFO  [Log] The mouse over by xpath : //div[@class='tab-title' and text()='Desktop'] is performed. 
+2018-12-17 17:44:34,893 ERROR [Log] Unable to find the id : (//div[@class='lh-metric__value'])[3] in the DOM elements. org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of element located by By.xpath: (//div[@class='lh-metric__value'])[3] (tried for 10 second(s) with 500 MILLISECONDS interval)
+Build info: version: '3.6.0', revision: '6fbf3ec767', time: '2017-09-27T15:28:36.4Z'
+System info: host: 'AMX_701', ip: '10.10.4.64', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '10.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{mobileEmulationEnabled=false, hasTouchScreen=false, platform=XP, acceptSslCerts=false, acceptInsecureCerts=false, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, platformName=XP, setWindowRect=true, unexpectedAlertBehaviour=, applicationCacheEnabled=false, rotatable=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.40.565498 (ea082db3280dd6843ebfb08a625e3eb905c4f5ab), userDataDir=C:\Users\User\AppData\Local\Temp\scoped_dir11052_13041}, takesHeapSnapshot=true, pageLoadStrategy=normal, unhandledPromptBehavior=, databaseEnabled=false, handlesAlerts=true, version=71.0.3578.98, browserConnectionEnabled=false, nativeEvents=true, locationContextEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 9756ae3358625ef1d0621ca1b40c92e9 
+2018-12-17 17:46:54,126 INFO  [Log] Invoke AUT: https://developers.google.com/speed/pagespeed/insights/ in chrome browser successfully. 
+2018-12-17 17:46:54,132 INFO  [Log] Implicit wait applied on the driver for 30 seconds. 
+2018-12-17 17:46:54,461 INFO  [Log] The mouse over by xpath : //div[@role='button' and text()=' ANALYZE '] is performed. 
+2018-12-17 17:47:54,794 INFO  [Log] The mouse over by xpath : //div[@class='tab-title' and text()='Desktop'] is performed. 
+2018-12-17 17:48:06,091 ERROR [Log] Unable to find the id : (//div[@class='lh-metric__value'])[6] in the DOM elements. org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of element located by By.xpath: (//div[@class='lh-metric__value'])[6] (tried for 10 second(s) with 500 MILLISECONDS interval)
+Build info: version: '3.6.0', revision: '6fbf3ec767', time: '2017-09-27T15:28:36.4Z'
+System info: host: 'AMX_701', ip: '10.10.4.64', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '10.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{mobileEmulationEnabled=false, hasTouchScreen=false, platform=XP, acceptSslCerts=false, acceptInsecureCerts=false, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, platformName=XP, setWindowRect=true, unexpectedAlertBehaviour=, applicationCacheEnabled=false, rotatable=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.40.565498 (ea082db3280dd6843ebfb08a625e3eb905c4f5ab), userDataDir=C:\Users\User\AppData\Local\Temp\scoped_dir8128_18866}, takesHeapSnapshot=true, pageLoadStrategy=normal, unhandledPromptBehavior=, databaseEnabled=false, handlesAlerts=true, version=71.0.3578.98, browserConnectionEnabled=false, nativeEvents=true, locationContextEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 99c8bd0840874ff5c2dab2747654e0d1 
+2018-12-17 17:52:58,544 INFO  [Log] Invoke AUT: https://developers.google.com/speed/pagespeed/insights/ in chrome browser successfully. 
+2018-12-17 17:52:58,547 INFO  [Log] Implicit wait applied on the driver for 30 seconds. 
+2018-12-17 17:52:58,843 INFO  [Log] The mouse over by xpath : //div[@role='button' and text()=' ANALYZE '] is performed. 
+2018-12-17 17:53:59,187 INFO  [Log] The mouse over by xpath : //div[@class='tab-title' and text()='Desktop'] is performed. 
+2018-12-17 17:59:25,166 INFO  [Log] Invoke AUT: https://developers.google.com/speed/pagespeed/insights/ in chrome browser successfully. 
+2018-12-17 17:59:25,170 INFO  [Log] Implicit wait applied on the driver for 30 seconds. 
+2018-12-17 17:59:25,518 INFO  [Log] The mouse over by xpath : //div[@role='button' and text()=' ANALYZE '] is performed. 
+2018-12-17 18:00:25,899 INFO  [Log] The mouse over by xpath : //div[@class='tab-title' and text()='Desktop'] is performed. 
+2018-12-17 18:15:04,542 INFO  [Log] Invoke AUT: https://developers.google.com/speed/pagespeed/insights/ in chrome browser successfully. 
+2018-12-17 18:15:04,545 INFO  [Log] Implicit wait applied on the driver for 30 seconds. 
+2018-12-17 18:15:04,948 INFO  [Log] The mouse over by xpath : //div[@role='button' and text()=' ANALYZE '] is performed. 
+2018-12-17 18:16:05,331 INFO  [Log] The mouse over by xpath : //div[@class='tab-title' and text()='Desktop'] is performed. 
+2018-12-17 18:18:38,870 INFO  [Log] Invoke AUT: https://developers.google.com/speed/pagespeed/insights/ in chrome browser successfully. 
+2018-12-17 18:18:38,876 INFO  [Log] Implicit wait applied on the driver for 30 seconds. 
+2018-12-17 18:18:39,173 INFO  [Log] The mouse over by xpath : //div[@role='button' and text()=' ANALYZE '] is performed. 
+2018-12-17 18:19:39,559 INFO  [Log] The mouse over by xpath : //div[@class='tab-title' and text()='Desktop'] is performed. 
+2018-12-17 18:19:42,278 INFO  [Log] Successfully closed the browsers. 
+2018-12-17 18:19:50,167 INFO  [Log] Invoke AUT: https://developers.google.com/speed/pagespeed/insights/ in chrome browser successfully. 
+2018-12-17 18:19:50,170 INFO  [Log] Implicit wait applied on the driver for 30 seconds. 
+2018-12-17 18:19:50,400 INFO  [Log] The mouse over by xpath : //div[@role='button' and text()=' ANALYZE '] is performed. 
+2018-12-17 18:20:50,710 INFO  [Log] The mouse over by xpath : //div[@class='tab-title' and text()='Desktop'] is performed. 
+2018-12-17 18:20:53,264 INFO  [Log] Successfully closed the browsers. 
