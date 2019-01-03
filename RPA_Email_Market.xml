@@ -3,9 +3,7 @@
 <suite name="RPA_Email_Market">
   <test thread-count="5" name="RPA_Email_Market_Workflows">
     <classes> 
-      <class name="project.Performance_Audit_Workflow"/>     
-      <class name="project.Mobile_Friendliness_Workflow"/>
-      <class name="project.Page_Count_Workflow"/>      
+      <class name="project.Performance_Audit_Workflow"/>            
     </classes>
   </test> <!-- RPA_Email_Market_Workflows -->
 </suite> <!-- RPA_Email_Market -->

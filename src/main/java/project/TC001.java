@@ -1,7 +1,9 @@
 package project;
 
-import org.testng.annotations.BeforeClass;
-import org.testng.annotations.Test;
+import org.junit.Test;
+
+//import org.testng.annotations.BeforeClass;
+//import org.testng.annotations.Test;
 
 import activities.ExcelDataUtility;
 import activities.Retry;
@@ -10,7 +12,7 @@ import library.Performance_Audit_Library;
 
 public class TC001{
 	
-	Performance_Audit_Library library = new Performance_Audit_Library();
+	/*Performance_Audit_Library library = new Performance_Audit_Library();
 	ExcelDataUtility testData;
 	
 	@BeforeClass
@@ -120,5 +122,10 @@ public class TC001{
 		}catch(Exception e){			
 			e.printStackTrace();
 		}
-    }
+    }*/
+	
+	@Test
+	public void test_TC002(){
+		Retry.reRunTheWebPageTestMobileViewFailedOne(); 	
+	}
 }

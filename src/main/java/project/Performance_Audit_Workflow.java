@@ -20,7 +20,7 @@ public class Performance_Audit_Workflow{
 		}
 	}
 	
-    @Test(priority=0)
+   @Test(priority=0)
 	public void start0_get_mobile_web_page_test_run(){		
 		for(int i = 1; i <= testData.getTotalRowNumber("Web_Page_Test_Mobile"); i++){
 			try{
@@ -40,7 +40,7 @@ public class Performance_Audit_Workflow{
 		}
 	}
 	
-	@Test(priority=1)
+   @Test(priority=1)
 	public void next1_put_desktop_web_page_test_run(){
 		for(int i = 1; i <= testData.getTotalRowNumber("Web_Page_Test_Desktop"); i++){
 			try {
