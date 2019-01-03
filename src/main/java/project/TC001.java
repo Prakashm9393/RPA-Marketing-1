@@ -90,29 +90,34 @@ public class TC001{
 	public void test_TC004(){
 		Retry.reRunPageCountFailedOne();
 	}
-    //@Test
+    @Test
 	public void test_TC005(){
 		try{
 			String[] result = library.getGoogleSpeedScoreResult("https://www.digikey.in");
 			System.out.println("Mobile Vaule: "+result[0]+"%");
 			System.out.println("Desktop Vaule: "+result[1]+"%");
+			System.out.println("M-timetoInteractive: "+result[2]);
+			System.out.println("M-firstMeaningfulPaint: "+result[3]);
+			System.out.println("D-timetoInteractive: "+result[4]);
+			System.out.println("D-firstMeaningfulPaint: "+result[5]);
 		}catch(Exception e){			
 			e.printStackTrace();
+			library.closeWindow();
 		}
     }		
-   // @Test
+    //@Test
 	public void test_TC006(){
 		try{
 			String[] result = library.getGradeInGTMetrix("https://www.digikey.in");
 			System.out.println("URL: "+result[0]);
 			System.out.println("gscore: "+result[1]);
 			System.out.println("yslow: "+result[2]);
+			System.out.println("fullLoadTime: "+result[3]);
 		}catch(Exception e){			
 			e.printStackTrace();
 		}
     }	
     
-    @Test
 	public void test_TC007(){
 		Mobile_Friendliness_Library ml = new Mobile_Friendliness_Library();
 		try{

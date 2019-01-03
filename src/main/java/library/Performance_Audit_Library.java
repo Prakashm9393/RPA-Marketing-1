@@ -64,7 +64,6 @@ public class Performance_Audit_Library extends GenericWrappers{
 		float twoDigitsF = Float.valueOf(decimalFormat.format(f));
 		String loadTime = String.valueOf(twoDigitsF);
 		clickOn("linktext&Logout");
-		closeWindow();
 		return new String[] {result,loadTime};
 	}
 	
@@ -109,7 +108,6 @@ public class Performance_Audit_Library extends GenericWrappers{
 		String requests = driver.findElementByXPath("//table[@id='tableResults']/tbody/tr[3]/td[@id='fvRequestsDoc']").getText();
 		String bytes = driver.findElementByXPath("//table[@id='tableResults']/tbody/tr[3]/td[@id='fvBytesInDoc']").getText();
 		clickOn("linktext&Logout");
-		closeWindow();
 		return new String[] {result,loadTime,requests,bytes};
 	}			
 	
@@ -120,11 +118,14 @@ public class Performance_Audit_Library extends GenericWrappers{
 		mouseOverAndClickAction("Xpath&//div[@role='button' and text()=' ANALYZE ']");
 		waitTime(60000);			
 		String mobileValue = getElement("Xpath&(//div[@class='lh-gauge__percentage'])[1]").getText();
+		String timetoInteractive = getElement("Xpath&(//div[@id='interactive'])[1]//div[@class='lh-metric__value']").getText();
+		String firstMeaningfulPaint = getElement("Xpath&(//div[@id='first-meaningful-paint'])[1]//div[@class='lh-metric__value']").getText();
 		mouseOverAndClickAction("Xpath&//div[@class='tab-title' and text()='Desktop']");			
 		waitTime(800);
-		String desktopValue = getElement("Xpath&(//div[@class='lh-gauge__percentage'])[2]").getText();			
-	    closeWindow();
-		return new String[] {mobileValue,desktopValue};
+		String desktopValue = getElement("Xpath&(//div[@class='lh-gauge__percentage'])[2]").getText();
+		String timetoInteractiveDesktop = getElement("Xpath&(//div[@id='interactive'])[2]//div[@class='lh-metric__value']").getText();
+		String firstMeaningfulPaintDesktop = getElement("Xpath&(//div[@id='first-meaningful-paint'])[2]//div[@class='lh-metric__value']").getText();
+		return new String[] {mobileValue,desktopValue,timetoInteractive,firstMeaningfulPaint,timetoInteractiveDesktop,firstMeaningfulPaintDesktop};
 	}
 	
 	public String[] getGradeInGTMetrix(String url) throws Exception{
@@ -135,7 +136,11 @@ public class Performance_Audit_Library extends GenericWrappers{
 		enterText("id&li-email", "manika.kannappan@ameexusa.com");
 		enterText("id&li-password", "ameex123");		
 		clickOn("xpath&//button[text()='Log In']");
-		waitUntilElementIsVisible("xpath&//header//li[@class='user-nav-welcome']", 300);		
+		waitUntilElementIsVisible("xpath&//header//li[@class='user-nav-welcome']", 300);
+		// To change country as US from Canada
+		clickOn("linktext&Analysis Options");		
+		selectByVisibleTextInDropdown("id&af-region", "Dallas, USA");
+		// To change country as US from Canada
 		enterText("name&url", url);
 		clickOn("Xpath&//button[text()='Analyze']");
 		waitUntilElementIsVisible("xpath&(//div[@class='report-score'])[1]/span/i", 300);				
@@ -149,10 +154,11 @@ public class Performance_Audit_Library extends GenericWrappers{
 		String yScoreValue = aSplit1[2];
 		String yPercent = getElement("xpath&(//div[@class='report-score'])[2]/span/span").getText();
 		String yScorePercent = yScoreValue.concat(yPercent);
+		// To take full load time
+		String fullLoadTime = getElement("xpath&(//div[@class='report-page-detail'])/span").getText();
 		String result = getDriver().getCurrentUrl();
-		clickOn("linktext&Log Out");
-		closeWindow();
-		return new String[] {result,googleScorePercent,yScorePercent};
+		clickOn("linktext&Log Out");		
+		return new String[] {result,googleScorePercent,yScorePercent,fullLoadTime};
     }	
 	
 }
