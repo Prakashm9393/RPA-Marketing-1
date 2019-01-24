@@ -20,11 +20,8 @@ public class Performance_Audit_Workflow{
 		}
 	}
 	
-<<<<<<< HEAD
-   @Test(priority=0)
-=======
-  //  @Test(priority=0)
->>>>>>> ffde22a3b76d7e1f3b20789f70a94df2e6d2cf58
+
+   //@Test(priority=0)
 	public void start0_get_mobile_web_page_test_run(){		
 		for(int i = 1; i <= testData.getTotalRowNumber("Web_Page_Test_Mobile"); i++){
 			try{
@@ -45,11 +42,8 @@ public class Performance_Audit_Workflow{
 		}
 	}
 	
-<<<<<<< HEAD
-   @Test(priority=1)
-=======
-	//@Test(priority=1)
->>>>>>> ffde22a3b76d7e1f3b20789f70a94df2e6d2cf58
+
+   //@Test(priority=1)
 	public void next1_put_desktop_web_page_test_run(){
 		for(int i = 1; i <= testData.getTotalRowNumber("Web_Page_Test_Desktop"); i++){
 			try {
@@ -74,7 +68,7 @@ public class Performance_Audit_Workflow{
 		}
 	}	
 	
-	@Test(priority=2)
+	//@Test(priority=2)
 	public void next2_get_google_page_speed_run(){
 		for(int i = 1; i <= testData.getTotalRowNumber("Page_Insight"); i++){
 			try{
